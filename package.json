@@ -1,0 +1,26 @@
+{
+  "name": "wesh-ard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "serve out",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.0",
+    "serve": "^14.2.4",
+    "@fontsource/ibm-plex-sans-arabic": "^5.2.8"
+  }
+}
