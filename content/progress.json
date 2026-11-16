@@ -2,22 +2,24 @@
   "version": 2,
   "targetSituations": 320,
   "targetResponses": 2560,
-  "completedSituations": 70,
-  "completedResponses": 596,
-  "uniqueTexts": 596,
-  "completedRoutes": [],
-  "nextBatch": [
-    "reply-051",
-    "reply-052",
-    "reply-053",
-    "reply-054",
-    "reply-055",
-    "send-011",
-    "send-012",
-    "send-013",
-    "send-014",
-    "send-015"
+  "completedSituations": 85,
+  "completedResponses": 716,
+  "uniqueTexts": 716,
+  "completedRoutes": [
+    "reply"
   ],
-  "generatedAt": "2026-11-16T14:34:15.719Z",
+  "nextBatch": [
+    "send-021",
+    "send-022",
+    "send-023",
+    "send-024",
+    "send-025",
+    "send-026",
+    "send-027",
+    "send-028",
+    "send-029",
+    "send-030"
+  ],
+  "generatedAt": "2026-11-16T14:37:52.156Z",
   "releaseComplete": false
 }

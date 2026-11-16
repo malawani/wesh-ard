@@ -126,7 +126,7 @@ describe("Arabic search", () => {
     expect(searchContent("قالت ما أحبك", "reply")).toEqual([]);
   });
   it("keeps routes separate and handles whitespace and unknown queries", () => {
-    expect(searchContent("   ", "send")).toHaveLength(10);
+    expect(searchContent("   ", "send")).toHaveLength(CONTENT.filter(s => s.canonicalRoute === "send").length);
     expect(searchContent("xyz-928")).toEqual([]);
     expect(searchContent("صباح", "send").every(s => s.canonicalRoute === "send")).toBe(true);
   });

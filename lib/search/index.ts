@@ -29,13 +29,18 @@ export function searchContent(query: string, route?: RouteId) {
       if (!negation.has(preceding)) score += 20 + phrase.split(" ").length * 10;
     }
     for (const [i, token] of tokens.entries()) {
-      if (ignored.has(token) || negation.has(tokens[i - 1])) continue;
+      if (ignored.has(token) || negation.has(token) || negation.has(tokens[i - 1])) continue;
       const options = token.startsWith("و") && token.length > 4 ? [token, token.slice(1)] : [token];
       if (options.some(t => entry.terms.has(t))) score += 6;
       else if (tokens.length === 1 && token.length >= 3 && [...entry.terms].some(t => t.startsWith(token))) score += 2;
     }
     // Explicit non-reciprocation must not turn into a declaration of love.
-    if (/ما احبك|ما ابادلك|ما ابي نكمل|خلينا اصدقاء/.test(input) && !["reject", "space"].includes(entry.situation.id)) score = 0;
+    if (/ما احبك|ما ابادلك|ما ابي نكمل|خلينا اصدقاء/.test(input)) {
+      const allowed = ["reject", "space"];
+      if (/خلينا اصدقاء/.test(input)) allowed.push("reply-054");
+      if (/ما ابي نكمل/.test(input)) allowed.push("reply-055");
+      if (!allowed.includes(entry.situation.id)) score = 0;
+    }
     return { ...entry, score };
   }).filter(e => e.score > 0).sort((a, b) => b.score - a.score).map(e => e.situation);
 }

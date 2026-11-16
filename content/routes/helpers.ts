@@ -8,7 +8,7 @@ export function scene(id: string, advice: string, avoid: string[], replies: Draf
   const entry = MANIFEST.find(m => m.id === id);
   if (!entry) throw new Error(`Unknown manifest entry: ${id}`);
   return {
-    ...entry, description: advice, intent: "اختيار رد على رسالة واردة", trigger: entry.title,
+    ...entry, description: advice, intent: entry.canonicalRoute === "reply" ? "اختيار رد على رسالة واردة" : entry.canonicalRoute === "guide" ? "اختيار تصرف وجملة مناسبة" : `صياغة مبادرة مناسبة: ${entry.title}`, trigger: entry.title,
     keywords: entry.title.split(/\s+/).filter(t => !["قالت:", "لي", "وش"].includes(t)),
     advice, actions: [], avoid, sensitivity,
     replies: replies.map((r, i): ResponseContent => ({
