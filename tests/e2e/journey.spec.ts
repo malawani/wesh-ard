@@ -66,3 +66,21 @@ test("blocked storage shows warning and keeps favorites usable for this session"
   await page.getByRole("button", { name: /^المفضلة/ }).click();
   await expect(page.locator(".response-card")).toHaveCount(1);
 });
+
+test("new situation applies distinct married and first-contact replies", async ({ page }, testInfo) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "وش أرد؟ وصلتك رسالة وتبي رد يناسبها." }).click();
+  await page.getByRole("button", { name: "قالت: وش أنا بالنسبة لك؟", exact: true }).click();
+  await page.getByLabel("مرحلة العلاقة", { exact: true }).selectOption("married");
+  await page.getByText("كل النبرات المناسبة", { exact: true }).click();
+  await page.getByText("خيارات إضافية", { exact: true }).click();
+  await page.getByLabel("درجة الجرأة", { exact: true }).selectOption("2");
+  await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
+  await expect(page.locator(".response-text").filter({ hasText: "أنتِ زوجتي وشريكتي" })).toHaveCount(1);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+  await page.screenshot({ path: `reports/preview-${testInfo.project.name}.png`, fullPage: true });
+  await page.getByRole("button", { name: "تعديل الاختيارات", exact: true }).click();
+  await page.getByLabel("مرحلة العلاقة", { exact: true }).selectOption("first_contact");
+  await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
+  await expect(page.locator(".response-text").filter({ hasText: /زوجتي|خطيبتي|حبيبتي/ })).toHaveCount(0);
+});

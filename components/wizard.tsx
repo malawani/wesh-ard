@@ -71,7 +71,7 @@ export function Customization({ situation, choices, onChange, onBack, onSubmit }
       </div>
       <ToneSelector situation={situation} choices={choices} onChange={onChange} name="custom-tone" />
       <details className="advanced-options"><summary>خيارات إضافية</summary>
-        {situation.sensitivity === "normal" && <div className="choice-group"><label htmlFor="intensity">درجة الجرأة</label><select id="intensity" value={choices.intensity} onChange={e => onChange({ ...choices, intensity: Number(e.target.value) as Intensity })}><option value={1}>خفيف</option><option value={2}>متوسط</option><option value={3}>واضح</option></select></div>}
+        {situation.sensitivity === "normal" && <div className="choice-group"><label htmlFor="intensity">درجة الجرأة</label><select id="intensity" aria-describedby="intensity-hint" value={choices.intensity} onChange={e => onChange({ ...choices, intensity: Number(e.target.value) as Intensity })}><option value={1}>خفيف</option><option value={2}>متوسط</option><option value={3}>واضح</option></select><p id="intensity-hint">لن تتجاوز النتائج هذه الدرجة، وقد تكون أخف.</p></div>}
         <div className="choice-group"><label htmlFor="message-length">طول الرسالة</label><select id="message-length" value={choices.length} onChange={e => onChange({ ...choices, length: e.target.value as Choices["length"] })}><option value="all">أي طول مناسب</option><option value="short">قصير</option><option value="medium">متوسط</option><option value="long">طويل</option></select></div>
       </details>
       <button type="submit" className="primary-button">عرض العبارات <Icon name="arrow" size={20} /></button>

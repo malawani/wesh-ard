@@ -18,7 +18,7 @@ describe("V2 content contract", () => {
     expect(report.errors).toEqual([]);
     expect(report.legacyBaseResponses).toBe(180);
     expect(report.responses).toBe(report.uniqueTexts);
-    expect(report.remainingSituations).toHaveLength(290);
+    expect(report.remainingSituations).toHaveLength(280);
   });
   it("fails release validation while phases 2–7 are pending", () => {
     expect(validateContent(undefined, true).valid).toBe(false);
@@ -61,6 +61,12 @@ describe("V2 recommendation constraints", () => {
       const result = recommend({ ...base, situationId: id, preferredTone: "romantic" });
       expect(result.suggestions.every(r => r.tones.every(t => SENSITIVE_TONES.includes(t)))).toBe(true);
     }
+  });
+  it("new commitment replies remain exclusive to the chosen stage", () => {
+    const married = recommend({ ...base, situationId: "reply-012", relationshipStage: "married" });
+    expect(married.suggestions.some(r => r.text.includes("زوجتي"))).toBe(true);
+    const first = recommend({ ...base, situationId: "reply-012", relationshipStage: "first_contact" });
+    expect(first.suggestions.some(r => /زوجتي|خطيبتي|حبيبتي/.test(r.text))).toBe(false);
   });
   it("returns an explainable empty result for unknown IDs", () => {
     const r = recommend({ ...base, situationId: "nonexistent" });

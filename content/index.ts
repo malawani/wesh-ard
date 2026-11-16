@@ -1,6 +1,7 @@
 import { CATALOG } from "./legacy/catalog-v1";
 import { getSuggestions } from "./legacy/engine-v1";
 import { ADDITIONS } from "./legacy/additions";
+import { REPLY_BATCH_1 } from "./routes/reply-011-020";
 import { ALL_STAGES, CLOSE_STAGES, COMMITTED_STAGES, messageLength, type ResponseContent, type SituationContent, type StageId, type ToneId } from "./schemas";
 
 const BOUNDARIES = new Set(["space", "reject", "bounds", "again"]);
@@ -14,7 +15,7 @@ function legacyStages(text: string, tone: string, sensitive: boolean): StageId[]
   if (/أحب |ودي أسمع|ودي أشوف|اشتقت|مشتاق|جاذبية|إعجابي|حضورك|أفتقد/.test(text)) return CLOSE_STAGES;
   return ALL_STAGES;
 }
-export const CONTENT: SituationContent[] = CATALOG.map(old => {
+const LEGACY_CONTENT: SituationContent[] = CATALOG.map(old => {
   const all = new Map<string, ResponseContent>();
   for (const stage of ["early", "mutual", "love", "serious"] as const) {
     for (const response of getSuggestions(old, stage, "all")) {
@@ -56,4 +57,5 @@ export const CONTENT: SituationContent[] = CATALOG.map(old => {
     replies: [...all.values(), ...additions]
   };
 });
+export const CONTENT: SituationContent[] = [...LEGACY_CONTENT, ...REPLY_BATCH_1];
 export const CONTENT_BY_ID = new Map(CONTENT.map(s => [s.id, s]));
