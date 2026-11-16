@@ -1,0 +1,19 @@
+
+> wesh-ard@0.1.0 validate:content
+> tsx scripts/validate-content.ts
+
+{
+  "valid": true,
+  "releaseComplete": false,
+  "situations": 50,
+  "responses": 436,
+  "errors": [],
+  "warnings": [
+    "1 similar pairs require editorial review; similarity is not a semantic proof."
+  ]
+}
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice

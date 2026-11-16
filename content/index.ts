@@ -2,6 +2,7 @@ import { CATALOG } from "./legacy/catalog-v1";
 import { getSuggestions } from "./legacy/engine-v1";
 import { ADDITIONS } from "./legacy/additions";
 import { REPLY_BATCH_1 } from "./routes/reply-011-020";
+import { REPLY_BATCH_2 } from "./routes/reply-021-030";
 import { ALL_STAGES, CLOSE_STAGES, COMMITTED_STAGES, messageLength, type ResponseContent, type SituationContent, type StageId, type ToneId } from "./schemas";
 
 const BOUNDARIES = new Set(["space", "reject", "bounds", "again"]);
@@ -57,5 +58,5 @@ const LEGACY_CONTENT: SituationContent[] = CATALOG.map(old => {
     replies: [...all.values(), ...additions]
   };
 });
-export const CONTENT: SituationContent[] = [...LEGACY_CONTENT, ...REPLY_BATCH_1];
+export const CONTENT: SituationContent[] = [...LEGACY_CONTENT, ...REPLY_BATCH_1, ...REPLY_BATCH_2];
 export const CONTENT_BY_ID = new Map(CONTENT.map(s => [s.id, s]));

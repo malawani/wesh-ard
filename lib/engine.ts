@@ -50,7 +50,7 @@ export function normalizeArabic(input: string): string {
     .trim();
 }
 
-const contactStop = /(?:^| )(?:لا تكلمني|لا تراسلني|لا تتواصل(?: معي)?|لا عاد تكلمني|وقف التواصل|اتركني(?: لحالي)?|خليني لحالي)(?: |$)/;
+const contactStop = /(?:^| )(?:و)?(?:لا تكلمني|لا تراسلني|لا تتواصل(?: معي)?|لا عاد تكلمني|وقف التواصل|اتركني(?: لحالي)?|خليني لحالي)(?: |$)/;
 
 export function asksToStopContact(input: string): boolean {
   return contactStop.test(normalizeArabic(input));

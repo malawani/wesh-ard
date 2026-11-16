@@ -14,6 +14,11 @@ export function searchContent(query: string, route?: RouteId) {
   const pool = index.filter(e => !route || e.situation.canonicalRoute === route || e.situation.relatedRoutes?.includes(route));
   if (!input) return pool.map(e => e.situation);
   if (asksToStopContact(input)) return pool.filter(e => e.situation.id === "space").map(e => e.situation);
+  // A request to stop flirting takes priority over affectionate words in the same message.
+  // It is a specific boundary, not a request to end every kind of communication.
+  if (/(?:^| )(?:لا تغازلني|ما ابي غزل|ما ابغي غزل|ما ابغي تغازلني|ما ابغى غزل|وقف الغزل)(?: |$)/.test(input)) {
+    return pool.filter(e => e.situation.id === "reply-023").map(e => e.situation);
+  }
   const tokens = input.split(" ");
   return pool.map(entry => {
     let score = entry.title === input ? 100 : 0;

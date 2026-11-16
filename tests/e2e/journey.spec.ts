@@ -84,3 +84,35 @@ test("new situation applies distinct married and first-contact replies", async (
   await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
   await expect(page.locator(".response-text").filter({ hasText: /زوجتي|خطيبتي|حبيبتي/ })).toHaveCount(0);
 });
+
+test("flirting refusal remains distinct from invitation and can be saved", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "وش أرد؟ وصلتك رسالة وتبي رد يناسبها." }).click();
+  const search = page.getByLabel("ابحث عن موقف أو اكتب الرسالة", { exact: true });
+  await search.fill("قالت لا تغازلني");
+  await expect(page.locator(".situation-card")).toHaveCount(1);
+  await page.getByRole("button", { name: "قالت: لا تغازلني", exact: true }).click();
+  await page.getByLabel("مرحلة العلاقة", { exact: true }).selectOption("married");
+  await expect(page.getByLabel("رومانسي", { exact: true })).toHaveCount(0);
+  await expect(page.getByLabel("درجة الجرأة", { exact: true })).toHaveCount(0);
+  await expect(page.getByText(/توقف عن الغزل فورًا/)).toBeVisible();
+  await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
+  const card = page.locator(".response-card").filter({ hasText: "حاضر، بوقف الغزل." });
+  await expect(card).toHaveCount(1);
+  await card.getByRole("button", { name: "حفظ في المفضلة", exact: true }).click();
+  await page.reload();
+  await page.getByRole("button", { name: /^المفضلة/ }).click();
+  await expect(page.getByText("حاضر، بوقف الغزل.", { exact: true })).toBeVisible();
+  await page.getByRole("button", { name: "وش أرد؟ الرئيسية", exact: true }).click();
+  await page.getByRole("button", { name: "وش أرد؟ وصلتك رسالة وتبي رد يناسبها." }).click();
+  await search.fill("غازلني");
+  await expect(page.locator(".situation-card").first()).toHaveText("قالت: غازلني");
+  await page.getByRole("button", { name: "قالت: غازلني", exact: true }).click();
+  await page.getByLabel("مرحلة العلاقة", { exact: true }).selectOption("mutual_crush");
+  await page.getByText("شاعري وفخم", { exact: true }).click();
+  await page.getByText("خيارات إضافية", { exact: true }).click();
+  await page.getByLabel("درجة الجرأة", { exact: true }).selectOption("2");
+  await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
+  await expect(page.getByText("في حضورك هدوء يشبه أول نسمة بعد يوم طويل.", { exact: true })).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+});

@@ -39,9 +39,13 @@ export function recommend(input: RecommendationInput) {
     fallbackReason = "عرضنا أطوالًا أخرى لعدم توفر عبارة مناسبة بالطول المختار.";
   }
   if (!suggestions.length && input.preferredTone !== "all") {
-    tone = neighbors[input.preferredTone].filter(t => availableTones(input.situationId, input.relationshipStage).includes(t));
+    const unsuitableTone = selectedSituation !== null && selectedSituation.sensitivity !== "normal" && !SENSITIVE_TONES.includes(input.preferredTone);
+    const alternatives = unsuitableTone ? SENSITIVE_TONES : neighbors[input.preferredTone];
+    tone = alternatives.filter(t => availableTones(input.situationId, input.relationshipStage).includes(t));
     suggestions = candidates.filter(r => matchTone(r, tone));
-    fallbackReason = "استخدمنا نبرة قريبة متاحة لهذا الموقف ومرحلة العلاقة، وبجرأة لا تتجاوز اختيارك.";
+    fallbackReason = unsuitableTone
+      ? "النبرة المختارة لا تناسب هذا الموقف؛ عرضنا نبرات تحترم حدوده ومرحلة العلاقة، وبجرأة لا تتجاوز اختيارك."
+      : "استخدمنا نبرة قريبة متاحة لهذا الموقف ومرحلة العلاقة، وبجرأة لا تتجاوز اختيارك.";
   }
   const seen = new Set<string>();
   suggestions = suggestions.filter(r => {

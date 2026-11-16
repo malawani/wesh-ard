@@ -18,7 +18,7 @@ describe("V2 content contract", () => {
     expect(report.errors).toEqual([]);
     expect(report.legacyBaseResponses).toBe(180);
     expect(report.responses).toBe(report.uniqueTexts);
-    expect(report.remainingSituations).toHaveLength(280);
+    expect(report.remainingSituations).toHaveLength(270);
   });
   it("fails release validation while phases 2–7 are pending", () => {
     expect(validateContent(undefined, true).valid).toBe(false);
@@ -68,6 +68,23 @@ describe("V2 recommendation constraints", () => {
     const first = recommend({ ...base, situationId: "reply-012", relationshipStage: "first_contact" });
     expect(first.suggestions.some(r => /زوجتي|خطيبتي|حبيبتي/.test(r.text))).toBe(false);
   });
+  it("respects a request to stop flirting at every stage, even with romantic filters", () => {
+    for (const relationshipStage of ALL_STAGES) {
+      const result = recommend({ ...base, situationId: "reply-023", relationshipStage, preferredTone: "romantic" });
+      expect(result.suggestions.length).toBeGreaterThan(0);
+      expect(result.suggestions.every(r => r.tones.every(t => SENSITIVE_TONES.includes(t)))).toBe(true);
+      expect(availableTones("reply-023", relationshipStage).every(t => SENSITIVE_TONES.includes(t))).toBe(true);
+    }
+  });
+  it("does not assume reciprocal feelings in early-stage replies to hints", () => {
+    for (const situationId of ["reply-029", "reply-030"]) {
+      const result = recommend({ ...base, situationId, relationshipStage: "one_sided" });
+      expect(result.suggestions.length).toBeGreaterThan(0);
+      expect(result.suggestions.every(r => !r.tones.includes("romantic") && !r.text.includes("أحبك"))).toBe(true);
+    }
+    const committed = recommend({ ...base, situationId: "reply-030", relationshipStage: "love", preferredTone: "romantic" });
+    expect(committed.suggestions.some(r => r.text.includes("أحبك"))).toBe(true);
+  });
   it("returns an explainable empty result for unknown IDs", () => {
     const r = recommend({ ...base, situationId: "nonexistent" });
     expect(r.selectedSituation).toBeNull(); expect(r.suggestions).toEqual([]); expect(r.fallbackReason).toBeTruthy();
@@ -85,6 +102,23 @@ describe("Arabic search", () => {
   it("uses Saudi synonyms and weights the full question", () => {
     expect(searchContent("قالت لي ليش مهتم فيني؟", "reply")[0]?.id).toBe("why");
     expect(searchContent("وحشتيني", "reply")[0]?.id).toBe("miss");
+  });
+  it("finds the new situations from natural Saudi phrases", () => {
+    for (const [query, id] of [
+      ["قالت لي ليش تبتسم؟", "reply-021"], ["قالت خجلت", "reply-022"],
+      ["قالت ابي غزل", "reply-024"], ["قالت دللني", "reply-025"],
+      ["تشوفني كيوت؟", "reply-026"], ["من الاجمل؟", "reply-027"],
+      ["اسلوبك مختلف", "reply-028"], ["احس بيننا شي", "reply-029"],
+      ["قاعده افكر فيك", "reply-030"]
+    ]) expect(searchContent(query, "reply")[0]?.id).toBe(id);
+  });
+  it("distinguishes stopping flirtation from asking for it or stopping all contact", () => {
+    for (const query of ["لا تغازلني", "قالت غازلني قبل، بس الحين لا تغازلني", "ما أبي غزل", "وقف الغزل"]) {
+      expect(searchContent(query).map(s => s.id)).toEqual(["reply-023"]);
+    }
+    expect(searchContent("غازلني", "reply")[0]?.id).toBe("reply-024");
+    expect(searchContent("لا تغازلني", "send")).toEqual([]);
+    expect(searchContent("لا تغازلني ولا تتواصل معي").map(s => s.id)).toEqual(["space"]);
   });
   it("gives stop-contact requests priority over romantic terms", () => {
     expect(searchContent("قالت لا تتواصل معي، اشتقت لك بس", "reply")).toEqual([]);

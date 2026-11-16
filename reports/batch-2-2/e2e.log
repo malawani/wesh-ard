@@ -1,0 +1,33 @@
+
+> wesh-ard@0.1.0 test:e2e
+> playwright test
+
+[WebServer] (node:4639) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:4668) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer]  WARN  Checking for updates failed (use `--debug` to see full error)
+
+Running 10 tests using 1 worker
+
+(node:4713) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › tests/e2e/journey.spec.ts:3:1 › choose, customize, copy, favorite, reload, remove, and preserve old source (1.9s)
+  ✓   2 [desktop] › tests/e2e/journey.spec.ts:39:1 › Arabic search, refusal guidance, RTL, no horizontal scroll and keyboard focus (630ms)
+  ✓   3 [desktop] › tests/e2e/journey.spec.ts:56:1 › blocked storage shows warning and keeps favorites usable for this session (794ms)
+  ✓   4 [desktop] › tests/e2e/journey.spec.ts:70:1 › new situation applies distinct married and first-contact replies (1.2s)
+  ✓   5 [desktop] › tests/e2e/journey.spec.ts:88:1 › flirting refusal remains distinct from invitation and can be saved (1.6s)
+(node:4845) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   6 [mobile] › tests/e2e/journey.spec.ts:3:1 › choose, customize, copy, favorite, reload, remove, and preserve old source (1.7s)
+  ✓   7 [mobile] › tests/e2e/journey.spec.ts:39:1 › Arabic search, refusal guidance, RTL, no horizontal scroll and keyboard focus (606ms)
+  ✓   8 [mobile] › tests/e2e/journey.spec.ts:56:1 › blocked storage shows warning and keeps favorites usable for this session (658ms)
+  ✓   9 [mobile] › tests/e2e/journey.spec.ts:70:1 › new situation applies distinct married and first-contact replies (1.3s)
+  ✓  10 [mobile] › tests/e2e/journey.spec.ts:88:1 › flirting refusal remains distinct from invitation and can be saved (1.3s)
+
+  10 passed (20.7s)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
