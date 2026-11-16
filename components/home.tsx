@@ -1,4 +1,5 @@
-import { CATALOG, type Route, type Situation } from "../lib/catalog";
+import { CONTENT } from "../content";
+import type { RouteId as Route, SituationContent as Situation } from "../content/schemas";
 import { Icon } from "./icon";
 
 export const ROUTES = [
@@ -7,7 +8,7 @@ export const ROUTES = [
   { id: "guide", title: "وش أسوي بالموقف؟", description: "موقف محيّرك وتبي تعرف كيف تتصرف.", heading: "وش الموقف اللي محيّرك؟" }
 ] as const;
 
-const popular = ["miss", "sorry", "chat", "space"].map(id => CATALOG.find(situation => situation.id === id)!);
+const popular = ["miss", "sorry", "chat", "space"].map(id => CONTENT.find(situation => situation.id === id)!);
 
 export function SiteHeader({ count, onHome, onFavorites, active }: {
   count: number; onHome: () => void; onFavorites: () => void; active: boolean;

@@ -1,0 +1,2357 @@
+{
+  "situations": [
+    {
+      "id": "miss",
+      "route": "reply",
+      "title": "قالت: اشتقت لك"
+    },
+    {
+      "id": "photo",
+      "route": "reply",
+      "title": "أرسلت صورتها"
+    },
+    {
+      "id": "crush",
+      "route": "reply",
+      "title": "قالت: أحسك معجب فيني"
+    },
+    {
+      "id": "love",
+      "route": "reply",
+      "title": "قالت: أحبك"
+    },
+    {
+      "id": "why",
+      "route": "reply",
+      "title": "قالت: ليه تعجبك؟"
+    },
+    {
+      "id": "voice",
+      "route": "reply",
+      "title": "أرسلت تسجيل صوتي"
+    },
+    {
+      "id": "bored",
+      "route": "reply",
+      "title": "قالت: طفشانة"
+    },
+    {
+      "id": "cold",
+      "route": "reply",
+      "title": "ردّت ببرود"
+    },
+    {
+      "id": "upset",
+      "route": "reply",
+      "title": "قالت: أنا زعلانة منك"
+    },
+    {
+      "id": "night",
+      "route": "reply",
+      "title": "قالت: تصبح على خير"
+    },
+    {
+      "id": "morning",
+      "route": "send",
+      "title": "رسالة صباحية"
+    },
+    {
+      "id": "chat",
+      "route": "send",
+      "title": "أبي أفتح سالفة"
+    },
+    {
+      "id": "flirt",
+      "route": "send",
+      "title": "أبي أغازلها"
+    },
+    {
+      "id": "hint",
+      "route": "send",
+      "title": "أبي ألمّح بإعجابي"
+    },
+    {
+      "id": "confess",
+      "route": "send",
+      "title": "اعتراف خفيف"
+    },
+    {
+      "id": "missing",
+      "route": "send",
+      "title": "رسالة شوق"
+    },
+    {
+      "id": "meet",
+      "route": "send",
+      "title": "أبي أقترح لقاء"
+    },
+    {
+      "id": "support",
+      "route": "send",
+      "title": "رسالة دعم واهتمام"
+    },
+    {
+      "id": "thanks",
+      "route": "send",
+      "title": "رسالة شكر وتقدير"
+    },
+    {
+      "id": "sorry",
+      "route": "send",
+      "title": "أبي أعتذر"
+    },
+    {
+      "id": "misunderstand",
+      "route": "guide",
+      "title": "صار سوء فهم"
+    },
+    {
+      "id": "space",
+      "route": "guide",
+      "title": "طلبت مساحة"
+    },
+    {
+      "id": "fading",
+      "route": "guide",
+      "title": "قلّ اهتمامها"
+    },
+    {
+      "id": "jealous",
+      "route": "guide",
+      "title": "حسّيت بالغيرة"
+    },
+    {
+      "id": "stress",
+      "route": "guide",
+      "title": "تمر بيوم صعب"
+    },
+    {
+      "id": "reject",
+      "route": "guide",
+      "title": "مشاعرنا مو متبادلة"
+    },
+    {
+      "id": "first",
+      "route": "guide",
+      "title": "أول لقاء بيننا"
+    },
+    {
+      "id": "busy",
+      "route": "guide",
+      "title": "هي مشغولة كثير"
+    },
+    {
+      "id": "bounds",
+      "route": "guide",
+      "title": "أبي أوضح حدودي"
+    },
+    {
+      "id": "again",
+      "route": "guide",
+      "title": "أبي أرجع التواصل"
+    }
+  ],
+  "responses": [
+    {
+      "id": "miss:soft:0",
+      "text": "وأنا والله فقدت سوالفك.",
+      "situationId": "miss"
+    },
+    {
+      "id": "miss:soft:1",
+      "text": "يا زين رسالتك، وش أخبارك؟",
+      "situationId": "miss"
+    },
+    {
+      "id": "miss:sweet:0",
+      "text": "يا بعد قلبي، وأنا مشتاق لسوالفنا.",
+      "situationId": "miss"
+    },
+    {
+      "id": "miss:sweet:1",
+      "text": "كلمة اشتقت لك منك عدّلت مزاجي.",
+      "situationId": "miss"
+    },
+    {
+      "id": "miss:direct:0",
+      "text": "وأنا اشتقت لك وودي أشوفك قريب.",
+      "situationId": "miss"
+    },
+    {
+      "id": "miss:direct:1",
+      "text": "ودي أشوفك قدامي بدل هالمسافة.",
+      "situationId": "miss"
+    },
+    {
+      "id": "photo:soft:0",
+      "text": "ما شاء الله، طالعة حلوة.",
+      "situationId": "photo"
+    },
+    {
+      "id": "photo:soft:1",
+      "text": "اللوك مرة لايق عليك.",
+      "situationId": "photo"
+    },
+    {
+      "id": "photo:sweet:0",
+      "text": "يا زين الصورة وصاحبتها.",
+      "situationId": "photo"
+    },
+    {
+      "id": "photo:sweet:1",
+      "text": "حتى صورك العفوية تجنن.",
+      "situationId": "photo"
+    },
+    {
+      "id": "photo:direct:0",
+      "text": "ابتسامتك خطفت انتباهي بصراحة.",
+      "situationId": "photo"
+    },
+    {
+      "id": "photo:direct:1",
+      "text": "كل مرة أشوفك ألقى شي جديد يعجبني فيك.",
+      "situationId": "photo"
+    },
+    {
+      "id": "crush:soft:0",
+      "text": "يمكن لأن سوالفك تعجبني.",
+      "situationId": "crush"
+    },
+    {
+      "id": "crush:soft:1",
+      "text": "واضح علي لهالدرجة؟",
+      "situationId": "crush"
+    },
+    {
+      "id": "crush:sweet:0",
+      "text": "وش أسوي إذا اللي قدامي كل يوم تزيد حلا؟",
+      "situationId": "crush"
+    },
+    {
+      "id": "crush:sweet:1",
+      "text": "يمكن اكتشفتي اللي كنت ألمّح له.",
+      "situationId": "crush"
+    },
+    {
+      "id": "crush:direct:0",
+      "text": "إيه، أنا معجب فيك وودي أعرفك أكثر.",
+      "situationId": "crush"
+    },
+    {
+      "id": "crush:direct:1",
+      "text": "صحيح، وإعجابي فيك يزيد مع الوقت.",
+      "situationId": "crush"
+    },
+    {
+      "id": "love:soft:0",
+      "text": "يا زين كلامك، يسعدني قربك.",
+      "situationId": "love"
+    },
+    {
+      "id": "love:soft:1",
+      "text": "كلامك غالٍ عندي.",
+      "situationId": "love"
+    },
+    {
+      "id": "love:sweet:0",
+      "text": "يا حظ قلبي بهالكلام الحلو.",
+      "situationId": "love"
+    },
+    {
+      "id": "love:sweet:1",
+      "text": "كلمتك اليوم خلتني أبتسم.",
+      "situationId": "love"
+    },
+    {
+      "id": "love:direct:0",
+      "text": "وأنا أحبك وأقدّر وجودك بحياتي.",
+      "situationId": "love"
+    },
+    {
+      "id": "love:direct:1",
+      "text": "أحبك وودي أوريك هالشي بأفعالي.",
+      "situationId": "love"
+    },
+    {
+      "id": "why:soft:0",
+      "text": "لأن أسلوبك مريح وتفكيرك يعجبني.",
+      "situationId": "why"
+    },
+    {
+      "id": "why:soft:1",
+      "text": "لأنك على طبيعتك معي.",
+      "situationId": "why"
+    },
+    {
+      "id": "why:sweet:0",
+      "text": "لأن ضحكتك وسوالفك تعدّل يومي.",
+      "situationId": "why"
+    },
+    {
+      "id": "why:sweet:1",
+      "text": "لأن فيك عفوية حلوة.",
+      "situationId": "why"
+    },
+    {
+      "id": "why:direct:0",
+      "text": "كل مرة أعرفك أكثر ألقى شي جديد يعجبني.",
+      "situationId": "why"
+    },
+    {
+      "id": "why:direct:1",
+      "text": "لأنك تخلين أبسط وقت بيننا مميز.",
+      "situationId": "why"
+    },
+    {
+      "id": "voice:soft:0",
+      "text": "صوتك حلو، أستانس بسوالفك.",
+      "situationId": "voice"
+    },
+    {
+      "id": "voice:soft:1",
+      "text": "يا زين حماسك وأنتِ تسولفين.",
+      "situationId": "voice"
+    },
+    {
+      "id": "voice:sweet:0",
+      "text": "التسجيل ذا عدّل يومي.",
+      "situationId": "voice"
+    },
+    {
+      "id": "voice:sweet:1",
+      "text": "يا حلو ضحكتك بالتسجيل.",
+      "situationId": "voice"
+    },
+    {
+      "id": "voice:direct:0",
+      "text": "ودي نكمل السالفة بمكالمة إذا يناسبك.",
+      "situationId": "voice"
+    },
+    {
+      "id": "voice:direct:1",
+      "text": "صوتك يخلي أبسط سالفة ممتعة.",
+      "situationId": "voice"
+    },
+    {
+      "id": "bored:soft:0",
+      "text": "وش رايك نسولف شوي؟",
+      "situationId": "bored"
+    },
+    {
+      "id": "bored:soft:1",
+      "text": "عندي سؤال غريب لك، مستعدة؟",
+      "situationId": "bored"
+    },
+    {
+      "id": "bored:sweet:0",
+      "text": "تعالي نغيّر الجو بسوالف حلوة.",
+      "situationId": "bored"
+    },
+    {
+      "id": "bored:sweet:1",
+      "text": "يا زين فرصة أسولف معك.",
+      "situationId": "bored"
+    },
+    {
+      "id": "bored:direct:0",
+      "text": "إذا يناسبك نسوي مكالمة قصيرة.",
+      "situationId": "bored"
+    },
+    {
+      "id": "bored:direct:1",
+      "text": "ودي أسمع صوتك ونطرد الطفش سوا.",
+      "situationId": "bored"
+    },
+    {
+      "id": "cold:soft:0",
+      "text": "أحسك مشغولة، نتكلم بعدين.",
+      "situationId": "cold"
+    },
+    {
+      "id": "cold:soft:1",
+      "text": "عسى أمورك طيبة.",
+      "situationId": "cold"
+    },
+    {
+      "id": "cold:sweet:0",
+      "text": "أهم شي تكونين بخير، خذي راحتك.",
+      "situationId": "cold"
+    },
+    {
+      "id": "cold:sweet:1",
+      "text": "ودي أسولف معك، بس براحتك.",
+      "situationId": "cold"
+    },
+    {
+      "id": "cold:direct:0",
+      "text": "لاحظت كلامنا مختصر اليوم، كل شي تمام؟",
+      "situationId": "cold"
+    },
+    {
+      "id": "cold:direct:1",
+      "text": "إذا فيه شي ضايقك مني، ودي أفهم.",
+      "situationId": "cold"
+    },
+    {
+      "id": "upset:soft:0",
+      "text": "ودي أفهم وش اللي ضايقك مني.",
+      "situationId": "upset"
+    },
+    {
+      "id": "upset:soft:1",
+      "text": "قولي لي وش صار من وجهة نظرك.",
+      "situationId": "upset"
+    },
+    {
+      "id": "upset:sweet:0",
+      "text": "مكانتك عندي كبيرة ويهمني زعلك.",
+      "situationId": "upset"
+    },
+    {
+      "id": "upset:sweet:1",
+      "text": "أبي نتفاهم ونصلح اللي صار.",
+      "situationId": "upset"
+    },
+    {
+      "id": "upset:direct:0",
+      "text": "إذا غلطت بحقك فأنا أعتذر.",
+      "situationId": "upset"
+    },
+    {
+      "id": "upset:direct:1",
+      "text": "أبي أفهم أثر تصرفي وأصلح خطئي.",
+      "situationId": "upset"
+    },
+    {
+      "id": "night:soft:0",
+      "text": "وأنتِ من أهله، نوم العوافي.",
+      "situationId": "night"
+    },
+    {
+      "id": "night:soft:1",
+      "text": "تصبحين على خير وراحة بال.",
+      "situationId": "night"
+    },
+    {
+      "id": "night:sweet:0",
+      "text": "وأنتِ من أهل الخير يا حلوة.",
+      "situationId": "night"
+    },
+    {
+      "id": "night:sweet:1",
+      "text": "عسى أحلامك كلها تفرح قلبك.",
+      "situationId": "night"
+    },
+    {
+      "id": "night:direct:0",
+      "text": "تصبحين على خير، اليوم كان أحلى بسوالفك.",
+      "situationId": "night"
+    },
+    {
+      "id": "night:direct:1",
+      "text": "ودي أسمع صباح الخير منك بكرة.",
+      "situationId": "night"
+    },
+    {
+      "id": "morning:soft:0",
+      "text": "صباح الخير، عسى يومك جميل.",
+      "situationId": "morning"
+    },
+    {
+      "id": "morning:soft:1",
+      "text": "صباحك راحة وأخبار حلوة.",
+      "situationId": "morning"
+    },
+    {
+      "id": "morning:sweet:0",
+      "text": "صباحك يشبه ضحكتك، حلو وخفيف.",
+      "situationId": "morning"
+    },
+    {
+      "id": "morning:sweet:1",
+      "text": "يا زين الصباح إذا بدأ بطاريك.",
+      "situationId": "morning"
+    },
+    {
+      "id": "morning:direct:0",
+      "text": "أحب أبدأ يومي وأنا أطمن عليك.",
+      "situationId": "morning"
+    },
+    {
+      "id": "morning:direct:1",
+      "text": "ودي يكون أول صوت أسمعه صوتك.",
+      "situationId": "morning"
+    },
+    {
+      "id": "chat:soft:0",
+      "text": "وش أحلى شي صار بيومك؟",
+      "situationId": "chat"
+    },
+    {
+      "id": "chat:soft:1",
+      "text": "لو عندك يوم فاضي وش بتسوين؟",
+      "situationId": "chat"
+    },
+    {
+      "id": "chat:sweet:0",
+      "text": "عندي سؤال لصاحبة أحلى سوالف.",
+      "situationId": "chat"
+    },
+    {
+      "id": "chat:sweet:1",
+      "text": "تذكرتك بموقف اليوم، تبين أقولك؟",
+      "situationId": "chat"
+    },
+    {
+      "id": "chat:direct:0",
+      "text": "ودي أعرف وش الشي اللي يحمسك هالفترة.",
+      "situationId": "chat"
+    },
+    {
+      "id": "chat:direct:1",
+      "text": "وش رايك نسولف الليلة إذا يناسبك؟",
+      "situationId": "chat"
+    },
+    {
+      "id": "flirt:soft:0",
+      "text": "أحب عفويتك وسوالفك.",
+      "situationId": "flirt"
+    },
+    {
+      "id": "flirt:soft:1",
+      "text": "ضحكتك تعدّل المزاج.",
+      "situationId": "flirt"
+    },
+    {
+      "id": "flirt:sweet:0",
+      "text": "يا زينك ويا زين هالروح.",
+      "situationId": "flirt"
+    },
+    {
+      "id": "flirt:sweet:1",
+      "text": "وش هالحلا اللي كل يوم يزيد؟",
+      "situationId": "flirt"
+    },
+    {
+      "id": "flirt:direct:0",
+      "text": "فيك جاذبية حتى بطريقة تفكيرك.",
+      "situationId": "flirt"
+    },
+    {
+      "id": "flirt:direct:1",
+      "text": "حضورك يلفتني بدون ما تحاولين.",
+      "situationId": "flirt"
+    },
+    {
+      "id": "hint:soft:0",
+      "text": "أستانس معك أكثر مما تتوقعين.",
+      "situationId": "hint"
+    },
+    {
+      "id": "hint:soft:1",
+      "text": "فيك شي يخليني أبي أعرفك أكثر.",
+      "situationId": "hint"
+    },
+    {
+      "id": "hint:sweet:0",
+      "text": "صرتِ سبب ابتسامتي بدون ما تدرين.",
+      "situationId": "hint"
+    },
+    {
+      "id": "hint:sweet:1",
+      "text": "يا زين اللي يحلّي الوقت وهو ما يدري.",
+      "situationId": "hint"
+    },
+    {
+      "id": "hint:direct:0",
+      "text": "بصراحة أنتِ تعجبيني وودي أعرفك أكثر.",
+      "situationId": "hint"
+    },
+    {
+      "id": "hint:direct:1",
+      "text": "كل ما عرفتك أكثر زاد إعجابي فيك.",
+      "situationId": "hint"
+    },
+    {
+      "id": "confess:soft:0",
+      "text": "أحس بيننا تقارب حلو وأبي أعرف رأيك.",
+      "situationId": "confess"
+    },
+    {
+      "id": "confess:soft:1",
+      "text": "ارتحت لك أكثر من المعتاد.",
+      "situationId": "confess"
+    },
+    {
+      "id": "confess:sweet:0",
+      "text": "صرتِ شخص مميز عندي.",
+      "situationId": "confess"
+    },
+    {
+      "id": "confess:sweet:1",
+      "text": "وجودك صار يعني لي أكثر من قبل.",
+      "situationId": "confess"
+    },
+    {
+      "id": "confess:direct:0",
+      "text": "أنا معجب فيك وودي نكمل نتعرف على بعض.",
+      "situationId": "confess"
+    },
+    {
+      "id": "confess:direct:1",
+      "text": "مشاعري تجاهك قاعدة تكبر وأبي أكون واضح.",
+      "situationId": "confess"
+    },
+    {
+      "id": "missing:soft:0",
+      "text": "فقدت سوالفك اليوم، وش أخبارك؟",
+      "situationId": "missing"
+    },
+    {
+      "id": "missing:soft:1",
+      "text": "تذكرت موقف بيننا وابتسمت.",
+      "situationId": "missing"
+    },
+    {
+      "id": "missing:sweet:0",
+      "text": "يا زينك، حتى الغيبة تخلي سوالفك أغلى.",
+      "situationId": "missing"
+    },
+    {
+      "id": "missing:sweet:1",
+      "text": "أحس يومي ناقصه سوالفك.",
+      "situationId": "missing"
+    },
+    {
+      "id": "missing:direct:0",
+      "text": "اشتقت لك وودي أشوفك قريب.",
+      "situationId": "missing"
+    },
+    {
+      "id": "missing:direct:1",
+      "text": "صرت أفتقد وجودك أكثر مما توقعت.",
+      "situationId": "missing"
+    },
+    {
+      "id": "meet:soft:0",
+      "text": "وش رايك نطلع قهوة إذا يناسبك؟",
+      "situationId": "meet"
+    },
+    {
+      "id": "meet:soft:1",
+      "text": "ودي نشوف بعض ونسولف.",
+      "situationId": "meet"
+    },
+    {
+      "id": "meet:sweet:0",
+      "text": "ودي أشوف هالضحكة قدامي قريب.",
+      "situationId": "meet"
+    },
+    {
+      "id": "meet:sweet:1",
+      "text": "أحس قهوتنا الجاية بتكون مليانة سوالف.",
+      "situationId": "meet"
+    },
+    {
+      "id": "meet:direct:0",
+      "text": "مبسوط بمعرفتك وودي أشوفك.",
+      "situationId": "meet"
+    },
+    {
+      "id": "meet:direct:1",
+      "text": "إذا مرتاحة للفكرة نرتب لقاء قريب.",
+      "situationId": "meet"
+    },
+    {
+      "id": "support:soft:0",
+      "text": "عسى يومك يخف عليك، كيفك الحين؟",
+      "situationId": "support"
+    },
+    {
+      "id": "support:soft:1",
+      "text": "إذا ودك تفضفضين أنا أسمعك.",
+      "situationId": "support"
+    },
+    {
+      "id": "support:sweet:0",
+      "text": "سلامة قلبك، يا عسى تعبك يهون.",
+      "situationId": "support"
+    },
+    {
+      "id": "support:sweet:1",
+      "text": "أهم شي عندي تكونين بخير.",
+      "situationId": "support"
+    },
+    {
+      "id": "support:direct:0",
+      "text": "أبي أساعدك لو فيه شي أقدر أسويه.",
+      "situationId": "support"
+    },
+    {
+      "id": "support:direct:1",
+      "text": "تبيني أسمعك ولا نفكر بحل سوا؟",
+      "situationId": "support"
+    },
+    {
+      "id": "thanks:soft:0",
+      "text": "أقدّر طيبتك واهتمامك.",
+      "situationId": "thanks"
+    },
+    {
+      "id": "thanks:soft:1",
+      "text": "شكرًا لأنك سمعتيني اليوم.",
+      "situationId": "thanks"
+    },
+    {
+      "id": "thanks:sweet:0",
+      "text": "يا زين قلبك واهتمامك بالتفاصيل.",
+      "situationId": "thanks"
+    },
+    {
+      "id": "thanks:sweet:1",
+      "text": "يسعدني وجود أشخاص مثلك بحياتي.",
+      "situationId": "thanks"
+    },
+    {
+      "id": "thanks:direct:0",
+      "text": "وجودك فرق معي وأنا ممتن لك.",
+      "situationId": "thanks"
+    },
+    {
+      "id": "thanks:direct:1",
+      "text": "أحب إننا نكون على طبيعتنا مع بعض.",
+      "situationId": "thanks"
+    },
+    {
+      "id": "sorry:soft:0",
+      "text": "آسف على أسلوبي، كان المفروض أكون أهدأ.",
+      "situationId": "sorry"
+    },
+    {
+      "id": "sorry:soft:1",
+      "text": "أعتذر عن اللي بدر مني.",
+      "situationId": "sorry"
+    },
+    {
+      "id": "sorry:sweet:0",
+      "text": "يهمني شعورك وآسف إني ضايقتك.",
+      "situationId": "sorry"
+    },
+    {
+      "id": "sorry:sweet:1",
+      "text": "ما أبي أستخف بزعلك، وأقدّر صراحتك.",
+      "situationId": "sorry"
+    },
+    {
+      "id": "sorry:direct:0",
+      "text": "أنا أخطأت في كلامي وأعتذر بوضوح.",
+      "situationId": "sorry"
+    },
+    {
+      "id": "sorry:direct:1",
+      "text": "أفهم سبب زعلك وبحرص ما يتكرر.",
+      "situationId": "sorry"
+    },
+    {
+      "id": "misunderstand:soft:0",
+      "text": "أحس صار سوء فهم، ودي نوضحه.",
+      "situationId": "misunderstand"
+    },
+    {
+      "id": "misunderstand:soft:1",
+      "text": "يمكن ما وصلت قصدي صح.",
+      "situationId": "misunderstand"
+    },
+    {
+      "id": "misunderstand:sweet:0",
+      "text": "يهمني إننا نفهم بعض حتى لو اختلفنا.",
+      "situationId": "misunderstand"
+    },
+    {
+      "id": "misunderstand:sweet:1",
+      "text": "ما أبي اللي صار يخلينا نتجنب الكلام.",
+      "situationId": "misunderstand"
+    },
+    {
+      "id": "misunderstand:direct:0",
+      "text": "أبي أسمع كيف فهمتي كلامي.",
+      "situationId": "misunderstand"
+    },
+    {
+      "id": "misunderstand:direct:1",
+      "text": "إذا أسلوبي جرحك، أنا أعتذر.",
+      "situationId": "misunderstand"
+    },
+    {
+      "id": "space:soft:0",
+      "text": "أكيد، خذي راحتك وأحترم رغبتك.",
+      "situationId": "space"
+    },
+    {
+      "id": "space:soft:1",
+      "text": "أتفهم حاجتك لوقت لنفسك.",
+      "situationId": "space"
+    },
+    {
+      "id": "space:sweet:0",
+      "text": "راحتك تهمني، خذي مساحتك.",
+      "situationId": "space"
+    },
+    {
+      "id": "space:sweet:1",
+      "text": "أقدّر صراحتك وأحترم طلبك.",
+      "situationId": "space"
+    },
+    {
+      "id": "space:direct:0",
+      "text": "وصلتني رغبتك وراح أحترمها.",
+      "situationId": "space"
+    },
+    {
+      "id": "space:direct:1",
+      "text": "ما راح أضغط عليك أو أكرر التواصل.",
+      "situationId": "space"
+    },
+    {
+      "id": "fading:soft:0",
+      "text": "أحس سوالفنا قلت، عسى كل شي طيب؟",
+      "situationId": "fading"
+    },
+    {
+      "id": "fading:soft:1",
+      "text": "ودي أطمن عليك، كيف أمورك؟",
+      "situationId": "fading"
+    },
+    {
+      "id": "fading:sweet:0",
+      "text": "فقدت سوالفنا وأتمنى تكونين بخير.",
+      "situationId": "fading"
+    },
+    {
+      "id": "fading:sweet:1",
+      "text": "يهمني أعرف كيف تحسين تجاه تواصلنا.",
+      "situationId": "fading"
+    },
+    {
+      "id": "fading:direct:0",
+      "text": "لاحظت تغيير بالتواصل وأبي أفهم سببه.",
+      "situationId": "fading"
+    },
+    {
+      "id": "fading:direct:1",
+      "text": "إذا تغير شعورك أفضل نكون واضحين.",
+      "situationId": "fading"
+    },
+    {
+      "id": "jealous:soft:0",
+      "text": "ودي أشاركك شعور صار عندي بدون لوم.",
+      "situationId": "jealous"
+    },
+    {
+      "id": "jealous:soft:1",
+      "text": "يمكن أنا فهمت الموقف غلط.",
+      "situationId": "jealous"
+    },
+    {
+      "id": "jealous:sweet:0",
+      "text": "أنتِ غالية عندي وأبي أتعامل مع غيرتي بنضج.",
+      "situationId": "jealous"
+    },
+    {
+      "id": "jealous:sweet:1",
+      "text": "أقدّر ثقتنا وأبي نحافظ عليها.",
+      "situationId": "jealous"
+    },
+    {
+      "id": "jealous:direct:0",
+      "text": "حسيت بالغيرة بس ما أبي أحملك مسؤوليتها.",
+      "situationId": "jealous"
+    },
+    {
+      "id": "jealous:direct:1",
+      "text": "ودي نفهم توقعاتنا وحدودنا باحترام.",
+      "situationId": "jealous"
+    },
+    {
+      "id": "stress:soft:0",
+      "text": "ودك تتكلمين عن اللي مضايقك؟",
+      "situationId": "stress"
+    },
+    {
+      "id": "stress:soft:1",
+      "text": "خذي راحتك، أنا أسمعك.",
+      "situationId": "stress"
+    },
+    {
+      "id": "stress:sweet:0",
+      "text": "يا عسى هالتعب يخف عليك.",
+      "situationId": "stress"
+    },
+    {
+      "id": "stress:sweet:1",
+      "text": "ودي أخفف عنك ولو بشي بسيط.",
+      "situationId": "stress"
+    },
+    {
+      "id": "stress:direct:0",
+      "text": "تبيني أسمعك بس ولا نبحث عن حل؟",
+      "situationId": "stress"
+    },
+    {
+      "id": "stress:direct:1",
+      "text": "إذا فيه مساعدة عملية أقدر أسويها قولي.",
+      "situationId": "stress"
+    },
+    {
+      "id": "reject:soft:0",
+      "text": "أقدّر صراحتك وأحترم شعورك.",
+      "situationId": "reject"
+    },
+    {
+      "id": "reject:soft:1",
+      "text": "شكرًا على الوضوح وأتمنى لك الخير.",
+      "situationId": "reject"
+    },
+    {
+      "id": "reject:sweet:0",
+      "text": "مع إن عندي مشاعر، أحترم اختيارك.",
+      "situationId": "reject"
+    },
+    {
+      "id": "reject:sweet:1",
+      "text": "سعيد إني عرفتك وأتمنى لك كل خير.",
+      "situationId": "reject"
+    },
+    {
+      "id": "reject:direct:0",
+      "text": "وصلت فكرتك وأحترم قرارك بالكامل.",
+      "situationId": "reject"
+    },
+    {
+      "id": "reject:direct:1",
+      "text": "أحتاج وقت لنفسي وبحترم حدودك.",
+      "situationId": "reject"
+    },
+    {
+      "id": "first:soft:0",
+      "text": "الحمد لله على السلامة، كيف كان مشوارك؟",
+      "situationId": "first"
+    },
+    {
+      "id": "first:soft:1",
+      "text": "مبسوط إني شفتك اليوم.",
+      "situationId": "first"
+    },
+    {
+      "id": "first:sweet:0",
+      "text": "يا زين هاللقاء أخيرًا.",
+      "situationId": "first"
+    },
+    {
+      "id": "first:sweet:1",
+      "text": "أحلى شي إننا نسولف قدام بعض.",
+      "situationId": "first"
+    },
+    {
+      "id": "first:direct:0",
+      "text": "أستانس بكلامنا وودي أعرفك أكثر.",
+      "situationId": "first"
+    },
+    {
+      "id": "first:direct:1",
+      "text": "ودي نخلي هاللقاء ذكرى حلوة.",
+      "situationId": "first"
+    },
+    {
+      "id": "busy:soft:0",
+      "text": "الله يعينك على أشغالك، نسولف بعدين.",
+      "situationId": "busy"
+    },
+    {
+      "id": "busy:soft:1",
+      "text": "خذي وقتك وركزي على اللي عندك.",
+      "situationId": "busy"
+    },
+    {
+      "id": "busy:sweet:0",
+      "text": "عسى زحمتك تخف، فقدت سوالفك.",
+      "situationId": "busy"
+    },
+    {
+      "id": "busy:sweet:1",
+      "text": "أهم شي تكونين مرتاحة.",
+      "situationId": "busy"
+    },
+    {
+      "id": "busy:direct:0",
+      "text": "خلينا نختار وقت يناسبنا الاثنين.",
+      "situationId": "busy"
+    },
+    {
+      "id": "busy:direct:1",
+      "text": "أحب تواصلنا وأتفهم ضغط يومك.",
+      "situationId": "busy"
+    },
+    {
+      "id": "bounds:soft:0",
+      "text": "فيه موضوع ودي نتفاهم عنه بهدوء.",
+      "situationId": "bounds"
+    },
+    {
+      "id": "bounds:soft:1",
+      "text": "أبي أوضح شي يخليني مرتاح بالتواصل.",
+      "situationId": "bounds"
+    },
+    {
+      "id": "bounds:sweet:0",
+      "text": "يهمني نكون مرتاحين وصريحين.",
+      "situationId": "bounds"
+    },
+    {
+      "id": "bounds:sweet:1",
+      "text": "ودي نفهم حدود بعض ونحترمها.",
+      "situationId": "bounds"
+    },
+    {
+      "id": "bounds:direct:0",
+      "text": "أنا مو مرتاح لهالشي وأبي أوضحه.",
+      "situationId": "bounds"
+    },
+    {
+      "id": "bounds:direct:1",
+      "text": "خلينا نتفق على تواصل يناسبنا.",
+      "situationId": "bounds"
+    },
+    {
+      "id": "again:soft:0",
+      "text": "هلا، كيف حالك؟ تذكرتك وحبيت أطمن.",
+      "situationId": "again"
+    },
+    {
+      "id": "again:soft:1",
+      "text": "مر وقت، عسى أمورك بخير.",
+      "situationId": "again"
+    },
+    {
+      "id": "again:sweet:0",
+      "text": "يا زين أخبارك، طريتي على بالي اليوم.",
+      "situationId": "again"
+    },
+    {
+      "id": "again:sweet:1",
+      "text": "مرت فترة وحبيت أقول عسى أيامك حلوة.",
+      "situationId": "again"
+    },
+    {
+      "id": "again:direct:0",
+      "text": "إذا يناسبك ودي نرجع نسولف.",
+      "situationId": "again"
+    },
+    {
+      "id": "again:direct:1",
+      "text": "كنت أستانس بتواصلنا، وحبيت أسأل عنك.",
+      "situationId": "again"
+    }
+  ],
+  "runtimeResponses": [
+    {
+      "id": "miss:soft:0",
+      "text": "وأنا والله فقدت سوالفك.",
+      "tone": "soft",
+      "situationId": "miss"
+    },
+    {
+      "id": "miss:soft:1",
+      "text": "يا زين رسالتك، وش أخبارك؟",
+      "tone": "soft",
+      "situationId": "miss"
+    },
+    {
+      "id": "miss:sweet:0:early",
+      "text": "يا زين رسالتك، فقدت سوالفك بعد.",
+      "tone": "sweet",
+      "situationId": "miss"
+    },
+    {
+      "id": "miss:sweet:1:early",
+      "text": "ضحكت لما قريت رسالتك، وأنا بعد فقدت السوالف.",
+      "tone": "sweet",
+      "situationId": "miss"
+    },
+    {
+      "id": "miss:direct:0:early",
+      "text": "وأنا فقدت سوالفك وودي نكملها قريب.",
+      "tone": "direct",
+      "situationId": "miss"
+    },
+    {
+      "id": "miss:direct:1:early",
+      "text": "وأنا مشتاق أسولف معك، متى يناسبك؟",
+      "tone": "direct",
+      "situationId": "miss"
+    },
+    {
+      "id": "miss:sweet:0",
+      "text": "يا بعد قلبي، وأنا مشتاق لسوالفنا.",
+      "tone": "sweet",
+      "situationId": "miss"
+    },
+    {
+      "id": "miss:sweet:1",
+      "text": "كلمة اشتقت لك منك عدّلت مزاجي.",
+      "tone": "sweet",
+      "situationId": "miss"
+    },
+    {
+      "id": "miss:direct:0",
+      "text": "وأنا اشتقت لك وودي أشوفك قريب.",
+      "tone": "direct",
+      "situationId": "miss"
+    },
+    {
+      "id": "miss:direct:1",
+      "text": "ودي أشوفك قدامي بدل هالمسافة.",
+      "tone": "direct",
+      "situationId": "miss"
+    },
+    {
+      "id": "miss:sweet:0:serious",
+      "text": "يا بعد قلبي، حتى يومي العادي أحبه أكثر وأنتِ معي.",
+      "tone": "sweet",
+      "situationId": "miss"
+    },
+    {
+      "id": "miss:sweet:1:serious",
+      "text": "وأنا اشتقت لك ولتفاصيل يومنا مع بعض.",
+      "tone": "sweet",
+      "situationId": "miss"
+    },
+    {
+      "id": "photo:soft:0",
+      "text": "ما شاء الله، طالعة حلوة.",
+      "tone": "soft",
+      "situationId": "photo"
+    },
+    {
+      "id": "photo:soft:1",
+      "text": "اللوك مرة لايق عليك.",
+      "tone": "soft",
+      "situationId": "photo"
+    },
+    {
+      "id": "photo:sweet:0",
+      "text": "يا زين الصورة وصاحبتها.",
+      "tone": "sweet",
+      "situationId": "photo"
+    },
+    {
+      "id": "photo:sweet:1",
+      "text": "حتى صورك العفوية تجنن.",
+      "tone": "sweet",
+      "situationId": "photo"
+    },
+    {
+      "id": "photo:direct:0",
+      "text": "ابتسامتك خطفت انتباهي بصراحة.",
+      "tone": "direct",
+      "situationId": "photo"
+    },
+    {
+      "id": "photo:direct:1",
+      "text": "كل مرة أشوفك ألقى شي جديد يعجبني فيك.",
+      "tone": "direct",
+      "situationId": "photo"
+    },
+    {
+      "id": "crush:soft:0",
+      "text": "يمكن لأن سوالفك تعجبني.",
+      "tone": "soft",
+      "situationId": "crush"
+    },
+    {
+      "id": "crush:soft:1",
+      "text": "واضح علي لهالدرجة؟",
+      "tone": "soft",
+      "situationId": "crush"
+    },
+    {
+      "id": "crush:sweet:0",
+      "text": "وش أسوي إذا اللي قدامي كل يوم تزيد حلا؟",
+      "tone": "sweet",
+      "situationId": "crush"
+    },
+    {
+      "id": "crush:sweet:1",
+      "text": "يمكن اكتشفتي اللي كنت ألمّح له.",
+      "tone": "sweet",
+      "situationId": "crush"
+    },
+    {
+      "id": "crush:direct:0",
+      "text": "إيه، أنا معجب فيك وودي أعرفك أكثر.",
+      "tone": "direct",
+      "situationId": "crush"
+    },
+    {
+      "id": "crush:direct:1",
+      "text": "صحيح، وإعجابي فيك يزيد مع الوقت.",
+      "tone": "direct",
+      "situationId": "crush"
+    },
+    {
+      "id": "love:soft:0",
+      "text": "يا زين كلامك، يسعدني قربك.",
+      "tone": "soft",
+      "situationId": "love"
+    },
+    {
+      "id": "love:soft:1",
+      "text": "كلامك غالٍ عندي.",
+      "tone": "soft",
+      "situationId": "love"
+    },
+    {
+      "id": "love:sweet:0",
+      "text": "يا حظ قلبي بهالكلام الحلو.",
+      "tone": "sweet",
+      "situationId": "love"
+    },
+    {
+      "id": "love:sweet:1",
+      "text": "كلمتك اليوم خلتني أبتسم.",
+      "tone": "sweet",
+      "situationId": "love"
+    },
+    {
+      "id": "love:direct:0:early",
+      "text": "كلامك أسعدني، وأنا مهتم أعرفك أكثر.",
+      "tone": "direct",
+      "situationId": "love"
+    },
+    {
+      "id": "love:direct:1:early",
+      "text": "أقدّر صراحتك، وودي نأخذ وقتنا ونتعرف على بعض.",
+      "tone": "direct",
+      "situationId": "love"
+    },
+    {
+      "id": "love:direct:0:mutual",
+      "text": "أنتِ تعنين لي كثير، وودي نتكلم عن اللي بيننا براحتنا.",
+      "tone": "direct",
+      "situationId": "love"
+    },
+    {
+      "id": "love:direct:1:mutual",
+      "text": "أنا بعد عندي مشاعر لك وأقدّر صراحتك.",
+      "tone": "direct",
+      "situationId": "love"
+    },
+    {
+      "id": "love:direct:0",
+      "text": "وأنا أحبك وأقدّر وجودك بحياتي.",
+      "tone": "direct",
+      "situationId": "love"
+    },
+    {
+      "id": "love:direct:1",
+      "text": "أحبك وودي أوريك هالشي بأفعالي.",
+      "tone": "direct",
+      "situationId": "love"
+    },
+    {
+      "id": "love:direct:0:serious",
+      "text": "وأنا أحبك، وأقدّر كل اللي نبنيه مع بعض.",
+      "tone": "direct",
+      "situationId": "love"
+    },
+    {
+      "id": "love:direct:1:serious",
+      "text": "أحبك، وأبيك تحسين فيها بتصرفاتي معك كل يوم.",
+      "tone": "direct",
+      "situationId": "love"
+    },
+    {
+      "id": "why:soft:0",
+      "text": "لأن أسلوبك مريح وتفكيرك يعجبني.",
+      "tone": "soft",
+      "situationId": "why"
+    },
+    {
+      "id": "why:soft:1",
+      "text": "لأنك على طبيعتك معي.",
+      "tone": "soft",
+      "situationId": "why"
+    },
+    {
+      "id": "why:sweet:0",
+      "text": "لأن ضحكتك وسوالفك تعدّل يومي.",
+      "tone": "sweet",
+      "situationId": "why"
+    },
+    {
+      "id": "why:sweet:1",
+      "text": "لأن فيك عفوية حلوة.",
+      "tone": "sweet",
+      "situationId": "why"
+    },
+    {
+      "id": "why:direct:0",
+      "text": "كل مرة أعرفك أكثر ألقى شي جديد يعجبني.",
+      "tone": "direct",
+      "situationId": "why"
+    },
+    {
+      "id": "why:direct:1",
+      "text": "لأنك تخلين أبسط وقت بيننا مميز.",
+      "tone": "direct",
+      "situationId": "why"
+    },
+    {
+      "id": "voice:soft:0",
+      "text": "صوتك حلو، أستانس بسوالفك.",
+      "tone": "soft",
+      "situationId": "voice"
+    },
+    {
+      "id": "voice:soft:1",
+      "text": "يا زين حماسك وأنتِ تسولفين.",
+      "tone": "soft",
+      "situationId": "voice"
+    },
+    {
+      "id": "voice:sweet:0",
+      "text": "التسجيل ذا عدّل يومي.",
+      "tone": "sweet",
+      "situationId": "voice"
+    },
+    {
+      "id": "voice:sweet:1",
+      "text": "يا حلو ضحكتك بالتسجيل.",
+      "tone": "sweet",
+      "situationId": "voice"
+    },
+    {
+      "id": "voice:direct:0",
+      "text": "ودي نكمل السالفة بمكالمة إذا يناسبك.",
+      "tone": "direct",
+      "situationId": "voice"
+    },
+    {
+      "id": "voice:direct:1",
+      "text": "صوتك يخلي أبسط سالفة ممتعة.",
+      "tone": "direct",
+      "situationId": "voice"
+    },
+    {
+      "id": "bored:soft:0",
+      "text": "وش رايك نسولف شوي؟",
+      "tone": "soft",
+      "situationId": "bored"
+    },
+    {
+      "id": "bored:soft:1",
+      "text": "عندي سؤال غريب لك، مستعدة؟",
+      "tone": "soft",
+      "situationId": "bored"
+    },
+    {
+      "id": "bored:sweet:0",
+      "text": "تعالي نغيّر الجو بسوالف حلوة.",
+      "tone": "sweet",
+      "situationId": "bored"
+    },
+    {
+      "id": "bored:sweet:1",
+      "text": "يا زين فرصة أسولف معك.",
+      "tone": "sweet",
+      "situationId": "bored"
+    },
+    {
+      "id": "bored:direct:0",
+      "text": "إذا يناسبك نسوي مكالمة قصيرة.",
+      "tone": "direct",
+      "situationId": "bored"
+    },
+    {
+      "id": "bored:direct:1",
+      "text": "ودي أسمع صوتك ونطرد الطفش سوا.",
+      "tone": "direct",
+      "situationId": "bored"
+    },
+    {
+      "id": "cold:soft:0",
+      "text": "أحسك مشغولة، نتكلم بعدين.",
+      "tone": "soft",
+      "situationId": "cold"
+    },
+    {
+      "id": "cold:soft:1",
+      "text": "عسى أمورك طيبة.",
+      "tone": "soft",
+      "situationId": "cold"
+    },
+    {
+      "id": "cold:sweet:0",
+      "text": "أهم شي تكونين بخير، خذي راحتك.",
+      "tone": "sweet",
+      "situationId": "cold"
+    },
+    {
+      "id": "cold:sweet:1",
+      "text": "ودي أسولف معك، بس براحتك.",
+      "tone": "sweet",
+      "situationId": "cold"
+    },
+    {
+      "id": "cold:direct:0",
+      "text": "لاحظت كلامنا مختصر اليوم، كل شي تمام؟",
+      "tone": "direct",
+      "situationId": "cold"
+    },
+    {
+      "id": "cold:direct:1",
+      "text": "إذا فيه شي ضايقك مني، ودي أفهم.",
+      "tone": "direct",
+      "situationId": "cold"
+    },
+    {
+      "id": "upset:soft:0",
+      "text": "ودي أفهم وش اللي ضايقك مني.",
+      "tone": "soft",
+      "situationId": "upset"
+    },
+    {
+      "id": "upset:soft:1",
+      "text": "قولي لي وش صار من وجهة نظرك.",
+      "tone": "soft",
+      "situationId": "upset"
+    },
+    {
+      "id": "upset:sweet:0",
+      "text": "مكانتك عندي كبيرة ويهمني زعلك.",
+      "tone": "sweet",
+      "situationId": "upset"
+    },
+    {
+      "id": "upset:sweet:1",
+      "text": "أبي نتفاهم ونصلح اللي صار.",
+      "tone": "sweet",
+      "situationId": "upset"
+    },
+    {
+      "id": "upset:direct:0",
+      "text": "إذا غلطت بحقك فأنا أعتذر.",
+      "tone": "direct",
+      "situationId": "upset"
+    },
+    {
+      "id": "upset:direct:1",
+      "text": "أبي أفهم أثر تصرفي وأصلح خطئي.",
+      "tone": "direct",
+      "situationId": "upset"
+    },
+    {
+      "id": "night:soft:0",
+      "text": "وأنتِ من أهله، نوم العوافي.",
+      "tone": "soft",
+      "situationId": "night"
+    },
+    {
+      "id": "night:soft:1",
+      "text": "تصبحين على خير وراحة بال.",
+      "tone": "soft",
+      "situationId": "night"
+    },
+    {
+      "id": "night:sweet:0",
+      "text": "وأنتِ من أهل الخير يا حلوة.",
+      "tone": "sweet",
+      "situationId": "night"
+    },
+    {
+      "id": "night:sweet:1",
+      "text": "عسى أحلامك كلها تفرح قلبك.",
+      "tone": "sweet",
+      "situationId": "night"
+    },
+    {
+      "id": "night:direct:0",
+      "text": "تصبحين على خير، اليوم كان أحلى بسوالفك.",
+      "tone": "direct",
+      "situationId": "night"
+    },
+    {
+      "id": "night:direct:1",
+      "text": "ودي أسمع صباح الخير منك بكرة.",
+      "tone": "direct",
+      "situationId": "night"
+    },
+    {
+      "id": "morning:soft:0",
+      "text": "صباح الخير، عسى يومك جميل.",
+      "tone": "soft",
+      "situationId": "morning"
+    },
+    {
+      "id": "morning:soft:1",
+      "text": "صباحك راحة وأخبار حلوة.",
+      "tone": "soft",
+      "situationId": "morning"
+    },
+    {
+      "id": "morning:sweet:0",
+      "text": "صباحك يشبه ضحكتك، حلو وخفيف.",
+      "tone": "sweet",
+      "situationId": "morning"
+    },
+    {
+      "id": "morning:sweet:1",
+      "text": "يا زين الصباح إذا بدأ بطاريك.",
+      "tone": "sweet",
+      "situationId": "morning"
+    },
+    {
+      "id": "morning:direct:0",
+      "text": "أحب أبدأ يومي وأنا أطمن عليك.",
+      "tone": "direct",
+      "situationId": "morning"
+    },
+    {
+      "id": "morning:direct:1",
+      "text": "ودي يكون أول صوت أسمعه صوتك.",
+      "tone": "direct",
+      "situationId": "morning"
+    },
+    {
+      "id": "chat:soft:0",
+      "text": "وش أحلى شي صار بيومك؟",
+      "tone": "soft",
+      "situationId": "chat"
+    },
+    {
+      "id": "chat:soft:1",
+      "text": "لو عندك يوم فاضي وش بتسوين؟",
+      "tone": "soft",
+      "situationId": "chat"
+    },
+    {
+      "id": "chat:sweet:0",
+      "text": "عندي سؤال لصاحبة أحلى سوالف.",
+      "tone": "sweet",
+      "situationId": "chat"
+    },
+    {
+      "id": "chat:sweet:1",
+      "text": "تذكرتك بموقف اليوم، تبين أقولك؟",
+      "tone": "sweet",
+      "situationId": "chat"
+    },
+    {
+      "id": "chat:direct:0",
+      "text": "ودي أعرف وش الشي اللي يحمسك هالفترة.",
+      "tone": "direct",
+      "situationId": "chat"
+    },
+    {
+      "id": "chat:direct:1",
+      "text": "وش رايك نسولف الليلة إذا يناسبك؟",
+      "tone": "direct",
+      "situationId": "chat"
+    },
+    {
+      "id": "flirt:soft:0",
+      "text": "أحب عفويتك وسوالفك.",
+      "tone": "soft",
+      "situationId": "flirt"
+    },
+    {
+      "id": "flirt:soft:1",
+      "text": "ضحكتك تعدّل المزاج.",
+      "tone": "soft",
+      "situationId": "flirt"
+    },
+    {
+      "id": "flirt:sweet:0:early",
+      "text": "يا زين خفة دمك، السوالف معك ما تنمل.",
+      "tone": "sweet",
+      "situationId": "flirt"
+    },
+    {
+      "id": "flirt:sweet:1:early",
+      "text": "عفويتك حلوة وتخلّي الكلام معك سهل.",
+      "tone": "sweet",
+      "situationId": "flirt"
+    },
+    {
+      "id": "flirt:direct:0",
+      "text": "فيك جاذبية حتى بطريقة تفكيرك.",
+      "tone": "direct",
+      "situationId": "flirt"
+    },
+    {
+      "id": "flirt:direct:1",
+      "text": "حضورك يلفتني بدون ما تحاولين.",
+      "tone": "direct",
+      "situationId": "flirt"
+    },
+    {
+      "id": "flirt:sweet:0",
+      "text": "يا زينك ويا زين هالروح.",
+      "tone": "sweet",
+      "situationId": "flirt"
+    },
+    {
+      "id": "flirt:sweet:1",
+      "text": "وش هالحلا اللي كل يوم يزيد؟",
+      "tone": "sweet",
+      "situationId": "flirt"
+    },
+    {
+      "id": "flirt:sweet:0:love",
+      "text": "يا حلو ضحكتك، أحب اللحظة اللي أسمعها فيها.",
+      "tone": "sweet",
+      "situationId": "flirt"
+    },
+    {
+      "id": "flirt:sweet:1:love",
+      "text": "كل ما طرى اسمك ابتسمت من غير ما أحس.",
+      "tone": "sweet",
+      "situationId": "flirt"
+    },
+    {
+      "id": "flirt:direct:0:serious",
+      "text": "أحب فيك طريقتك اللي تخلّين فيها أيامنا العادية حلوة.",
+      "tone": "direct",
+      "situationId": "flirt"
+    },
+    {
+      "id": "flirt:direct:1:serious",
+      "text": "كل يوم معك ألاحظ شي جديد أحبه فيك.",
+      "tone": "direct",
+      "situationId": "flirt"
+    },
+    {
+      "id": "hint:soft:0",
+      "text": "أستانس معك أكثر مما تتوقعين.",
+      "tone": "soft",
+      "situationId": "hint"
+    },
+    {
+      "id": "hint:soft:1",
+      "text": "فيك شي يخليني أبي أعرفك أكثر.",
+      "tone": "soft",
+      "situationId": "hint"
+    },
+    {
+      "id": "hint:sweet:0",
+      "text": "صرتِ سبب ابتسامتي بدون ما تدرين.",
+      "tone": "sweet",
+      "situationId": "hint"
+    },
+    {
+      "id": "hint:sweet:1",
+      "text": "يا زين اللي يحلّي الوقت وهو ما يدري.",
+      "tone": "sweet",
+      "situationId": "hint"
+    },
+    {
+      "id": "hint:direct:0",
+      "text": "بصراحة أنتِ تعجبيني وودي أعرفك أكثر.",
+      "tone": "direct",
+      "situationId": "hint"
+    },
+    {
+      "id": "hint:direct:1",
+      "text": "كل ما عرفتك أكثر زاد إعجابي فيك.",
+      "tone": "direct",
+      "situationId": "hint"
+    },
+    {
+      "id": "confess:soft:0",
+      "text": "أحس بيننا تقارب حلو وأبي أعرف رأيك.",
+      "tone": "soft",
+      "situationId": "confess"
+    },
+    {
+      "id": "confess:soft:1",
+      "text": "ارتحت لك أكثر من المعتاد.",
+      "tone": "soft",
+      "situationId": "confess"
+    },
+    {
+      "id": "confess:sweet:0",
+      "text": "صرتِ شخص مميز عندي.",
+      "tone": "sweet",
+      "situationId": "confess"
+    },
+    {
+      "id": "confess:sweet:1",
+      "text": "وجودك صار يعني لي أكثر من قبل.",
+      "tone": "sweet",
+      "situationId": "confess"
+    },
+    {
+      "id": "confess:direct:0:early",
+      "text": "بصراحة أنتِ تعجبيني، وإذا يناسبك ودي أعرفك أكثر.",
+      "tone": "direct",
+      "situationId": "confess"
+    },
+    {
+      "id": "confess:direct:1:early",
+      "text": "ارتحت لك وودي نتعرف أكثر، وخذي راحتك بالرد.",
+      "tone": "direct",
+      "situationId": "confess"
+    },
+    {
+      "id": "confess:direct:0",
+      "text": "أنا معجب فيك وودي نكمل نتعرف على بعض.",
+      "tone": "direct",
+      "situationId": "confess"
+    },
+    {
+      "id": "confess:direct:1",
+      "text": "مشاعري تجاهك قاعدة تكبر وأبي أكون واضح.",
+      "tone": "direct",
+      "situationId": "confess"
+    },
+    {
+      "id": "confess:direct:0:love",
+      "text": "أبي أقولها بوضوح، أحبك وأقدّر اللي بيننا.",
+      "tone": "direct",
+      "situationId": "confess"
+    },
+    {
+      "id": "confess:direct:1:love",
+      "text": "عندي مشاعر واضحة لك، وودي أعبّر عنها أكثر.",
+      "tone": "direct",
+      "situationId": "confess"
+    },
+    {
+      "id": "confess:direct:0:serious",
+      "text": "أحبك وأقدّر علاقتنا، وودي أقولها لك أكثر.",
+      "tone": "direct",
+      "situationId": "confess"
+    },
+    {
+      "id": "confess:direct:1:serious",
+      "text": "أنا ممتن لوجودك معي وأبي أعبّر لك عن هالشي بصراحة.",
+      "tone": "direct",
+      "situationId": "confess"
+    },
+    {
+      "id": "missing:soft:0",
+      "text": "فقدت سوالفك اليوم، وش أخبارك؟",
+      "tone": "soft",
+      "situationId": "missing"
+    },
+    {
+      "id": "missing:soft:1",
+      "text": "تذكرت موقف بيننا وابتسمت.",
+      "tone": "soft",
+      "situationId": "missing"
+    },
+    {
+      "id": "missing:sweet:0",
+      "text": "يا زينك، حتى الغيبة تخلي سوالفك أغلى.",
+      "tone": "sweet",
+      "situationId": "missing"
+    },
+    {
+      "id": "missing:sweet:1",
+      "text": "أحس يومي ناقصه سوالفك.",
+      "tone": "sweet",
+      "situationId": "missing"
+    },
+    {
+      "id": "missing:direct:0:early",
+      "text": "فقدت سوالفك، ودي نسولف إذا عندك وقت.",
+      "tone": "direct",
+      "situationId": "missing"
+    },
+    {
+      "id": "missing:direct:1:early",
+      "text": "طريتي على بالي اليوم وحبيت أقول إني مشتاق للسوالف.",
+      "tone": "direct",
+      "situationId": "missing"
+    },
+    {
+      "id": "missing:direct:0",
+      "text": "اشتقت لك وودي أشوفك قريب.",
+      "tone": "direct",
+      "situationId": "missing"
+    },
+    {
+      "id": "missing:direct:1",
+      "text": "صرت أفتقد وجودك أكثر مما توقعت.",
+      "tone": "direct",
+      "situationId": "missing"
+    },
+    {
+      "id": "missing:soft:0:serious",
+      "text": "فقدت قعدتنا اليوم، عسى يومك حلو.",
+      "tone": "soft",
+      "situationId": "missing"
+    },
+    {
+      "id": "missing:soft:1:serious",
+      "text": "اشتقت لك، وش صار معك اليوم؟",
+      "tone": "soft",
+      "situationId": "missing"
+    },
+    {
+      "id": "meet:soft:0",
+      "text": "وش رايك نطلع قهوة إذا يناسبك؟",
+      "tone": "soft",
+      "situationId": "meet"
+    },
+    {
+      "id": "meet:soft:1",
+      "text": "ودي نشوف بعض ونسولف.",
+      "tone": "soft",
+      "situationId": "meet"
+    },
+    {
+      "id": "meet:sweet:0:early",
+      "text": "سوالفك تنحب، وش رايك نكملها على قهوة إذا يناسبك؟",
+      "tone": "sweet",
+      "situationId": "meet"
+    },
+    {
+      "id": "meet:sweet:1:early",
+      "text": "ودي نسولف وجه لوجه، إذا الفكرة تريحك.",
+      "tone": "sweet",
+      "situationId": "meet"
+    },
+    {
+      "id": "meet:direct:0",
+      "text": "مبسوط بمعرفتك وودي أشوفك.",
+      "tone": "direct",
+      "situationId": "meet"
+    },
+    {
+      "id": "meet:direct:1",
+      "text": "إذا مرتاحة للفكرة نرتب لقاء قريب.",
+      "tone": "direct",
+      "situationId": "meet"
+    },
+    {
+      "id": "meet:sweet:0",
+      "text": "ودي أشوف هالضحكة قدامي قريب.",
+      "tone": "sweet",
+      "situationId": "meet"
+    },
+    {
+      "id": "meet:sweet:1",
+      "text": "أحس قهوتنا الجاية بتكون مليانة سوالف.",
+      "tone": "sweet",
+      "situationId": "meet"
+    },
+    {
+      "id": "meet:direct:0:serious",
+      "text": "ودي نطلع سوا هالأسبوع، أي يوم يناسبك؟",
+      "tone": "direct",
+      "situationId": "meet"
+    },
+    {
+      "id": "meet:direct:1:serious",
+      "text": "خلّينا نرتّب لنا وقت نسولف فيه، وش يناسبك؟",
+      "tone": "direct",
+      "situationId": "meet"
+    },
+    {
+      "id": "support:soft:0",
+      "text": "عسى يومك يخف عليك، كيفك الحين؟",
+      "tone": "soft",
+      "situationId": "support"
+    },
+    {
+      "id": "support:soft:1",
+      "text": "إذا ودك تفضفضين أنا أسمعك.",
+      "tone": "soft",
+      "situationId": "support"
+    },
+    {
+      "id": "support:sweet:0",
+      "text": "سلامة قلبك، يا عسى تعبك يهون.",
+      "tone": "sweet",
+      "situationId": "support"
+    },
+    {
+      "id": "support:sweet:1",
+      "text": "أهم شي عندي تكونين بخير.",
+      "tone": "sweet",
+      "situationId": "support"
+    },
+    {
+      "id": "support:direct:0",
+      "text": "أبي أساعدك لو فيه شي أقدر أسويه.",
+      "tone": "direct",
+      "situationId": "support"
+    },
+    {
+      "id": "support:direct:1",
+      "text": "تبيني أسمعك ولا نفكر بحل سوا؟",
+      "tone": "direct",
+      "situationId": "support"
+    },
+    {
+      "id": "thanks:soft:0",
+      "text": "أقدّر طيبتك واهتمامك.",
+      "tone": "soft",
+      "situationId": "thanks"
+    },
+    {
+      "id": "thanks:soft:1",
+      "text": "شكرًا لأنك سمعتيني اليوم.",
+      "tone": "soft",
+      "situationId": "thanks"
+    },
+    {
+      "id": "thanks:sweet:0",
+      "text": "يا زين قلبك واهتمامك بالتفاصيل.",
+      "tone": "sweet",
+      "situationId": "thanks"
+    },
+    {
+      "id": "thanks:sweet:1",
+      "text": "يسعدني وجود أشخاص مثلك بحياتي.",
+      "tone": "sweet",
+      "situationId": "thanks"
+    },
+    {
+      "id": "thanks:direct:0",
+      "text": "وجودك فرق معي وأنا ممتن لك.",
+      "tone": "direct",
+      "situationId": "thanks"
+    },
+    {
+      "id": "thanks:direct:1",
+      "text": "أحب إننا نكون على طبيعتنا مع بعض.",
+      "tone": "direct",
+      "situationId": "thanks"
+    },
+    {
+      "id": "sorry:soft:0",
+      "text": "آسف على أسلوبي، كان المفروض أكون أهدأ.",
+      "tone": "soft",
+      "situationId": "sorry"
+    },
+    {
+      "id": "sorry:soft:1",
+      "text": "أعتذر عن اللي بدر مني.",
+      "tone": "soft",
+      "situationId": "sorry"
+    },
+    {
+      "id": "sorry:sweet:0",
+      "text": "يهمني شعورك وآسف إني ضايقتك.",
+      "tone": "sweet",
+      "situationId": "sorry"
+    },
+    {
+      "id": "sorry:sweet:1",
+      "text": "ما أبي أستخف بزعلك، وأقدّر صراحتك.",
+      "tone": "sweet",
+      "situationId": "sorry"
+    },
+    {
+      "id": "sorry:direct:0",
+      "text": "أنا أخطأت في كلامي وأعتذر بوضوح.",
+      "tone": "direct",
+      "situationId": "sorry"
+    },
+    {
+      "id": "sorry:direct:1",
+      "text": "أفهم سبب زعلك وبحرص ما يتكرر.",
+      "tone": "direct",
+      "situationId": "sorry"
+    },
+    {
+      "id": "misunderstand:soft:0",
+      "text": "أحس صار سوء فهم، ودي نوضحه.",
+      "tone": "soft",
+      "situationId": "misunderstand"
+    },
+    {
+      "id": "misunderstand:soft:1",
+      "text": "يمكن ما وصلت قصدي صح.",
+      "tone": "soft",
+      "situationId": "misunderstand"
+    },
+    {
+      "id": "misunderstand:sweet:0",
+      "text": "يهمني إننا نفهم بعض حتى لو اختلفنا.",
+      "tone": "sweet",
+      "situationId": "misunderstand"
+    },
+    {
+      "id": "misunderstand:sweet:1",
+      "text": "ما أبي اللي صار يخلينا نتجنب الكلام.",
+      "tone": "sweet",
+      "situationId": "misunderstand"
+    },
+    {
+      "id": "misunderstand:direct:0",
+      "text": "أبي أسمع كيف فهمتي كلامي.",
+      "tone": "direct",
+      "situationId": "misunderstand"
+    },
+    {
+      "id": "misunderstand:direct:1",
+      "text": "إذا أسلوبي جرحك، أنا أعتذر.",
+      "tone": "direct",
+      "situationId": "misunderstand"
+    },
+    {
+      "id": "space:soft:0",
+      "text": "أكيد، خذي راحتك وأحترم رغبتك.",
+      "tone": "soft",
+      "situationId": "space"
+    },
+    {
+      "id": "space:soft:1",
+      "text": "أتفهم حاجتك لوقت لنفسك.",
+      "tone": "soft",
+      "situationId": "space"
+    },
+    {
+      "id": "space:sweet:0",
+      "text": "راحتك تهمني، خذي مساحتك.",
+      "tone": "sweet",
+      "situationId": "space"
+    },
+    {
+      "id": "space:sweet:1",
+      "text": "أقدّر صراحتك وأحترم طلبك.",
+      "tone": "sweet",
+      "situationId": "space"
+    },
+    {
+      "id": "space:direct:0:early",
+      "text": "أحترم طلبك، وبعطيك مساحتك.",
+      "tone": "direct",
+      "situationId": "space"
+    },
+    {
+      "id": "space:direct:1:early",
+      "text": "وصل طلبك، وبوقف التواصل.",
+      "tone": "direct",
+      "situationId": "space"
+    },
+    {
+      "id": "space:direct:0",
+      "text": "وصلتني رغبتك وراح أحترمها.",
+      "tone": "direct",
+      "situationId": "space"
+    },
+    {
+      "id": "space:direct:1",
+      "text": "ما راح أضغط عليك أو أكرر التواصل.",
+      "tone": "direct",
+      "situationId": "space"
+    },
+    {
+      "id": "fading:soft:0",
+      "text": "أحس سوالفنا قلت، عسى كل شي طيب؟",
+      "tone": "soft",
+      "situationId": "fading"
+    },
+    {
+      "id": "fading:soft:1",
+      "text": "ودي أطمن عليك، كيف أمورك؟",
+      "tone": "soft",
+      "situationId": "fading"
+    },
+    {
+      "id": "fading:sweet:0",
+      "text": "فقدت سوالفنا وأتمنى تكونين بخير.",
+      "tone": "sweet",
+      "situationId": "fading"
+    },
+    {
+      "id": "fading:sweet:1",
+      "text": "يهمني أعرف كيف تحسين تجاه تواصلنا.",
+      "tone": "sweet",
+      "situationId": "fading"
+    },
+    {
+      "id": "fading:direct:0",
+      "text": "لاحظت تغيير بالتواصل وأبي أفهم سببه.",
+      "tone": "direct",
+      "situationId": "fading"
+    },
+    {
+      "id": "fading:direct:1",
+      "text": "إذا تغير شعورك أفضل نكون واضحين.",
+      "tone": "direct",
+      "situationId": "fading"
+    },
+    {
+      "id": "jealous:soft:0",
+      "text": "ودي أشاركك شعور صار عندي بدون لوم.",
+      "tone": "soft",
+      "situationId": "jealous"
+    },
+    {
+      "id": "jealous:soft:1",
+      "text": "يمكن أنا فهمت الموقف غلط.",
+      "tone": "soft",
+      "situationId": "jealous"
+    },
+    {
+      "id": "jealous:sweet:0:early",
+      "text": "أقدّر إني أقدر أتكلم معك بصراحة، وحبيت أشرح وش حسّيت.",
+      "tone": "sweet",
+      "situationId": "jealous"
+    },
+    {
+      "id": "jealous:sweet:1:early",
+      "text": "يهمني نفهم الموقف بهدوء، ويمكن أنا فهمته بطريقة ثانية.",
+      "tone": "sweet",
+      "situationId": "jealous"
+    },
+    {
+      "id": "jealous:direct:0",
+      "text": "حسيت بالغيرة بس ما أبي أحملك مسؤوليتها.",
+      "tone": "direct",
+      "situationId": "jealous"
+    },
+    {
+      "id": "jealous:direct:1",
+      "text": "ودي نفهم توقعاتنا وحدودنا باحترام.",
+      "tone": "direct",
+      "situationId": "jealous"
+    },
+    {
+      "id": "jealous:sweet:0",
+      "text": "أنتِ غالية عندي وأبي أتعامل مع غيرتي بنضج.",
+      "tone": "sweet",
+      "situationId": "jealous"
+    },
+    {
+      "id": "jealous:sweet:1",
+      "text": "أقدّر ثقتنا وأبي نحافظ عليها.",
+      "tone": "sweet",
+      "situationId": "jealous"
+    },
+    {
+      "id": "stress:soft:0",
+      "text": "ودك تتكلمين عن اللي مضايقك؟",
+      "tone": "soft",
+      "situationId": "stress"
+    },
+    {
+      "id": "stress:soft:1",
+      "text": "خذي راحتك، أنا أسمعك.",
+      "tone": "soft",
+      "situationId": "stress"
+    },
+    {
+      "id": "stress:sweet:0",
+      "text": "يا عسى هالتعب يخف عليك.",
+      "tone": "sweet",
+      "situationId": "stress"
+    },
+    {
+      "id": "stress:sweet:1",
+      "text": "ودي أخفف عنك ولو بشي بسيط.",
+      "tone": "sweet",
+      "situationId": "stress"
+    },
+    {
+      "id": "stress:direct:0",
+      "text": "تبيني أسمعك بس ولا نبحث عن حل؟",
+      "tone": "direct",
+      "situationId": "stress"
+    },
+    {
+      "id": "stress:direct:1",
+      "text": "إذا فيه مساعدة عملية أقدر أسويها قولي.",
+      "tone": "direct",
+      "situationId": "stress"
+    },
+    {
+      "id": "reject:soft:0",
+      "text": "أقدّر صراحتك وأحترم شعورك.",
+      "tone": "soft",
+      "situationId": "reject"
+    },
+    {
+      "id": "reject:soft:1",
+      "text": "شكرًا على الوضوح وأتمنى لك الخير.",
+      "tone": "soft",
+      "situationId": "reject"
+    },
+    {
+      "id": "reject:sweet:0",
+      "text": "مع إن عندي مشاعر، أحترم اختيارك.",
+      "tone": "sweet",
+      "situationId": "reject"
+    },
+    {
+      "id": "reject:sweet:1",
+      "text": "سعيد إني عرفتك وأتمنى لك كل خير.",
+      "tone": "sweet",
+      "situationId": "reject"
+    },
+    {
+      "id": "reject:direct:0",
+      "text": "وصلت فكرتك وأحترم قرارك بالكامل.",
+      "tone": "direct",
+      "situationId": "reject"
+    },
+    {
+      "id": "reject:direct:1",
+      "text": "أحتاج وقت لنفسي وبحترم حدودك.",
+      "tone": "direct",
+      "situationId": "reject"
+    },
+    {
+      "id": "first:soft:0",
+      "text": "الحمد لله على السلامة، كيف كان مشوارك؟",
+      "tone": "soft",
+      "situationId": "first"
+    },
+    {
+      "id": "first:soft:1",
+      "text": "مبسوط إني شفتك اليوم.",
+      "tone": "soft",
+      "situationId": "first"
+    },
+    {
+      "id": "first:sweet:0",
+      "text": "يا زين هاللقاء أخيرًا.",
+      "tone": "sweet",
+      "situationId": "first"
+    },
+    {
+      "id": "first:sweet:1",
+      "text": "أحلى شي إننا نسولف قدام بعض.",
+      "tone": "sweet",
+      "situationId": "first"
+    },
+    {
+      "id": "first:direct:0",
+      "text": "أستانس بكلامنا وودي أعرفك أكثر.",
+      "tone": "direct",
+      "situationId": "first"
+    },
+    {
+      "id": "first:direct:1",
+      "text": "ودي نخلي هاللقاء ذكرى حلوة.",
+      "tone": "direct",
+      "situationId": "first"
+    },
+    {
+      "id": "busy:soft:0",
+      "text": "الله يعينك على أشغالك، نسولف بعدين.",
+      "tone": "soft",
+      "situationId": "busy"
+    },
+    {
+      "id": "busy:soft:1",
+      "text": "خذي وقتك وركزي على اللي عندك.",
+      "tone": "soft",
+      "situationId": "busy"
+    },
+    {
+      "id": "busy:sweet:0",
+      "text": "عسى زحمتك تخف، فقدت سوالفك.",
+      "tone": "sweet",
+      "situationId": "busy"
+    },
+    {
+      "id": "busy:sweet:1",
+      "text": "أهم شي تكونين مرتاحة.",
+      "tone": "sweet",
+      "situationId": "busy"
+    },
+    {
+      "id": "busy:direct:0",
+      "text": "خلينا نختار وقت يناسبنا الاثنين.",
+      "tone": "direct",
+      "situationId": "busy"
+    },
+    {
+      "id": "busy:direct:1",
+      "text": "أحب تواصلنا وأتفهم ضغط يومك.",
+      "tone": "direct",
+      "situationId": "busy"
+    },
+    {
+      "id": "bounds:soft:0",
+      "text": "فيه موضوع ودي نتفاهم عنه بهدوء.",
+      "tone": "soft",
+      "situationId": "bounds"
+    },
+    {
+      "id": "bounds:soft:1",
+      "text": "أبي أوضح شي يخليني مرتاح بالتواصل.",
+      "tone": "soft",
+      "situationId": "bounds"
+    },
+    {
+      "id": "bounds:sweet:0",
+      "text": "يهمني نكون مرتاحين وصريحين.",
+      "tone": "sweet",
+      "situationId": "bounds"
+    },
+    {
+      "id": "bounds:sweet:1",
+      "text": "ودي نفهم حدود بعض ونحترمها.",
+      "tone": "sweet",
+      "situationId": "bounds"
+    },
+    {
+      "id": "bounds:direct:0",
+      "text": "أنا مو مرتاح لهالشي وأبي أوضحه.",
+      "tone": "direct",
+      "situationId": "bounds"
+    },
+    {
+      "id": "bounds:direct:1",
+      "text": "خلينا نتفق على تواصل يناسبنا.",
+      "tone": "direct",
+      "situationId": "bounds"
+    },
+    {
+      "id": "again:soft:0",
+      "text": "هلا، كيف حالك؟ تذكرتك وحبيت أطمن.",
+      "tone": "soft",
+      "situationId": "again"
+    },
+    {
+      "id": "again:soft:1",
+      "text": "مر وقت، عسى أمورك بخير.",
+      "tone": "soft",
+      "situationId": "again"
+    },
+    {
+      "id": "again:sweet:0",
+      "text": "يا زين أخبارك، طريتي على بالي اليوم.",
+      "tone": "sweet",
+      "situationId": "again"
+    },
+    {
+      "id": "again:sweet:1",
+      "text": "مرت فترة وحبيت أقول عسى أيامك حلوة.",
+      "tone": "sweet",
+      "situationId": "again"
+    },
+    {
+      "id": "again:direct:0",
+      "text": "إذا يناسبك ودي نرجع نسولف.",
+      "tone": "direct",
+      "situationId": "again"
+    },
+    {
+      "id": "again:direct:1",
+      "text": "كنت أستانس بتواصلنا، وحبيت أسأل عنك.",
+      "tone": "direct",
+      "situationId": "again"
+    }
+  ],
+  "storageKeys": [
+    "wesh-ard:favorites:v1"
+  ]
+}

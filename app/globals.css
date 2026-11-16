@@ -336,3 +336,14 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* V2 filters keep the basic journey short. */
+.choice-group > label { display: block; font-weight: 600; margin-block-end: 10px; }
+select { width: 100%; max-width: 520px; min-height: 48px; padding: 10px 14px; border: 1px solid var(--border); border-radius: 12px; color: var(--ink); background: white; font: inherit; }
+select:focus-visible, summary:focus-visible { outline: 2px solid var(--burgundy); outline-offset: 3px; }
+.advanced-options { border: 1px solid var(--border); border-radius: 14px; padding: 14px; }
+.advanced-options summary { cursor: pointer; min-height: 44px; font-weight: 600; }
+.advanced-options .choice-group { margin-top: 18px; }
+.response-text { overflow-wrap: anywhere; white-space: pre-wrap; }
+button:disabled { opacity: .55; cursor: wait; }
+.notice { overflow-wrap: anywhere; }

@@ -1,0 +1,12 @@
+import { mkdirSync, writeFileSync } from "node:fs";
+import { validateContent, ROUTE_TARGETS } from "../lib/validation/content";
+const report = validateContent(undefined, process.argv.includes("--release"));
+const timestamp = new Date().toISOString();
+mkdirSync("reports", { recursive: true });
+mkdirSync("docs", { recursive: true });
+writeFileSync("reports/content-validation.json", JSON.stringify({ generatedAt: timestamp, ...report }, null, 2) + "\n");
+writeFileSync("reports/content-validation.md", `# Content validation\n\nGenerated: ${timestamp}\n\nMode: ${report.mode}\nValid: ${report.valid}\nV2 complete: ${report.releaseComplete}\nSituations: ${report.situations}/320\nResponses: ${report.responses}/2560\nUnique normalized texts: ${report.uniqueTexts}\n\n## Errors\n\n${report.errors.join("\n") || "None"}\n\n## Warnings\n\n${report.warnings.join("\n") || "None"}\n\n## Tone counts (multi-label)\n\n${Object.entries(report.tones).map(([t,n]) => `- ${t}: ${n}`).join("\n")}\n\nSee JSON for all similarity candidates.\n`);
+writeFileSync("content/progress.json", JSON.stringify({ version: 2, targetSituations: 320, targetResponses: 2560, completedSituations: report.situations, completedResponses: report.responses, uniqueTexts: report.uniqueTexts, completedRoutes: Object.entries(report.routes).filter(([r,n]) => n === ROUTE_TARGETS[r as keyof typeof ROUTE_TARGETS]).map(([r]) => r), nextBatch: report.nextBatch, generatedAt: timestamp, releaseComplete: report.releaseComplete }, null, 2) + "\n");
+writeFileSync("docs/CONTENT_PROGRESS.md", `# تقدم المحتوى\n\nآخر فحص: ${timestamp}\n\nالمواقف المكتوبة: ${report.situations} من 320.\nالعبارات: ${report.responses}، النصوص الفريدة بعد التطبيع: ${report.uniqueTexts}.\nالعبارات الأصلية المحفوظة: ${report.legacyBaseResponses}.\nمعرّفات النتائج القديمة وقت التشغيل: ${report.legacyRuntimeIds}.\n\nالمرحلة صفر: فحص ونسخة رجوع.\nالمرحلة الأولى: نموذج البيانات ومحرك الترشيح وترحيل المفضلة وإضافة 60 عبارة. راجع STAGE_1_REPORT.md لنتائج الفحوص.\nالمراحل 2–7: لم تنفذ؛ سجل المواقف المطلوب لا يُحتسب محتوى.\n\nالدفعة التالية: ${report.nextBatch.join(", ")}.\nالمتبقي: ${report.remainingSituations.length} موقفًا.\n\nحالة التحقق المرحلي: ${report.valid ? "ناجح" : "فاشل"}.\nاكتمال V2: ${report.releaseComplete ? "نعم" : "لا"}.\n\n${report.warnings.join("\n")}\n`);
+console.log(JSON.stringify({ valid: report.valid, releaseComplete: report.releaseComplete, situations: report.situations, responses: report.responses, errors: report.errors, warnings: report.warnings }, null, 2));
+if (!report.valid) process.exitCode = 1;
