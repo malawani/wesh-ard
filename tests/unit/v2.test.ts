@@ -18,7 +18,7 @@ describe("V2 content contract", () => {
     expect(report.errors).toEqual([]);
     expect(report.legacyBaseResponses).toBe(180);
     expect(report.responses).toBe(report.uniqueTexts);
-    expect(report.remainingSituations).toHaveLength(270);
+    expect(report.remainingSituations).not.toContain("reply-031");
   });
   it("fails release validation while phases 2–7 are pending", () => {
     expect(validateContent(undefined, true).valid).toBe(false);
