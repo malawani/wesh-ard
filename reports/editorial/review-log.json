@@ -1,0 +1,8441 @@
+[
+  {
+    "id": "miss:soft:0",
+    "situationId": "miss",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "وأنا والله فقدت سوالفك.",
+    "finalText": "وأنا والله فقدت سوالفك.",
+    "reason": null,
+    "classificationChanged": [
+      "allowedStages"
+    ],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": "افتقاد سوالف سابقة يفترض تواصلًا سبق أول تواصل، ولا يثبت حبًا متبادلًا."
+  },
+  {
+    "id": "miss:soft:1",
+    "situationId": "miss",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "يا زين رسالتك، وش أخبارك؟",
+    "finalText": "يا زين رسالتك، وش أخبارك؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "miss:sweet:0:early",
+    "situationId": "miss",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "يا زين رسالتك، فقدت سوالفك بعد.",
+    "finalText": "يا زين رسالتك، فقدت سوالفك بعد.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "miss:sweet:1:early",
+    "situationId": "miss",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "ضحكت لما قريت رسالتك، وأنا بعد فقدت السوالف.",
+    "finalText": "ضحكت لما قريت رسالتك، وأنا بعد فقدت السوالف.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "miss:direct:0:early",
+    "situationId": "miss",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "وأنا فقدت سوالفك وودي نكملها قريب.",
+    "finalText": "وأنا فقدت سوالفك وودي نكملها قريب.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "miss:direct:1:early",
+    "situationId": "miss",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "وأنا مشتاق أسولف معك، متى يناسبك؟",
+    "finalText": "وأنا مشتاق أسولف معك، متى يناسبك؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "miss:sweet:0",
+    "situationId": "miss",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "يا بعد قلبي، وأنا مشتاق لسوالفنا.",
+    "finalText": "يا بعد قلبي، وأنا مشتاق لسوالفنا.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "miss:sweet:1",
+    "situationId": "miss",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "كلمة اشتقت لك منك عدّلت مزاجي.",
+    "finalText": "كلمة اشتقت لك منك عدّلت مزاجي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "miss:direct:0",
+    "situationId": "miss",
+    "route": "reply",
+    "decision": "edit",
+    "sourceText": "وأنا اشتقت لك وودي أشوفك قريب.",
+    "finalText": "وأنا اشتقت لك. إذا ودك، نرتب وقتًا نسولف فيه قريب.",
+    "reason": "تمييز الرد على الشوق عن مبادرة رسالة الشوق المشابهة، مع جعل ترتيب الوقت مشروطًا برغبتها.",
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "miss:direct:1",
+    "situationId": "miss",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "ودي أشوفك قدامي بدل هالمسافة.",
+    "finalText": "ودي أشوفك قدامي بدل هالمسافة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "miss:sweet:0:serious",
+    "situationId": "miss",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "يا بعد قلبي، حتى يومي العادي أحبه أكثر وأنتِ معي.",
+    "finalText": "يا بعد قلبي، حتى يومي العادي أحبه أكثر وأنتِ معي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "miss:sweet:1:serious",
+    "situationId": "miss",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "وأنا اشتقت لك ولتفاصيل يومنا مع بعض.",
+    "finalText": "وأنا اشتقت لك ولتفاصيل يومنا مع بعض.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "miss:v2:1",
+    "situationId": "miss",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "الوقت معك يمر خفيف، حتى لو ما سوّينا شي غير إننا نسولف.",
+    "finalText": "الوقت معك يمر خفيف، حتى لو ما سوّينا شي غير إننا نسولف.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "deep",
+        "romantic"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "deep",
+        "romantic"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "miss:v2:2",
+    "situationId": "miss",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "شكلك سبقتيني برسالة الشوق هالمرة!",
+    "finalText": "شكلك سبقتيني برسالة الشوق هالمرة!",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "playful"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "playful"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "photo:soft:0",
+    "situationId": "photo",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "ما شاء الله، طالعة حلوة.",
+    "finalText": "ما شاء الله، طالعة حلوة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "photo:soft:1",
+    "situationId": "photo",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "اللوك مرة لايق عليك.",
+    "finalText": "اللوك مرة لايق عليك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "photo:sweet:0",
+    "situationId": "photo",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "يا زين الصورة وصاحبتها.",
+    "finalText": "يا زين الصورة وصاحبتها.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "photo:sweet:1",
+    "situationId": "photo",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "حتى صورك العفوية تجنن.",
+    "finalText": "حتى صورك العفوية تجنن.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "photo:direct:0",
+    "situationId": "photo",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "ابتسامتك خطفت انتباهي بصراحة.",
+    "finalText": "ابتسامتك خطفت انتباهي بصراحة.",
+    "reason": null,
+    "classificationChanged": [
+      "tones"
+    ],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "confident",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": "اعتراف مباشر بانتباهه يناسب الوضوح والثقة؛ لا يشترط رومانسية متبادلة."
+  },
+  {
+    "id": "photo:direct:1",
+    "situationId": "photo",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "كل مرة أشوفك ألقى شي جديد يعجبني فيك.",
+    "finalText": "كل مرة أشوفك ألقى شي جديد يعجبني فيك.",
+    "reason": null,
+    "classificationChanged": [
+      "allowedStages"
+    ],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": "صيغة كل مرة تفترض معرفة متكررة ولا تناسب أول تواصل غير مسبوق."
+  },
+  {
+    "id": "photo:v2:1",
+    "situationId": "photo",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "تنسيق الألوان بالصورة لفتني، ذوقك جميل.",
+    "finalText": "تنسيق الألوان بالصورة لفتني، ذوقك جميل.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature",
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature",
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "photo:v2:2",
+    "situationId": "photo",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "في هالصورة ابتسامة كأنها ضيّ شمس داخل من الشباك.",
+    "finalText": "في هالصورة ابتسامة كأنها ضيّ شمس داخل من الشباك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "poetic"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "poetic"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "crush:soft:0",
+    "situationId": "crush",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "يمكن لأن سوالفك تعجبني.",
+    "finalText": "يمكن لأن سوالفك تعجبني.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "crush:soft:1",
+    "situationId": "crush",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "واضح علي لهالدرجة؟",
+    "finalText": "واضح علي لهالدرجة؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "crush:sweet:0",
+    "situationId": "crush",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "وش أسوي إذا اللي قدامي كل يوم تزيد حلا؟",
+    "finalText": "وش أسوي إذا اللي قدامي كل يوم تزيد حلا؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "crush:sweet:1",
+    "situationId": "crush",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "يمكن اكتشفتي اللي كنت ألمّح له.",
+    "finalText": "يمكن اكتشفتي اللي كنت ألمّح له.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "crush:direct:0",
+    "situationId": "crush",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "إيه، أنا معجب فيك وودي أعرفك أكثر.",
+    "finalText": "إيه، أنا معجب فيك وودي أعرفك أكثر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "crush:direct:1",
+    "situationId": "crush",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "صحيح، وإعجابي فيك يزيد مع الوقت.",
+    "finalText": "صحيح، وإعجابي فيك يزيد مع الوقت.",
+    "reason": null,
+    "classificationChanged": [
+      "allowedStages"
+    ],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": "ازدياد الإعجاب يفترض تعارفًا سابقًا، لكنه لا يفترض تبادله؛ أتيح لمراحل المعرفة والإعجاب من طرف واحد أيضًا."
+  },
+  {
+    "id": "crush:v2:1",
+    "situationId": "crush",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "إيه، يلفتني فيك إنك تسمعين للرأي حتى لو اختلفتي معه.",
+    "finalText": "إيه، يلفتني فيك إنك تسمعين للرأي حتى لو اختلفتي معه.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "confident",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "confident",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "crush:v2:2",
+    "situationId": "crush",
+    "route": "reply",
+    "decision": "edit",
+    "sourceText": "يمكن طولت السالفة معك أكثر من عادتي، ولك تفهمينها على راحتك.",
+    "finalText": "يمكن طولت السالفة معك أكثر من عادتي؛ لأني أستانس بالكلام معك.",
+    "reason": "إزالة تركيب غير طبيعي وتخفيف تحميل المتلقية مهمة فك تلميح مبهم، مع حفظ خفة التصريح.",
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "subtle"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "subtle"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "love:soft:0",
+    "situationId": "love",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "يا زين كلامك، يسعدني قربك.",
+    "finalText": "يا زين كلامك، يسعدني قربك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "love:soft:1",
+    "situationId": "love",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "كلامك غالٍ عندي.",
+    "finalText": "كلامك غالٍ عندي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "love:sweet:0",
+    "situationId": "love",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "يا حظ قلبي بهالكلام الحلو.",
+    "finalText": "يا حظ قلبي بهالكلام الحلو.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "love:sweet:1",
+    "situationId": "love",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "كلمتك اليوم خلتني أبتسم.",
+    "finalText": "كلمتك اليوم خلتني أبتسم.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "love:direct:0:early",
+    "situationId": "love",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "كلامك أسعدني، وأنا مهتم أعرفك أكثر.",
+    "finalText": "كلامك أسعدني، وأنا مهتم أعرفك أكثر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "love:direct:1:early",
+    "situationId": "love",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "أقدّر صراحتك، وودي نأخذ وقتنا ونتعرف على بعض.",
+    "finalText": "أقدّر صراحتك، وودي نأخذ وقتنا ونتعرف على بعض.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "love:direct:0:mutual",
+    "situationId": "love",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "أنتِ تعنين لي كثير، وودي نتكلم عن اللي بيننا براحتنا.",
+    "finalText": "أنتِ تعنين لي كثير، وودي نتكلم عن اللي بيننا براحتنا.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "love:direct:1:mutual",
+    "situationId": "love",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "أنا بعد عندي مشاعر لك وأقدّر صراحتك.",
+    "finalText": "أنا بعد عندي مشاعر لك وأقدّر صراحتك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "love:direct:0",
+    "situationId": "love",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "وأنا أحبك وأقدّر وجودك بحياتي.",
+    "finalText": "وأنا أحبك وأقدّر وجودك بحياتي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "love:direct:1",
+    "situationId": "love",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "أحبك وودي أوريك هالشي بأفعالي.",
+    "finalText": "أحبك وودي أوريك هالشي بأفعالي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "love:direct:0:serious",
+    "situationId": "love",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "وأنا أحبك، وأقدّر كل اللي نبنيه مع بعض.",
+    "finalText": "وأنا أحبك، وأقدّر كل اللي نبنيه مع بعض.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "love:direct:1:serious",
+    "situationId": "love",
+    "route": "reply",
+    "decision": "edit",
+    "sourceText": "أحبك، وأبيك تحسين فيها بتصرفاتي معك كل يوم.",
+    "finalText": "أحبك، وودي يبان حبي لك في تصرفاتي كل يوم.",
+    "reason": "توضيح مرجع الضمير وإسناد التعبير إلى تصرف المتكلم بدل طلب شعور محدد من المتلقية.",
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "love:v2:1",
+    "situationId": "love",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "قبل أجاوبك، أبي أكون صادق: أحتاج وقت أفهم شعوري وما أوعدك بشي مو متأكد منه.",
+    "finalText": "قبل أجاوبك، أبي أكون صادق: أحتاج وقت أفهم شعوري وما أوعدك بشي مو متأكد منه.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "love:v2:2",
+    "situationId": "love",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "أحب إن حبنا يبان في التفاصيل: نسمع لبعض، ونختلف باحترام، ونوقف مع بعض في الأيام الثقيلة. وأحب إن لنا مساحة نكون فيها على طبيعتنا، نقول اللي يريحنا واللي يضايقنا، ونختار كل يوم كيف نعتني بعلاقتنا بأفعال نقدر عليها.",
+    "finalText": "أحب إن حبنا يبان في التفاصيل: نسمع لبعض، ونختلف باحترام، ونوقف مع بعض في الأيام الثقيلة. وأحب إن لنا مساحة نكون فيها على طبيعتنا، نقول اللي يريحنا واللي يضايقنا، ونختار كل يوم كيف نعتني بعلاقتنا بأفعال نقدر عليها.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "deep",
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "deep",
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "why:soft:0",
+    "situationId": "why",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "لأن أسلوبك مريح وتفكيرك يعجبني.",
+    "finalText": "لأن أسلوبك مريح وتفكيرك يعجبني.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "why:soft:1",
+    "situationId": "why",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "لأنك على طبيعتك معي.",
+    "finalText": "لأنك على طبيعتك معي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "why:sweet:0",
+    "situationId": "why",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "لأن ضحكتك وسوالفك تعدّل يومي.",
+    "finalText": "لأن ضحكتك وسوالفك تعدّل يومي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "why:sweet:1",
+    "situationId": "why",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "لأن فيك عفوية حلوة.",
+    "finalText": "لأن فيك عفوية حلوة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "why:direct:0",
+    "situationId": "why",
+    "route": "reply",
+    "decision": "edit",
+    "sourceText": "كل مرة أعرفك أكثر ألقى شي جديد يعجبني.",
+    "finalText": "لأنك تسمعين لي باهتمام، وأحس إن كلامي له مكان عندك.",
+    "reason": "تقديم سبب قابل للفهم بدل جواب عام قريب من مدح الصورة، مع الحفاظ على الإعجاب الواضح.",
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "why:direct:1",
+    "situationId": "why",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "لأنك تخلين أبسط وقت بيننا مميز.",
+    "finalText": "لأنك تخلين أبسط وقت بيننا مميز.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "why:v2:1",
+    "situationId": "why",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "لأنك تقولين رأيك بصدق، ومعك ما أحس إني لازم أمثّل.",
+    "finalText": "لأنك تقولين رأيك بصدق، ومعك ما أحس إني لازم أمثّل.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "deep",
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "deep",
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "why:v2:2",
+    "situationId": "why",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "أعجبني فيك إنك تنتبهين للتفاصيل اللي غيرك يمرّ عليها.",
+    "finalText": "أعجبني فيك إنك تنتبهين للتفاصيل اللي غيرك يمرّ عليها.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "voice:soft:0",
+    "situationId": "voice",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "صوتك حلو، أستانس بسوالفك.",
+    "finalText": "صوتك حلو، أستانس بسوالفك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "voice:soft:1",
+    "situationId": "voice",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "يا زين حماسك وأنتِ تسولفين.",
+    "finalText": "يا زين حماسك وأنتِ تسولفين.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "voice:sweet:0",
+    "situationId": "voice",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "التسجيل ذا عدّل يومي.",
+    "finalText": "التسجيل ذا عدّل يومي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "voice:sweet:1",
+    "situationId": "voice",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "يا حلو ضحكتك بالتسجيل.",
+    "finalText": "يا حلو ضحكتك بالتسجيل.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "voice:direct:0",
+    "situationId": "voice",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "ودي نكمل السالفة بمكالمة إذا يناسبك.",
+    "finalText": "ودي نكمل السالفة بمكالمة إذا يناسبك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "voice:direct:1",
+    "situationId": "voice",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "صوتك يخلي أبسط سالفة ممتعة.",
+    "finalText": "صوتك يخلي أبسط سالفة ممتعة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "voice:v2:1",
+    "situationId": "voice",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "سمعت التسجيل، وأعجبني كيف وصفتي الموقف؛ حسّيت إني حاضر معكم.",
+    "finalText": "سمعت التسجيل، وأعجبني كيف وصفتي الموقف؛ حسّيت إني حاضر معكم.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature",
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature",
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "voice:v2:2",
+    "situationId": "voice",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "حتى السالفة العادية بصوتك يصير لها طعم ثاني.",
+    "finalText": "حتى السالفة العادية بصوتك يصير لها طعم ثاني.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "bold_respectful",
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "bold_respectful",
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "bored:soft:0",
+    "situationId": "bored",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "وش رايك نسولف شوي؟",
+    "finalText": "وش رايك نسولف شوي؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "bored:soft:1",
+    "situationId": "bored",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "عندي سؤال غريب لك، مستعدة؟",
+    "finalText": "عندي سؤال غريب لك، مستعدة؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "bored:sweet:0",
+    "situationId": "bored",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "تعالي نغيّر الجو بسوالف حلوة.",
+    "finalText": "تعالي نغيّر الجو بسوالف حلوة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "bored:sweet:1",
+    "situationId": "bored",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "يا زين فرصة أسولف معك.",
+    "finalText": "يا زين فرصة أسولف معك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "bored:direct:0",
+    "situationId": "bored",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "إذا يناسبك نسوي مكالمة قصيرة.",
+    "finalText": "إذا يناسبك نسوي مكالمة قصيرة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "bored:direct:1",
+    "situationId": "bored",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "ودي أسمع صوتك ونطرد الطفش سوا.",
+    "finalText": "ودي أسمع صوتك ونطرد الطفش سوا.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "bored:v2:1",
+    "situationId": "bored",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "لعبة سريعة؟ اختاري: رحلة بلا تخطيط، ولا يوم كامل بجدول؟",
+    "finalText": "لعبة سريعة؟ اختاري: رحلة بلا تخطيط، ولا يوم كامل بجدول؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "playful",
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "playful",
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "bored:v2:2",
+    "situationId": "bored",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "وش نشاط بسيط ودك تسوينه الحين؟ نختار شي يناسب طاقتك.",
+    "finalText": "وش نشاط بسيط ودك تسوينه الحين؟ نختار شي يناسب طاقتك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "cold:soft:0",
+    "situationId": "cold",
+    "route": "reply",
+    "decision": "edit",
+    "sourceText": "أحسك مشغولة، نتكلم بعدين.",
+    "finalText": "إذا وقتك مو مناسب، نقدر نتكلم بعدين.",
+    "reason": "استبدال استنتاج انشغالها من اختصار الرد باحتمال مشروط يترك لها تعريف الوقت المناسب.",
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "cold:soft:1",
+    "situationId": "cold",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "عسى أمورك طيبة.",
+    "finalText": "عسى أمورك طيبة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "cold:sweet:0",
+    "situationId": "cold",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "أهم شي تكونين بخير، خذي راحتك.",
+    "finalText": "أهم شي تكونين بخير، خذي راحتك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "cold:sweet:1",
+    "situationId": "cold",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "ودي أسولف معك، بس براحتك.",
+    "finalText": "ودي أسولف معك، بس براحتك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "cold:direct:0",
+    "situationId": "cold",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "لاحظت كلامنا مختصر اليوم، كل شي تمام؟",
+    "finalText": "لاحظت كلامنا مختصر اليوم، كل شي تمام؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "cold:direct:1",
+    "situationId": "cold",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "إذا فيه شي ضايقك مني، ودي أفهم.",
+    "finalText": "إذا فيه شي ضايقك مني، ودي أفهم.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "cold:v2:1",
+    "situationId": "cold",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "يمكن الوقت مو مناسب للسوالف، نوقف هنا ونكمل وقت أريح.",
+    "finalText": "يمكن الوقت مو مناسب للسوالف، نوقف هنا ونكمل وقت أريح.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature",
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature",
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "cold:v2:2",
+    "situationId": "cold",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "ما أبي أفسّر اختصارك من عندي؛ تبين نأجل الكلام؟",
+    "finalText": "ما أبي أفسّر اختصارك من عندي؛ تبين نأجل الكلام؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "upset:soft:0",
+    "situationId": "upset",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "ودي أفهم وش اللي ضايقك مني.",
+    "finalText": "ودي أفهم وش اللي ضايقك مني.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "upset:soft:1",
+    "situationId": "upset",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "قولي لي وش صار من وجهة نظرك.",
+    "finalText": "قولي لي وش صار من وجهة نظرك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "upset:sweet:0",
+    "situationId": "upset",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "مكانتك عندي كبيرة ويهمني زعلك.",
+    "finalText": "مكانتك عندي كبيرة ويهمني زعلك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "upset:sweet:1",
+    "situationId": "upset",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "أبي نتفاهم ونصلح اللي صار.",
+    "finalText": "أبي نتفاهم ونصلح اللي صار.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "upset:direct:0",
+    "situationId": "upset",
+    "route": "reply",
+    "decision": "edit",
+    "sourceText": "إذا غلطت بحقك فأنا أعتذر.",
+    "finalText": "أعتذر عن تصرفي اللي زعلك، وبراجع طريقتي بدل ما أبررها.",
+    "reason": "إزالة الاعتذار المشروط وإسناد مسؤولية التصرف إلى المتكلم. يظل هذا المعرف خارج الترشيح حفاظًا على التصنيف السابق.",
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "upset:direct:1",
+    "situationId": "upset",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "أبي أفهم أثر تصرفي وأصلح خطئي.",
+    "finalText": "أبي أفهم أثر تصرفي وأصلح خطئي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "upset:v2:1",
+    "situationId": "upset",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "بسمعك للآخر قبل أرد؛ وش التصرف اللي ضايقك؟",
+    "finalText": "بسمعك للآخر قبل أرد؛ وش التصرف اللي ضايقك؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "upset:v2:2",
+    "situationId": "upset",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "زعلك يستاهل وقفة، خلّيني أفهم الموقف وأراجع اللي بدر مني.",
+    "finalText": "زعلك يستاهل وقفة، خلّيني أفهم الموقف وأراجع اللي بدر مني.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "upset:v2:accountability",
+    "situationId": "upset",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "أنا مسؤول عن أسلوبي اللي ضايقك، وأعتذر عنه وبسمع أثره عليك بدون تبرير.",
+    "finalText": "أنا مسؤول عن أسلوبي اللي ضايقك، وأعتذر عنه وبسمع أثره عليك بدون تبرير.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "night:soft:0",
+    "situationId": "night",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "وأنتِ من أهله، نوم العوافي.",
+    "finalText": "وأنتِ من أهله، نوم العوافي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "night:soft:1",
+    "situationId": "night",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "تصبحين على خير وراحة بال.",
+    "finalText": "تصبحين على خير وراحة بال.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "night:sweet:0",
+    "situationId": "night",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "وأنتِ من أهل الخير يا حلوة.",
+    "finalText": "وأنتِ من أهل الخير يا حلوة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "night:sweet:1",
+    "situationId": "night",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "عسى أحلامك كلها تفرح قلبك.",
+    "finalText": "عسى أحلامك كلها تفرح قلبك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "night:direct:0",
+    "situationId": "night",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "تصبحين على خير، اليوم كان أحلى بسوالفك.",
+    "finalText": "تصبحين على خير، اليوم كان أحلى بسوالفك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "night:direct:1",
+    "situationId": "night",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "ودي أسمع صباح الخير منك بكرة.",
+    "finalText": "ودي أسمع صباح الخير منك بكرة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "night:v2:1",
+    "situationId": "night",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "نوقف السوالف هنا عشان ترتاحين، نوم هني.",
+    "finalText": "نوقف السوالف هنا عشان ترتاحين، نوم هني.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature",
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature",
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "night:v2:2",
+    "situationId": "night",
+    "route": "reply",
+    "decision": "keep",
+    "sourceText": "يهدأ الليل وتبقى سوالفك أحلى أثر من هاليوم.",
+    "finalText": "يهدأ الليل وتبقى سوالفك أحلى أثر من هاليوم.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "poetic",
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "poetic",
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "morning:soft:0",
+    "situationId": "morning",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "صباح الخير، عسى يومك جميل.",
+    "finalText": "صباح الخير، عسى يومك جميل.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "morning:soft:1",
+    "situationId": "morning",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "صباحك راحة وأخبار حلوة.",
+    "finalText": "صباحك راحة وأخبار حلوة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "morning:sweet:0",
+    "situationId": "morning",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "صباحك يشبه ضحكتك، حلو وخفيف.",
+    "finalText": "صباحك يشبه ضحكتك، حلو وخفيف.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "morning:sweet:1",
+    "situationId": "morning",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "يا زين الصباح إذا بدأ بطاريك.",
+    "finalText": "يا زين الصباح إذا بدأ بطاريك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "morning:direct:0",
+    "situationId": "morning",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أحب أبدأ يومي وأنا أطمن عليك.",
+    "finalText": "أحب أبدأ يومي وأنا أطمن عليك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "morning:direct:1",
+    "situationId": "morning",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "ودي يكون أول صوت أسمعه صوتك.",
+    "finalText": "ودي يكون أول صوت أسمعه صوتك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "morning:v2:1",
+    "situationId": "morning",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "صباح النور، وش أول شي متحمسة له اليوم؟",
+    "finalText": "صباح النور، وش أول شي متحمسة له اليوم؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual",
+        "playful"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual",
+        "playful"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "morning:v2:2",
+    "situationId": "morning",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "صباحك نافذة مفتوحة على شي يسعدك، وخطوة تقرّبك للي تتمنينه.",
+    "finalText": "صباحك نافذة مفتوحة على شي يسعدك، وخطوة تقرّبك للي تتمنينه.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "poetic",
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "poetic",
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "chat:soft:0",
+    "situationId": "chat",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "وش أحلى شي صار بيومك؟",
+    "finalText": "وش أحلى شي صار بيومك؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "chat:soft:1",
+    "situationId": "chat",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "لو عندك يوم فاضي وش بتسوين؟",
+    "finalText": "لو عندك يوم فاضي وش بتسوين؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "chat:sweet:0",
+    "situationId": "chat",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "عندي سؤال لصاحبة أحلى سوالف.",
+    "finalText": "عندي سؤال لصاحبة أحلى سوالف.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "chat:sweet:1",
+    "situationId": "chat",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "تذكرتك بموقف اليوم، تبين أقولك؟",
+    "finalText": "تذكرتك بموقف اليوم، تبين أقولك؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "chat:direct:0",
+    "situationId": "chat",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "ودي أعرف وش الشي اللي يحمسك هالفترة.",
+    "finalText": "ودي أعرف وش الشي اللي يحمسك هالفترة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "chat:direct:1",
+    "situationId": "chat",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "وش رايك نسولف الليلة إذا يناسبك؟",
+    "finalText": "وش رايك نسولف الليلة إذا يناسبك؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "chat:v2:1",
+    "situationId": "chat",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "وش شي بسيط جرّبتيه مؤخرًا وطلع أحلى من توقعك؟",
+    "finalText": "وش شي بسيط جرّبتيه مؤخرًا وطلع أحلى من توقعك؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "chat:v2:2",
+    "situationId": "chat",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "اختاري لنا موضوع: سفرة ودك فيها، ولا أكلة مستحيل تملّين منها؟",
+    "finalText": "اختاري لنا موضوع: سفرة ودك فيها، ولا أكلة مستحيل تملّين منها؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "playful"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "playful"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "flirt:soft:0",
+    "situationId": "flirt",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أحب عفويتك وسوالفك.",
+    "finalText": "أحب عفويتك وسوالفك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "flirt:soft:1",
+    "situationId": "flirt",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "ضحكتك تعدّل المزاج.",
+    "finalText": "ضحكتك تعدّل المزاج.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "flirt:sweet:0:early",
+    "situationId": "flirt",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "يا زين خفة دمك، السوالف معك ما تنمل.",
+    "finalText": "يا زين خفة دمك، السوالف معك ما تنمل.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "flirt:sweet:1:early",
+    "situationId": "flirt",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "عفويتك حلوة وتخلّي الكلام معك سهل.",
+    "finalText": "عفويتك حلوة وتخلّي الكلام معك سهل.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "flirt:direct:0",
+    "situationId": "flirt",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "فيك جاذبية حتى بطريقة تفكيرك.",
+    "finalText": "فيك جاذبية حتى بطريقة تفكيرك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "flirt:direct:1",
+    "situationId": "flirt",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "حضورك يلفتني بدون ما تحاولين.",
+    "finalText": "حضورك يلفتني بدون ما تحاولين.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "flirt:sweet:0",
+    "situationId": "flirt",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "يا زينك ويا زين هالروح.",
+    "finalText": "يا زينك ويا زين هالروح.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "flirt:sweet:1",
+    "situationId": "flirt",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "وش هالحلا اللي كل يوم يزيد؟",
+    "finalText": "وش هالحلا اللي كل يوم يزيد؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "flirt:sweet:0:love",
+    "situationId": "flirt",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "يا حلو ضحكتك، أحب اللحظة اللي أسمعها فيها.",
+    "finalText": "يا حلو ضحكتك، أحب اللحظة اللي أسمعها فيها.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "love"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "love"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "flirt:sweet:1:love",
+    "situationId": "flirt",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "كل ما طرى اسمك ابتسمت من غير ما أحس.",
+    "finalText": "كل ما طرى اسمك ابتسمت من غير ما أحس.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "love"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "love"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "flirt:direct:0:serious",
+    "situationId": "flirt",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أحب فيك طريقتك اللي تخلّين فيها أيامنا العادية حلوة.",
+    "finalText": "أحب فيك طريقتك اللي تخلّين فيها أيامنا العادية حلوة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "flirt:direct:1:serious",
+    "situationId": "flirt",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "كل يوم معك ألاحظ شي جديد أحبه فيك.",
+    "finalText": "كل يوم معك ألاحظ شي جديد أحبه فيك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "flirt:v2:1",
+    "situationId": "flirt",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "جاذبيتك في إنك عارفة نفسك، وهذا أكثر شي يلفتني فيك.",
+    "finalText": "جاذبيتك في إنك عارفة نفسك، وهذا أكثر شي يلفتني فيك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "bold_respectful",
+        "confident"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 3,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "bold_respectful",
+        "confident"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 3,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "flirt:v2:2",
+    "situationId": "flirt",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "ضحكتك مثل نور يلقى له مكان حتى في أثقل يوم.",
+    "finalText": "ضحكتك مثل نور يلقى له مكان حتى في أثقل يوم.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "poetic",
+        "romantic"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "poetic",
+        "romantic"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "hint:soft:0",
+    "situationId": "hint",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أستانس معك أكثر مما تتوقعين.",
+    "finalText": "أستانس معك أكثر مما تتوقعين.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "hint:soft:1",
+    "situationId": "hint",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "فيك شي يخليني أبي أعرفك أكثر.",
+    "finalText": "فيك شي يخليني أبي أعرفك أكثر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "hint:sweet:0",
+    "situationId": "hint",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "صرتِ سبب ابتسامتي بدون ما تدرين.",
+    "finalText": "صرتِ سبب ابتسامتي بدون ما تدرين.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "hint:sweet:1",
+    "situationId": "hint",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "يا زين اللي يحلّي الوقت وهو ما يدري.",
+    "finalText": "يا زين اللي يحلّي الوقت وهو ما يدري.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "hint:direct:0",
+    "situationId": "hint",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "بصراحة أنتِ تعجبيني وودي أعرفك أكثر.",
+    "finalText": "بصراحة أنتِ تعجبيني وودي أعرفك أكثر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "hint:direct:1",
+    "situationId": "hint",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "كل ما عرفتك أكثر زاد إعجابي فيك.",
+    "finalText": "كل ما عرفتك أكثر زاد إعجابي فيك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "hint:v2:1",
+    "situationId": "hint",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "فيه سوالف تمرّ، وفيه سوالف أنتظر وقتها.. وسوالفك من الثانية.",
+    "finalText": "فيه سوالف تمرّ، وفيه سوالف أنتظر وقتها.. وسوالفك من الثانية.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "subtle",
+        "poetic"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "subtle",
+        "poetic"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "hint:v2:2",
+    "situationId": "hint",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "ودي أعزمك على قهوة لأن معرفتك تهمني، وإذا ما ناسبك عادي.",
+    "finalText": "ودي أعزمك على قهوة لأن معرفتك تهمني، وإذا ما ناسبك عادي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "confident",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "confident",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confess:soft:0",
+    "situationId": "confess",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أحس بيننا تقارب حلو وأبي أعرف رأيك.",
+    "finalText": "أحس بيننا تقارب حلو وأبي أعرف رأيك.",
+    "reason": null,
+    "classificationChanged": [
+      "allowedStages"
+    ],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": "وصف تقارب بينهما يحتاج معرفة سابقة، مع إمكان اختلاف شعورهما."
+  },
+  {
+    "id": "confess:soft:1",
+    "situationId": "confess",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "ارتحت لك أكثر من المعتاد.",
+    "finalText": "ارتحت لك أكثر من المعتاد.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confess:sweet:0",
+    "situationId": "confess",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "صرتِ شخص مميز عندي.",
+    "finalText": "صرتِ شخص مميز عندي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confess:sweet:1",
+    "situationId": "confess",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "وجودك صار يعني لي أكثر من قبل.",
+    "finalText": "وجودك صار يعني لي أكثر من قبل.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confess:direct:0:early",
+    "situationId": "confess",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "بصراحة أنتِ تعجبيني، وإذا يناسبك ودي أعرفك أكثر.",
+    "finalText": "بصراحة أنتِ تعجبيني، وإذا يناسبك ودي أعرفك أكثر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confess:direct:1:early",
+    "situationId": "confess",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "ارتحت لك وودي نتعرف أكثر، وخذي راحتك بالرد.",
+    "finalText": "ارتحت لك وودي نتعرف أكثر، وخذي راحتك بالرد.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confess:direct:0",
+    "situationId": "confess",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أنا معجب فيك وودي نكمل نتعرف على بعض.",
+    "finalText": "أنا معجب فيك وودي نكمل نتعرف على بعض.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confess:direct:1",
+    "situationId": "confess",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "مشاعري تجاهك قاعدة تكبر وأبي أكون واضح.",
+    "finalText": "مشاعري تجاهك قاعدة تكبر وأبي أكون واضح.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confess:direct:0:love",
+    "situationId": "confess",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أبي أقولها بوضوح، أحبك وأقدّر اللي بيننا.",
+    "finalText": "أبي أقولها بوضوح، أحبك وأقدّر اللي بيننا.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "love"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "love"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confess:direct:1:love",
+    "situationId": "confess",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "عندي مشاعر واضحة لك، وودي أعبّر عنها أكثر.",
+    "finalText": "عندي مشاعر واضحة لك، وودي أعبّر عنها أكثر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "love"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "love"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confess:direct:0:serious",
+    "situationId": "confess",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أحبك وأقدّر علاقتنا، وودي أقولها لك أكثر.",
+    "finalText": "أحبك وأقدّر علاقتنا، وودي أقولها لك أكثر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confess:direct:1:serious",
+    "situationId": "confess",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أنا ممتن لوجودك معي وأبي أعبّر لك عن هالشي بصراحة.",
+    "finalText": "أنا ممتن لوجودك معي وأبي أعبّر لك عن هالشي بصراحة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confess:v2:1",
+    "situationId": "confess",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أبي أقول اللي عندي بدون ما أحمّلك ردًا معيّنًا: أنا معجب فيك، وأحترم شعورك لو اختلف.",
+    "finalText": "أبي أقول اللي عندي بدون ما أحمّلك ردًا معيّنًا: أنا معجب فيك، وأحترم شعورك لو اختلف.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear",
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear",
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confess:v2:2",
+    "situationId": "confess",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "قربك صار له معنى عندي، وأفضّل أوضح لك بدل ما أتركك تخمّنين.",
+    "finalText": "قربك صار له معنى عندي، وأفضّل أوضح لك بدل ما أتركك تخمّنين.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "deep",
+        "confident"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "deep",
+        "confident"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "missing:soft:0",
+    "situationId": "missing",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "فقدت سوالفك اليوم، وش أخبارك؟",
+    "finalText": "فقدت سوالفك اليوم، وش أخبارك؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "missing:soft:1",
+    "situationId": "missing",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "تذكرت موقف بيننا وابتسمت.",
+    "finalText": "تذكرت موقف بيننا وابتسمت.",
+    "reason": null,
+    "classificationChanged": [
+      "allowedStages"
+    ],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": "ذكر موقف بينهما يفترض خبرة مشتركة سابقة لا تعارفًا لأول مرة."
+  },
+  {
+    "id": "missing:sweet:0",
+    "situationId": "missing",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "يا زينك، حتى الغيبة تخلي سوالفك أغلى.",
+    "finalText": "يا زينك، حتى الغيبة تخلي سوالفك أغلى.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "missing:sweet:1",
+    "situationId": "missing",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أحس يومي ناقصه سوالفك.",
+    "finalText": "أحس يومي ناقصه سوالفك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "missing:direct:0:early",
+    "situationId": "missing",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "فقدت سوالفك، ودي نسولف إذا عندك وقت.",
+    "finalText": "فقدت سوالفك، ودي نسولف إذا عندك وقت.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "missing:direct:1:early",
+    "situationId": "missing",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "طريتي على بالي اليوم وحبيت أقول إني مشتاق للسوالف.",
+    "finalText": "طريتي على بالي اليوم وحبيت أقول إني مشتاق للسوالف.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "missing:direct:0",
+    "situationId": "missing",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "اشتقت لك وودي أشوفك قريب.",
+    "finalText": "اشتقت لك وودي أشوفك قريب.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "missing:direct:1",
+    "situationId": "missing",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "صرت أفتقد وجودك أكثر مما توقعت.",
+    "finalText": "صرت أفتقد وجودك أكثر مما توقعت.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "missing:soft:0:serious",
+    "situationId": "missing",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "فقدت قعدتنا اليوم، عسى يومك حلو.",
+    "finalText": "فقدت قعدتنا اليوم، عسى يومك حلو.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "missing:soft:1:serious",
+    "situationId": "missing",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "اشتقت لك، وش صار معك اليوم؟",
+    "finalText": "اشتقت لك، وش صار معك اليوم؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "missing:v2:1",
+    "situationId": "missing",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "مرّيت بمكان سولفنا عنه، وتمنيت أشاركك تفاصيله.",
+    "finalText": "مرّيت بمكان سولفنا عنه، وتمنيت أشاركك تفاصيله.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "subtle",
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "subtle",
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "missing:v2:2",
+    "situationId": "missing",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "للشوق عندي صوت يشبه ضحكتك، يمرّ في بالي ويخلّيني أبتسم.",
+    "finalText": "للشوق عندي صوت يشبه ضحكتك، يمرّ في بالي ويخلّيني أبتسم.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "poetic",
+        "romantic"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "poetic",
+        "romantic"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "meet:soft:0",
+    "situationId": "meet",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "وش رايك نطلع قهوة إذا يناسبك؟",
+    "finalText": "وش رايك نطلع قهوة إذا يناسبك؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "meet:soft:1",
+    "situationId": "meet",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "ودي نشوف بعض ونسولف.",
+    "finalText": "ودي نشوف بعض ونسولف.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "meet:sweet:0:early",
+    "situationId": "meet",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "سوالفك تنحب، وش رايك نكملها على قهوة إذا يناسبك؟",
+    "finalText": "سوالفك تنحب، وش رايك نكملها على قهوة إذا يناسبك؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "meet:sweet:1:early",
+    "situationId": "meet",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "ودي نسولف وجه لوجه، إذا الفكرة تريحك.",
+    "finalText": "ودي نسولف وجه لوجه، إذا الفكرة تريحك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "meet:direct:0",
+    "situationId": "meet",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "مبسوط بمعرفتك وودي أشوفك.",
+    "finalText": "مبسوط بمعرفتك وودي أشوفك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "meet:direct:1",
+    "situationId": "meet",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "إذا مرتاحة للفكرة نرتب لقاء قريب.",
+    "finalText": "إذا مرتاحة للفكرة نرتب لقاء قريب.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "meet:sweet:0",
+    "situationId": "meet",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "ودي أشوف هالضحكة قدامي قريب.",
+    "finalText": "ودي أشوف هالضحكة قدامي قريب.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "meet:sweet:1",
+    "situationId": "meet",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أحس قهوتنا الجاية بتكون مليانة سوالف.",
+    "finalText": "أحس قهوتنا الجاية بتكون مليانة سوالف.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "meet:direct:0:serious",
+    "situationId": "meet",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "ودي نطلع سوا هالأسبوع، أي يوم يناسبك؟",
+    "finalText": "ودي نطلع سوا هالأسبوع، أي يوم يناسبك؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "meet:direct:1:serious",
+    "situationId": "meet",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "خلّينا نرتّب لنا وقت نسولف فيه، وش يناسبك؟",
+    "finalText": "خلّينا نرتّب لنا وقت نسولف فيه، وش يناسبك؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "meet:v2:1",
+    "situationId": "meet",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "يناسبك لقاء قصير بمكان تختارينه وترتاحين له؟ وإذا لا، أحترم رغبتك.",
+    "finalText": "يناسبك لقاء قصير بمكان تختارينه وترتاحين له؟ وإذا لا، أحترم رغبتك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "meet:v2:2",
+    "situationId": "meet",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "عندي اقتراح: قهوة وسالفة ما يقطعها إشعار، إذا ودك.",
+    "finalText": "عندي اقتراح: قهوة وسالفة ما يقطعها إشعار، إذا ودك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "playful",
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "playful",
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "support:soft:0",
+    "situationId": "support",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "عسى يومك يخف عليك، كيفك الحين؟",
+    "finalText": "عسى يومك يخف عليك، كيفك الحين؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "support:soft:1",
+    "situationId": "support",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "إذا ودك تفضفضين أنا أسمعك.",
+    "finalText": "إذا ودك تفضفضين أنا أسمعك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "support:sweet:0",
+    "situationId": "support",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "سلامة قلبك، يا عسى تعبك يهون.",
+    "finalText": "سلامة قلبك، يا عسى تعبك يهون.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "support:sweet:1",
+    "situationId": "support",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أهم شي عندي تكونين بخير.",
+    "finalText": "أهم شي عندي تكونين بخير.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "support:direct:0",
+    "situationId": "support",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أبي أساعدك لو فيه شي أقدر أسويه.",
+    "finalText": "أبي أساعدك لو فيه شي أقدر أسويه.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "support:direct:1",
+    "situationId": "support",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "تبيني أسمعك ولا نفكر بحل سوا؟",
+    "finalText": "تبيني أسمعك ولا نفكر بحل سوا؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "support:v2:1",
+    "situationId": "support",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "مو لازم تشرحين كل شي الحين؛ قولي لي بس وش نوع المساعدة اللي يريحك.",
+    "finalText": "مو لازم تشرحين كل شي الحين؛ قولي لي بس وش نوع المساعدة اللي يريحك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive",
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive",
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "support:v2:2",
+    "situationId": "support",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أقدر أساعدك في مهمة محددة اليوم؟ إذا عندك شي يناسب، قولي لي ونشوف اللي أقدر عليه.",
+    "finalText": "أقدر أساعدك في مهمة محددة اليوم؟ إذا عندك شي يناسب، قولي لي ونشوف اللي أقدر عليه.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear",
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear",
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "thanks:soft:0",
+    "situationId": "thanks",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أقدّر طيبتك واهتمامك.",
+    "finalText": "أقدّر طيبتك واهتمامك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "thanks:soft:1",
+    "situationId": "thanks",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "شكرًا لأنك سمعتيني اليوم.",
+    "finalText": "شكرًا لأنك سمعتيني اليوم.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "thanks:sweet:0",
+    "situationId": "thanks",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "يا زين قلبك واهتمامك بالتفاصيل.",
+    "finalText": "يا زين قلبك واهتمامك بالتفاصيل.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "thanks:sweet:1",
+    "situationId": "thanks",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "يسعدني وجود أشخاص مثلك بحياتي.",
+    "finalText": "يسعدني وجود أشخاص مثلك بحياتي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "thanks:direct:0",
+    "situationId": "thanks",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "وجودك فرق معي وأنا ممتن لك.",
+    "finalText": "وجودك فرق معي وأنا ممتن لك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "thanks:direct:1",
+    "situationId": "thanks",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أحب إننا نكون على طبيعتنا مع بعض.",
+    "finalText": "أحب إننا نكون على طبيعتنا مع بعض.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "thanks:v2:1",
+    "situationId": "thanks",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "وقتك اللي خصصتيه لي أمس فرق معي، شكرًا إنك سمعتي بدون أحكام.",
+    "finalText": "وقتك اللي خصصتيه لي أمس فرق معي، شكرًا إنك سمعتي بدون أحكام.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "deep",
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "deep",
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "thanks:v2:2",
+    "situationId": "thanks",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "من ذوقك إنك تذكرتي هالتفصيل، وأنا منتبه ومقدّر.",
+    "finalText": "من ذوقك إنك تذكرتي هالتفصيل، وأنا منتبه ومقدّر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "confident",
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "confident",
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "sorry:soft:0",
+    "situationId": "sorry",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "آسف على أسلوبي، كان المفروض أكون أهدأ.",
+    "finalText": "آسف على أسلوبي، كان المفروض أكون أهدأ.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "sorry:soft:1",
+    "situationId": "sorry",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أعتذر عن اللي بدر مني.",
+    "finalText": "أعتذر عن اللي بدر مني.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "sorry:sweet:0",
+    "situationId": "sorry",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "يهمني شعورك وآسف إني ضايقتك.",
+    "finalText": "يهمني شعورك وآسف إني ضايقتك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "sorry:sweet:1",
+    "situationId": "sorry",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "ما أبي أستخف بزعلك، وأقدّر صراحتك.",
+    "finalText": "ما أبي أستخف بزعلك، وأقدّر صراحتك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "sorry:direct:0",
+    "situationId": "sorry",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أنا أخطأت في كلامي وأعتذر بوضوح.",
+    "finalText": "أنا أخطأت في كلامي وأعتذر بوضوح.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "sorry:direct:1",
+    "situationId": "sorry",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أفهم سبب زعلك وبحرص ما يتكرر.",
+    "finalText": "أفهم سبب زعلك وبحرص ما يتكرر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "sorry:v2:1",
+    "situationId": "sorry",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "قاطعتك وأنا أتكلم، وهذا خطئي. المرة الجاية بسمع كلامك كامل قبل أرد.",
+    "finalText": "قاطعتك وأنا أتكلم، وهذا خطئي. المرة الجاية بسمع كلامك كامل قبل أرد.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "sorry:v2:2",
+    "situationId": "sorry",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أعتذر عن تأخري بدون ما أخبرك؛ كان المفروض أحترم وقتك وأبلغك من بدري.",
+    "finalText": "أعتذر عن تأخري بدون ما أخبرك؛ كان المفروض أحترم وقتك وأبلغك من بدري.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear",
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear",
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "sorry:context:delay",
+    "situationId": "sorry",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "تأخرت عن الوقت اللي وعدتك فيه بدون ما أخبرك، أعتذر وببلغك مبكرًا لو تغير وقتي مرة ثانية.",
+    "finalText": "تأخرت عن الوقت اللي وعدتك فيه بدون ما أخبرك، أعتذر وببلغك مبكرًا لو تغير وقتي مرة ثانية.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "sorry:context:hurt",
+    "situationId": "sorry",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "كلمتي كانت جارحة، وأنا أعتذر عنها؛ بغيّر طريقة اعتراضي بدل ما أعيد نفس الأذى.",
+    "finalText": "كلمتي كانت جارحة، وأنا أعتذر عنها؛ بغيّر طريقة اعتراضي بدل ما أعيد نفس الأذى.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "sorry:context:misunderstanding",
+    "situationId": "sorry",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "أعتذر عن الصياغة اللي سببت اللبس؛ بأوضح قصدي بعد ما أسمع كيف وصل لك الكلام.",
+    "finalText": "أعتذر عن الصياغة اللي سببت اللبس؛ بأوضح قصدي بعد ما أسمع كيف وصل لك الكلام.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "sorry:context:cancel",
+    "situationId": "sorry",
+    "route": "send",
+    "decision": "keep",
+    "sourceText": "آسف إني ألغيت الموعد بوقت متأخر، وأتفهم لو ما ودك ترتبين بديلًا الحين.",
+    "finalText": "آسف إني ألغيت الموعد بوقت متأخر، وأتفهم لو ما ودك ترتبين بديلًا الحين.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  }
+]

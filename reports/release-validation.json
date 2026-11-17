@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T05:10:31.138Z",
+  "generatedAt": "2026-11-17T13:32:13.745Z",
   "mode": "release",
   "valid": true,
   "releaseComplete": true,
@@ -28,7 +28,7 @@
     "casual": 1004,
     "romantic": 95,
     "tender": 134,
-    "confident": 63,
+    "confident": 64,
     "bold_respectful": 17,
     "deep": 65,
     "poetic": 44,
@@ -39,10 +39,10 @@
     "subtle": 28
   },
   "stages": {
-    "first_contact": 2110,
-    "getting_to_know": 2137,
-    "friendship_possible": 2138,
-    "one_sided": 2138,
+    "first_contact": 2106,
+    "getting_to_know": 2138,
+    "friendship_possible": 2139,
+    "one_sided": 2139,
     "mutual_crush": 2459,
     "serious_dating": 2455,
     "love": 2530,
@@ -56,20 +56,8 @@
   },
   "errors": [],
   "warnings": [],
-  "similarPairs": [
-    {
-      "a": "miss:direct:0",
-      "b": "missing:direct:0",
-      "similarity": 0.83
-    }
-  ],
-  "reviewedSimilarPairs": [
-    {
-      "a": "miss:direct:0",
-      "b": "missing:direct:0",
-      "similarity": 0.83
-    }
-  ],
+  "similarPairs": [],
+  "reviewedSimilarPairs": [],
   "remainingSituations": [],
   "nextBatch": []
 }

@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import type { RouteId, SituationContent } from "../content/schemas";
-import { FAVORITES_V2_KEY, migrateFavorites, parseFavorites, saveFavorites, type FavoriteItem } from "../lib/storage/favorites-v2";
+import { FAVORITES_V2_KEY, favoriteIdentity, migrateFavorites, parseFavorites, saveFavorites, type FavoriteItem } from "../lib/storage/favorites-v2";
 import { Home, SiteHeader } from "./home";
 import { Favorites, Results } from "./results";
 import { Customization, SituationPicker, type Choices } from "./wizard";
@@ -90,8 +90,8 @@ export function AppShell() {
   }
   function updateFavorite(item: FavoriteItem) {
     if (!loaded) return;
-    const saved = favorites.some(f => f.id === item.id);
-    const next = saved ? favorites.filter(f => f.id !== item.id) : [item, ...favorites];
+    const saved = favorites.some(f => favoriteIdentity(f) === favoriteIdentity(item));
+    const next = saved ? favorites.filter(f => favoriteIdentity(f) !== favoriteIdentity(item)) : [item, ...favorites];
     setFavorites(next);
     let persisted = false;
     try { persisted = writable.current && saveFavorites(window.localStorage, next); } catch { /* blocked storage */ }

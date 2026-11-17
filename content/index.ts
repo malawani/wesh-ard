@@ -1,4 +1,5 @@
 import { withContext, withLegacyReview } from "./context";
+import { applyEditorial } from "./editorial";
 import { QUICK_BATCH_2 } from "./routes/quick-011-015";
 import { QUICK_BATCH_1 } from "./routes/quick-001-010";
 import { MEETING_BATCH_2 } from "./routes/meeting-011-015";
@@ -93,4 +94,7 @@ const LEGACY_CONTENT: SituationContent[] = CATALOG.map(old => {
   };
 });
 export const CONTENT: SituationContent[] = [...LEGACY_CONTENT, ...REPLY_BATCH_1, ...REPLY_BATCH_2, ...REPLY_BATCH_3, ...REPLY_BATCH_4, ...REPLY_BATCH_5, ...SEND_BATCH_1, ...SEND_BATCH_2, ...SEND_BATCH_3, ...SEND_BATCH_4, ...GUIDE_BATCH_1, ...GUIDE_BATCH_2, ...GUIDE_BATCH_3, ...OPEN_BATCH_1, ...OPEN_BATCH_2, ...OPEN_BATCH_3, ...CONTINUE_BATCH_1, ...CONTINUE_BATCH_2, ...CONTINUE_BATCH_3, ...FLIRT_BATCH_1, ...FLIRT_BATCH_2, ...FLIRT_BATCH_3, ...CONFESSION_BATCH_1, ...CONFESSION_BATCH_2, ...RECONCILE_BATCH_1, ...RECONCILE_BATCH_2, ...RECONCILE_BATCH_3, ...CARE_BATCH_1, ...CARE_BATCH_2, ...OCCASIONS_BATCH_1, ...OCCASIONS_BATCH_2, ...MEETING_BATCH_1, ...MEETING_BATCH_2, ...QUICK_BATCH_1, ...QUICK_BATCH_2].map(withContext).map(withLegacyReview);
+// Editorial text, metadata and authored explanations are applied once at the source boundary.
+for (let i = 0; i < CONTENT.length; i++) CONTENT[i] = applyEditorial(CONTENT[i]);
 export const CONTENT_BY_ID = new Map(CONTENT.map(s => [s.id, s]));
+export const RESPONSES_BY_ID = new Map(CONTENT.flatMap(s => s.replies).map(r => [r.id, r]));

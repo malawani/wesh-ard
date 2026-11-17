@@ -1,9 +1,10 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import { CONTENT_BY_ID } from "../content";
+import { CONTENT_BY_ID, RESPONSES_BY_ID } from "../content";
+import { PhraseAnalysis } from "./phrase-analysis";
 import { STAGES, TONES, type SituationContent } from "../content/schemas";
 import { recommend } from "../lib/recommendation";
-import type { FavoriteItem } from "../lib/storage/favorites-v2";
+import { favoriteIdentity, type FavoriteItem } from "../lib/storage/favorites-v2";
 import type { Feedback, Rating } from "../lib/storage/personalization";
 import { Icon } from "./icon";
 import { Advice, StepHeader, ToneSelector, type Choices } from "./wizard";
@@ -53,11 +54,14 @@ function ResponseCard({ item, saved, onFavorite, onStatus, storageReady, isFavor
     } else { setCopyState("manual"); onStatus("تعذّر النسخ التلقائي. انسخ النص يدويًا."); }
   }
   const situation = item.situationId ? CONTENT_BY_ID.get(item.situationId) : undefined;
+  const owned = RESPONSES_BY_ID.get(item.id);
+  const exactVersion = owned?.text === item.text;
   return <article className="response-card">
     <div className="response-top"><span className="tone-tag">{item.orphaned ? "عبارة محفوظة من إصدار سابق" : isFavorites ? situation?.title : item.tone ? TONES[item.tone] : "عبارة محفوظة"}</span>
       <button type="button" disabled={!storageReady} className={`icon-button save-button${saved ? " is-saved" : ""}`} aria-pressed={saved} aria-label={saved ? "إزالة من المفضلة" : "حفظ في المفضلة"} onClick={() => onFavorite(item)}><Icon name="heart" size={23} /></button>
     </div>
     <p className="response-text">{item.text}</p>
+    <PhraseAnalysis analysis={exactVersion ? owned?.analysis : undefined} historical={!exactVersion} />
     <button type="button" className="secondary-button copy-button" onClick={handleCopy}><Icon name={copyState === "copied" ? "check" : "copy"} size={17} />{copyState === "copied" ? "تم النسخ" : "نسخ العبارة"}</button>
     {onRate && <div className="card-feedback">
       <button type="button" className="secondary-button" aria-pressed={rating === "liked"} onClick={() => onRate(item.id, "liked")}>أعجبتني</button>
@@ -91,7 +95,7 @@ export function Results({ situation, choices, onChange, onBack, onNew, feedback,
     {result.fallbackReason && <p className="notice" role="status">{result.fallbackReason}</p>}
     {result.suggestions.length ? <div className="response-grid">{visible.map((response, index) => {
       const item: FavoriteItem = { id: response.id, text: response.text, situationId: situation.id, tone: response.tones[0], orphaned: false };
-      return <ResponseCard key={item.id} item={item} rating={feedback[item.id]} onRate={onRate} onAlternative={result.suggestions.length > visible.length ? () => alternative(index) : undefined} saved={actions.favorites.some(f => f.id === item.id)} {...actions} />;
+      return <ResponseCard key={item.id} item={item} rating={feedback[item.id]} onRate={onRate} onAlternative={result.suggestions.length > visible.length ? () => alternative(index) : undefined} saved={actions.favorites.some(f => favoriteIdentity(f) === favoriteIdentity(item))} {...actions} />;
     })}</div> : <div className="empty-state"><p>ما عندنا عبارة مناسبة لهذي الاختيارات.</p><button type="button" className="secondary-button" onClick={onBack}>تعديل الاختيارات</button></div>}
     {result.suggestions.length > visible.length && <button type="button" className="secondary-button" onClick={() => setView({ scope, ids: result.suggestions.map(r => r.id), expanded: true })}>عرض كل العبارات المناسبة</button>}
     <p>تقييمك يساعد على ترتيب الاقتراحات بعد تقييم ثلاث عبارات مختلفة. حفظ التقييمات بين الزيارات اختياري من «ملفي في الكلام».</p>
@@ -103,7 +107,7 @@ export function Favorites({ onBack, ...actions }: ResponseActions & { onBack: ()
   return <section className="flow">
     <button type="button" className="text-button back-button" onClick={onBack}><Icon name="back" size={18} /> رجوع</button>
     <h1 id="page-title" className="favorites-title" tabIndex={-1}>المفضلة</h1>
-    {!actions.storageReady ? <p role="status">جارٍ تحميل المفضلة…</p> : actions.favorites.length ? <div className="response-grid">{actions.favorites.map(item => <ResponseCard key={item.id} item={item} saved isFavorites {...actions} />)}</div>
+    {!actions.storageReady ? <p role="status">جارٍ تحميل المفضلة…</p> : actions.favorites.length ? <div className="response-grid">{actions.favorites.map(item => <ResponseCard key={favoriteIdentity(item)} item={item} saved isFavorites {...actions} />)}</div>
       : <div className="empty-state favorites-empty"><Icon name="heart" size={34} /><h2>مفضلتك فاضية</h2><p>اضغط القلب بجانب أي عبارة تعجبك عشان تلقاها هنا.</p><button type="button" className="secondary-button" onClick={onBack}>رجوع</button></div>}
   </section>;
 }

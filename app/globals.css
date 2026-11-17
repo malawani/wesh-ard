@@ -359,3 +359,11 @@ button:disabled { opacity: .55; cursor: wait; }
 .card-feedback { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
 .card-feedback button { min-height: 44px; }
 .card-feedback [aria-pressed="true"] { background: var(--soft-pink); border-color: var(--pink); }
+
+.phrase-analysis { margin-block: 14px; border-block: 1px solid var(--border); padding-block: 8px; text-align: start; }
+.phrase-analysis summary { cursor: pointer; color: var(--burgundy); font-weight: 600; min-height: 44px; display: list-item; align-content: center; padding-block: 10px; }
+.phrase-analysis summary:focus-visible { outline: 2px solid var(--burgundy); outline-offset: 3px; border-radius: 4px; }
+.phrase-analysis dl { margin: 8px 0; line-height: 1.85; overflow-wrap: anywhere; }
+.phrase-analysis dt { font-weight: 700; margin-block-start: 14px; }
+.phrase-analysis dd { margin: 4px 0 0; color: var(--ink); }
+.phrase-analysis > p { line-height: 1.8; padding-block: 10px; }

@@ -21,10 +21,17 @@ export const TONES = {
 export type ToneId = keyof typeof TONES;
 export type MessageLength = "short" | "medium" | "long";
 export type Intensity = 1 | 2 | 3;
+export interface PhraseAnalysis {
+  directMeaning: string;
+  possibleImplicitMeaning: string;
+  possiblePsychologicalImpact: string;
+  interpretationLimits: string;
+}
 export interface ResponseContent {
   id: string; text: string; tones: ToneId[]; allowedStages: StageId[];
   intensity: Intensity; length: MessageLength; dialect: "sa"; tags: string[];
   legacyId?: string;
+  analysis?: PhraseAnalysis;
 }
 export interface ContextQuestion {
   id: string; title: string; choices: { value: string; label: string }[]; optional: boolean;

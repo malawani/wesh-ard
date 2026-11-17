@@ -191,3 +191,48 @@ test("about, privacy and missing pages return the intended content", async ({ pa
   await page.goto("./404.html");
   await expect(page.getByRole("heading")).toBeVisible();
 });
+
+test("phrase explanation opens with keyboard and copy includes only the phrase", async ({ page, context }) => {
+  await context.grantPermissions(["clipboard-read", "clipboard-write"]);
+  await page.goto("./");
+  await page.getByRole("button", { name: "قالت: اشتقت لك", exact: true }).click();
+  await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
+  const card = page.locator(".response-card").first();
+  const summary = card.locator("summary");
+  await summary.focus();
+  await summary.press("Enter");
+  await expect(card.locator("details")).toHaveAttribute("open", "");
+  for (const heading of ["المعنى المباشر","المعنى الضمني المحتمل","الأثر النفسي المحتمل","حدود التفسير"]) await expect(card.locator("dt").filter({ hasText: heading })).toBeVisible();
+  const phrase = await card.locator(".response-text").innerText();
+  await card.getByRole("button", { name: "نسخ العبارة", exact: true }).click();
+  expect(await page.evaluate(() => navigator.clipboard.readText())).toBe(phrase);
+  await card.getByRole("button", { name: "حفظ في المفضلة", exact: true }).click();
+  await page.reload();
+  await page.getByRole("button", { name: /^المفضلة/ }).click();
+  const saved = page.locator(".response-card").filter({ hasText: phrase });
+  await saved.locator("summary").click();
+  await expect(saved.locator("dd").first()).toContainText("افتقد حديثها");
+  await saved.locator("summary").focus();
+  await saved.locator("summary").press("Enter");
+  await expect(saved.locator("details")).not.toHaveAttribute("open", "");
+});
+
+test("old saved wording and pending phrases never receive a mismatched or invented explanation", async ({ page }) => {
+  const previous = "وأنا اشتقت لك وودي أشوفك قريب.";
+  await page.addInitScript(text => {
+    localStorage.setItem("wesh-ard:v2:favorites", JSON.stringify({ schemaVersion: 2, migratedLegacy: true, items: [{ id: "miss:direct:0", text }] }));
+  }, previous);
+  await page.goto("./");
+  await page.getByRole("button", { name: /^المفضلة/ }).click();
+  await expect(page.getByText(previous, { exact: true })).toBeVisible();
+  await page.locator(".response-card summary").click();
+  await expect(page.getByText("لا يتوفر شرح لهذه النسخة المحفوظة من العبارة. احتفظنا بنصها كما حفظته.", { exact: true })).toBeVisible();
+  await expect(page.locator(".response-card dd")).toHaveCount(0);
+  await page.getByRole("button", { name: "وش أرد؟ الرئيسية", exact: true }).click();
+  await page.locator(".route-reply").click();
+  await page.getByRole("button", { name: "قالت: وش كثر تحبني؟", exact: true }).click();
+  await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
+  const pendingCard = page.locator(".response-card").first();
+  await pendingCard.locator("summary").click();
+  await expect(pendingCard.getByText("لم يُضف شرح لهذه العبارة بعد.", { exact: true })).toBeVisible();
+});

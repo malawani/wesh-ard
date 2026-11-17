@@ -3,6 +3,7 @@ import { MANIFEST } from "../../content/manifest";
 import baseline from "../../content/legacy/baseline.json";
 import { ALL_STAGES, ROUTES, STAGES, TONES, SENSITIVE_TONES, messageLength, type SituationContent } from "../../content/schemas";
 import { normalizeArabic } from "../engine";
+import { REVIEWS_BY_ID } from "../../content/editorial";
 export const ROUTE_TARGETS = { reply: 55, send: 42, guide: 40, open: 25, continue: 25, flirt: 25, confession: 20, reconcile: 22, care: 20, occasions: 16, meeting: 15, quick: 15 };
 export function validateContent(content: SituationContent[] = CONTENT, release = false) {
   const errors: string[] = [], warnings: string[] = [];
@@ -61,7 +62,9 @@ export function validateContent(content: SituationContent[] = CONTENT, release =
   }
   const actual = new Map(content.flatMap(s => s.replies).map(r => [r.id, r.text]));
   for (const legacy of [...baseline.responses, ...baseline.runtimeResponses]) {
-    if (actual.get(legacy.id) !== legacy.text) errors.push(`Lost legacy response: ${legacy.id}`);
+    const review = REVIEWS_BY_ID.get(legacy.id);
+    const expected = review?.sourceText === legacy.text ? review.finalText : legacy.text;
+    if (actual.get(legacy.id) !== expected) errors.push(`Lost legacy response: ${legacy.id}`);
   }
   for (const s of baseline.situations) if (!ids.has(s.id)) errors.push(`Lost legacy situation: ${s.id}`);
   const pairs: { a: string; b: string; similarity: number }[] = [];

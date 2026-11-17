@@ -1,5 +1,6 @@
 import { CONTENT } from "../../content";
 import type { ToneId } from "../../content/schemas";
+import { isKnownEarlierText } from "../../content/editorial";
 
 export const FAVORITES_V2_KEY = "wesh-ard:v2:favorites";
 export const LEGACY_KEYS = ["wesh-ard:favorites:v1", "wesh-ard-favorites-v1", "wesh_favs_v02", "wesh-ard-repaired-favorites-v03"];
@@ -8,6 +9,9 @@ export interface FavoriteItem {
   orphaned: boolean; legacyId?: string;
 }
 export interface FavoriteEnvelope { schemaVersion: 2; migratedLegacy: true; items: FavoriteItem[] }
+export function favoriteIdentity(item: Pick<FavoriteItem, "id" | "text">): string {
+  return JSON.stringify([item.id, item.text]);
+}
 const responses = CONTENT.flatMap(s => s.replies.map(r => ({ ...r, situationId: s.id })));
 const byId = new Map(responses.map(r => [r.id, r]));
 const byText = new Map(responses.map(r => [r.text, r]));
@@ -28,7 +32,7 @@ export function parseFavorites(raw: string | null): FavoriteItem[] {
       const text: string = entry.text;
       const knownId = typeof entry.id === "string" ? byId.get(entry.id) : undefined;
       // A stale ID must never overwrite the user's original text.
-      const response = knownId?.text === text ? knownId : byText.get(text);
+      const response = knownId && (knownId.text === text || isKnownEarlierText(knownId.id, text)) ? knownId : byText.get(text);
       items.push(response ? {
         id: response.id, text, situationId: response.situationId, tone: response.tones[0], orphaned: false
       } : {
@@ -36,7 +40,7 @@ export function parseFavorites(raw: string | null): FavoriteItem[] {
         ...(typeof entry.id === "string" ? { legacyId: entry.id.slice(0, 200) } : {})
       });
     }
-    return [...new Map(items.map(item => [item.id, item])).values()];
+    return [...new Map(items.map(item => [favoriteIdentity(item), item])).values()];
   } catch { return []; }
 }
 export interface StorageLike { getItem(key: string): string | null; setItem(key: string, value: string): void }
@@ -76,7 +80,7 @@ export function migrateFavorites(storage: StorageLike) {
     }
     catch { errors.push(key); }
   }
-  const merged = [...new Map(items.map(item => [item.id, item])).values()];
+  const merged = [...new Map(items.map(item => [favoriteIdentity(item), item])).values()];
   const persisted = errors.length === 0 && saveFavorites(storage, merged);
   return { items: merged, persisted, readErrors: errors };
 }

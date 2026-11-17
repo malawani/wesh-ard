@@ -11,7 +11,10 @@
     "validate:content": "tsx scripts/validate-content.ts",
     "content:progress": "tsx scripts/validate-content.ts",
     "validate:release": "tsx scripts/validate-content.ts --release",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "audit:editorial": "tsx scripts/audit-editorial.ts",
+    "validate:editorial": "tsx scripts/validate-editorial.ts",
+    "validate:editorial:complete": "tsx scripts/validate-editorial.ts --complete"
   },
   "dependencies": {
     "next": "^15.5.0",
