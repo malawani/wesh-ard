@@ -4,6 +4,7 @@ import { CONTENT_BY_ID } from "../content";
 import { STAGES, TONES, type SituationContent } from "../content/schemas";
 import { recommend } from "../lib/recommendation";
 import type { FavoriteItem } from "../lib/storage/favorites-v2";
+import type { Feedback, Rating } from "../lib/storage/personalization";
 import { Icon } from "./icon";
 import { Advice, StepHeader, ToneSelector, type Choices } from "./wizard";
 
@@ -35,8 +36,9 @@ type ResponseActions = {
   favorites: FavoriteItem[]; onFavorite: (item: FavoriteItem) => void;
   onStatus: (message: string) => void; storageReady: boolean;
 };
-function ResponseCard({ item, saved, onFavorite, onStatus, storageReady, isFavorites = false }: {
+function ResponseCard({ item, saved, onFavorite, onStatus, storageReady, isFavorites = false, rating, onRate, onAlternative }: {
   item: FavoriteItem; saved: boolean; isFavorites?: boolean;
+  rating?: Rating; onRate?: (id: string, value: Rating) => void; onAlternative?: () => void;
 } & Omit<ResponseActions, "favorites">) {
   const [copyState, setCopyState] = useState<"idle" | "copied" | "manual">("idle");
   const timeout = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
@@ -57,22 +59,42 @@ function ResponseCard({ item, saved, onFavorite, onStatus, storageReady, isFavor
     </div>
     <p className="response-text">{item.text}</p>
     <button type="button" className="secondary-button copy-button" onClick={handleCopy}><Icon name={copyState === "copied" ? "check" : "copy"} size={17} />{copyState === "copied" ? "تم النسخ" : "نسخ العبارة"}</button>
+    {onRate && <div className="card-feedback">
+      <button type="button" className="secondary-button" aria-pressed={rating === "liked"} onClick={() => onRate(item.id, "liked")}>أعجبتني</button>
+      <button type="button" className="secondary-button" aria-pressed={rating === "disliked"} onClick={() => onRate(item.id, "disliked")}>مو أسلوبي</button>
+      {onAlternative && <button type="button" className="text-button" onClick={onAlternative}>رؤية بديل مناسب</button>}
+    </div>}
     {copyState === "manual" && <label className="manual-copy">تعذّر النسخ التلقائي. انسخ النص يدويًا.<textarea ref={manual} readOnly value={item.text} rows={3} /></label>}
   </article>;
 }
-export function Results({ situation, choices, onChange, onBack, onNew, ...actions }: ResponseActions & {
+export function Results({ situation, choices, onChange, onBack, onNew, feedback, onRate, reduceExaggeration, ...actions }: ResponseActions & {
   situation: SituationContent; choices: Choices; onChange: (c: Choices) => void; onBack: () => void; onNew: () => void;
+  feedback: Feedback; onRate: (id: string, value: Rating) => void; reduceExaggeration: boolean;
 }) {
-  const result = recommend({ situationId: situation.id, relationshipStage: choices.stage, preferredTone: choices.tone, intensity: choices.intensity, length: choices.length });
+  const result = recommend({ situationId: situation.id, relationshipStage: choices.stage, preferredTone: choices.tone, intensity: choices.intensity, length: choices.length, optionalContext: choices.context, feedback, reduceExaggeration });
+  const scope = JSON.stringify([situation.id, choices, reduceExaggeration]);
+  const [view, setView] = useState<{ scope: string; ids: string[]; expanded: boolean }>({ scope: "", ids: [], expanded: false });
+  const ids = view.scope === scope ? view.ids : result.suggestions.slice(0, 3).map(r => r.id);
+  const visible = ids.flatMap(id => { const r = result.suggestions.find(r => r.id === id); return r ? [r] : []; });
+  function alternative(index: number) {
+    const remaining = result.suggestions.filter(r => !ids.includes(r.id));
+    const next = remaining.find(r => feedback[r.id] !== "disliked") ?? remaining[0];
+    if (!next) return;
+    setView({ scope, ids: ids.map((id, i) => i === index ? next.id : id), expanded: false });
+    actions.onStatus("عرضنا بديلًا يلتزم باختياراتك وحدود الموقف");
+  }
   return <section className="flow">
     <StepHeader step={3} title={situation.title} onBack={onBack} />
     <p className="current-stage">{STAGES[choices.stage]}</p>
+    {reduceExaggeration && <p>تفضيل تقليل المبالغة مفعّل؛ نستبعد أعلى درجة جرأة.</p>}
     <div className="result-controls"><ToneSelector situation={situation} choices={choices} onChange={onChange} name="result-tone" /></div>
     {result.fallbackReason && <p className="notice" role="status">{result.fallbackReason}</p>}
-    {result.suggestions.length ? <div className="response-grid">{result.suggestions.map(response => {
+    {result.suggestions.length ? <div className="response-grid">{visible.map((response, index) => {
       const item: FavoriteItem = { id: response.id, text: response.text, situationId: situation.id, tone: response.tones[0], orphaned: false };
-      return <ResponseCard key={item.id} item={item} saved={actions.favorites.some(f => f.id === item.id)} {...actions} />;
+      return <ResponseCard key={item.id} item={item} rating={feedback[item.id]} onRate={onRate} onAlternative={result.suggestions.length > visible.length ? () => alternative(index) : undefined} saved={actions.favorites.some(f => f.id === item.id)} {...actions} />;
     })}</div> : <div className="empty-state"><p>ما عندنا عبارة مناسبة لهذي الاختيارات.</p><button type="button" className="secondary-button" onClick={onBack}>تعديل الاختيارات</button></div>}
+    {result.suggestions.length > visible.length && <button type="button" className="secondary-button" onClick={() => setView({ scope, ids: result.suggestions.map(r => r.id), expanded: true })}>عرض كل العبارات المناسبة</button>}
+    <p>تقييمك يساعد على ترتيب الاقتراحات بعد تقييم ثلاث عبارات مختلفة. حفظ التقييمات بين الزيارات اختياري من «ملفي في الكلام».</p>
     <Advice situation={situation} />
     <div className="flow-actions"><button type="button" className="secondary-button" onClick={onBack}>تعديل الاختيارات</button><button type="button" className="text-button" onClick={onNew}>اختيار موقف آخر <Icon name="arrow" size={20} /></button></div>
   </section>;

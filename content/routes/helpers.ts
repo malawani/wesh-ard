@@ -21,6 +21,6 @@ export function scene(id: string, advice: string, avoid: string[], replies: Draf
 export function guide(id: string, advice: string, actions: string[], avoid: string[], replies: DraftResponse[], sensitivity: SituationContent["sensitivity"] = "careful"): SituationContent {
   return { ...scene(id, advice, avoid, replies, sensitivity), actions };
 }
-export function questions(id: string, advice: string, avoid: string[], texts: string[]): SituationContent {
-  return scene(id, advice, avoid, texts.map(text => response(text, ["casual"])));
+export function questions(id: string, advice: string, avoid: string[], texts: string[], sensitivity: SituationContent["sensitivity"] = "normal"): SituationContent {
+  return scene(id, advice, avoid, texts.map(text => response(text, ["casual"])), sensitivity);
 }

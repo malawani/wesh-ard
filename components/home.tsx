@@ -1,5 +1,9 @@
+"use client";
+import { useState } from "react";
 import { CONTENT } from "../content";
-import type { RouteId as Route, SituationContent as Situation } from "../content/schemas";
+import { ROUTES as ROUTE_LABELS, type RouteId as Route, type SituationContent as Situation } from "../content/schemas";
+import { asksToStopContact } from "../lib/engine";
+import { searchContent } from "../lib/search";
 import { Icon } from "./icon";
 
 export const ROUTES = [
@@ -10,8 +14,8 @@ export const ROUTES = [
 
 const popular = ["miss", "sorry", "chat", "space"].map(id => CONTENT.find(situation => situation.id === id)!);
 
-export function SiteHeader({ count, onHome, onFavorites, active }: {
-  count: number; onHome: () => void; onFavorites: () => void; active: boolean;
+export function SiteHeader({ count, onHome, onFavorites, onProfile, active }: {
+  count: number; onHome: () => void; onFavorites: () => void; onProfile: () => void; active: boolean;
 }) {
   return (
     <header className="site-header">
@@ -20,15 +24,19 @@ export function SiteHeader({ count, onHome, onFavorites, active }: {
           <span className="brand-mark"><Icon name="brand" size={24} /></span>
           <span>وش أرد؟</span>
         </button>
+        <div className="header-actions"><button type="button" className="text-button" onClick={onProfile}>ملفي في الكلام</button>
         <button type="button" className="secondary-button favorite-nav" onClick={onFavorites} aria-current={active ? "page" : undefined}>
           <Icon name="heart" size={19} /> المفضلة {count > 0 && <span className="favorite-count">{count}</span>}
-        </button>
+        </button></div>
       </div>
     </header>
   );
 }
 
 export function Home({ onRoute, onSituation }: { onRoute: (route: Route) => void; onSituation: (situation: Situation) => void }) {
+  const [query, setQuery] = useState("");
+  const matches = query.trim() ? searchContent(query).slice(0, 8) : [];
+  const more = (Object.keys(ROUTE_LABELS) as Route[]).filter(id => !["reply", "send", "guide"].includes(id) && CONTENT.some(s => s.canonicalRoute === id));
   return (
     <>
       <section className="hero" aria-labelledby="page-title">
@@ -67,6 +75,9 @@ export function Home({ onRoute, onSituation }: { onRoute: (route: Route) => void
         </div>
       </section>
 
+      {more.length > 0 && <section className="explore-section" aria-labelledby="explore-title"><h2 id="explore-title">استكشف أكثر</h2>
+        <div className="special-routes">{more.map(id => <button type="button" className="situation-card" key={id} onClick={() => onRoute(id)}>{ROUTE_LABELS[id]}<Icon name="arrow" size={17} /></button>)}</div>
+      </section>}
       <section className="popular" aria-labelledby="popular-title">
         <h2 id="popular-title"><Icon name="spark" size={17} /> مواقف شائعة</h2>
         <div className="chips">
@@ -74,6 +85,13 @@ export function Home({ onRoute, onSituation }: { onRoute: (route: Route) => void
             <button type="button" className="chip" key={situation.id} onClick={() => onSituation(situation)}>{situation.title}</button>
           ))}
         </div>
+      </section>
+      <section className="home-search" aria-labelledby="home-search-title"><h2 id="home-search-title">ابحث بسرعة</h2>
+        <label htmlFor="home-search">موقف أو كلمة من الرسالة</label><div className="search-field"><Icon name="search" /><input id="home-search" maxLength={500} value={query} placeholder="مثل: أعتذر عن تأخري" onChange={e => setQuery(e.target.value)} /></div>
+        {asksToStopContact(query) ? <p className="notice">إذا طلب الطرف الآخر وقف التواصل، توقف عن إرسال الرسائل؛ لا يلزم إرسال رد لتأكيد التوقف.</p> : query.trim() && <>
+          <p role="status">{matches.length ? "أقرب المواقف المتاحة" : "ما لقينا موقفًا مطابقًا. جرّب وصفًا آخر."}</p>
+          <div className="situation-grid">{matches.map(s => <button type="button" className="situation-card" key={s.id} onClick={() => onSituation(s)}>{s.title}<Icon name="arrow" size={17} /></button>)}</div>
+        </>}
       </section>
     </>
   );

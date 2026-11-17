@@ -1,12 +1,12 @@
 import { CONTENT_BY_ID } from "../content";
-import { STAGES, TONES, type RouteId, type SituationContent, type StageId, type ToneId, type Intensity, type MessageLength } from "../content/schemas";
+import { ROUTES as ROUTE_LABELS, STAGES, TONES, type RouteId, type SituationContent, type StageId, type ToneId, type Intensity, type MessageLength } from "../content/schemas";
 import { asksToStopContact, normalizeArabic } from "../lib/engine";
 import { availableTones } from "../lib/recommendation";
 import { searchContent } from "../lib/search";
 import { ROUTES } from "./home";
 import { Icon } from "./icon";
 
-export interface Choices { stage: StageId; tone: ToneId | "all"; intensity: Intensity; length: MessageLength | "all" }
+export interface Choices { stage: StageId; tone: ToneId | "all"; intensity: Intensity; length: MessageLength | "all"; context?: string }
 export function StepHeader({ step, title, onBack }: { step: 1 | 2 | 3; title: string; onBack: () => void }) {
   return <div className="step-header">
     <button type="button" className="text-button back-button" onClick={onBack}><Icon name="back" size={18} /> رجوع</button>
@@ -21,7 +21,7 @@ export function SituationPicker({ route, query, onQuery, onChoose, onBack, onGui
   const matches = searchContent(query, route);
   const stop = asksToStopContact(query);
   return <section className="flow">
-    <StepHeader step={1} title={ROUTES.find(r => r.id === route)?.heading ?? "اختر الموقف"} onBack={onBack} />
+    <StepHeader step={1} title={ROUTES.find(r => r.id === route)?.heading ?? ROUTE_LABELS[route]} onBack={onBack} />
     <div className="search-section"><label htmlFor="situation-search">ابحث عن موقف أو اكتب الرسالة</label>
       <div className="search-field"><Icon name="search" size={22} />
         <input id="situation-search" value={query} maxLength={500} autoComplete="off" placeholder="مثال: قالت لي اشتقت لك" onChange={e => onQuery(e.target.value)} />
@@ -70,8 +70,13 @@ export function Customization({ situation, choices, onChange, onBack, onSubmit }
         <select id="relationship-stage" value={choices.stage} onChange={e => setStage(e.target.value as StageId)}>{Object.entries(STAGES).map(([id, text]) => <option key={id} value={id}>{text}</option>)}</select>
       </div>
       <ToneSelector situation={situation} choices={choices} onChange={onChange} name="custom-tone" />
+      {situation.contextQuestions?.slice(0, 2).map(question => <div className="choice-group" key={question.id}>
+        <label htmlFor={question.id}>{question.title}</label><select id={question.id} value={choices.context ?? ""} onChange={e => onChange({ ...choices, context: e.target.value || undefined })}>
+          <option value="">بدون تخصيص إضافي</option>{question.choices.map(c => <option key={c.value} value={`${question.id}:${c.value}`}>{c.label}</option>)}
+        </select>
+      </div>)}
       <details className="advanced-options"><summary>خيارات إضافية</summary>
-        {situation.sensitivity === "normal" && <div className="choice-group"><label htmlFor="intensity">درجة الجرأة</label><select id="intensity" aria-describedby="intensity-hint" value={choices.intensity} onChange={e => onChange({ ...choices, intensity: Number(e.target.value) as Intensity })}><option value={1}>خفيف</option><option value={2}>متوسط</option><option value={3}>واضح</option></select><p id="intensity-hint">لن تتجاوز النتائج هذه الدرجة، وقد تكون أخف.</p></div>}
+        {situation.sensitivity === "normal" && new Set(situation.replies.map(r => r.intensity)).size > 1 && <div className="choice-group"><label htmlFor="intensity">درجة الجرأة</label><select id="intensity" aria-describedby="intensity-hint" value={choices.intensity} onChange={e => onChange({ ...choices, intensity: Number(e.target.value) as Intensity })}><option value={1}>خفيف</option><option value={2}>متوسط</option><option value={3}>واضح</option></select><p id="intensity-hint">لن تتجاوز النتائج هذه الدرجة، وقد تكون أخف.</p></div>}
         <div className="choice-group"><label htmlFor="message-length">طول الرسالة</label><select id="message-length" value={choices.length} onChange={e => onChange({ ...choices, length: e.target.value as Choices["length"] })}><option value="all">أي طول مناسب</option><option value="short">قصير</option><option value="medium">متوسط</option><option value="long">طويل</option></select></div>
       </details>
       <button type="submit" className="primary-button">عرض العبارات <Icon name="arrow" size={20} /></button>

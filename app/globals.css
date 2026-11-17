@@ -347,3 +347,15 @@ select:focus-visible, summary:focus-visible { outline: 2px solid var(--burgundy)
 .response-text { overflow-wrap: anywhere; white-space: pre-wrap; }
 button:disabled { opacity: .55; cursor: wait; }
 .notice { overflow-wrap: anywhere; }
+.header-inner { flex-wrap: wrap; gap: 10px; padding-block: 10px; }
+.header-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.special-routes { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 10px; margin-top: 14px; }
+.explore-section, .home-search { margin-block: 32px; }
+.home-search h2 { margin-bottom: 14px; }
+.home-search > label { display: block; margin-bottom: 8px; }
+.home-search .situation-grid { margin-top: 14px; }
+.check-option { display: flex; align-items: center; gap: 10px; min-height: 44px; }
+.check-option input { width: 20px; height: 20px; accent-color: var(--burgundy); }
+.card-feedback { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.card-feedback button { min-height: 44px; }
+.card-feedback [aria-pressed="true"] { background: var(--soft-pink); border-color: var(--pink); }

@@ -2,26 +2,28 @@
   "version": 2,
   "targetSituations": 320,
   "targetResponses": 2560,
-  "completedSituations": 157,
-  "completedResponses": 1292,
-  "uniqueTexts": 1292,
+  "completedSituations": 197,
+  "completedResponses": 1616,
+  "uniqueTexts": 1616,
   "completedRoutes": [
     "reply",
     "send",
-    "guide"
+    "guide",
+    "open",
+    "continue"
   ],
   "nextBatch": [
-    "open-021",
-    "open-022",
-    "open-023",
-    "open-024",
-    "open-025",
-    "continue-001",
-    "continue-002",
-    "continue-003",
-    "continue-004",
-    "continue-005"
+    "flirt-011",
+    "flirt-012",
+    "flirt-013",
+    "flirt-014",
+    "flirt-015",
+    "flirt-016",
+    "flirt-017",
+    "flirt-018",
+    "flirt-019",
+    "flirt-020"
   ],
-  "generatedAt": "2026-11-17T04:32:08.292Z",
+  "generatedAt": "2026-11-17T04:45:02.028Z",
   "releaseComplete": false
 }

@@ -116,3 +116,46 @@ test("flirting refusal remains distinct from invitation and can be saved", async
   await expect(page.getByText("في حضورك هدوء يشبه أول نسمة بعد يوم طويل.", { exact: true })).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
 });
+
+test("new opening route and situation-specific apology work", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "كيف أفتح سالفة؟", exact: true }).click();
+  await page.getByRole("button", { name: "سؤال عن كتاب", exact: true }).click();
+  await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
+  await expect(page.locator(".response-card")).toHaveCount(3);
+  const old = await page.locator(".response-text").first().innerText();
+  await page.locator(".response-card").first().getByRole("button", { name: "رؤية بديل مناسب", exact: true }).click();
+  expect(await page.locator(".response-text").first().innerText()).not.toBe(old);
+  await page.getByRole("button", { name: "عرض كل العبارات المناسبة", exact: true }).click();
+  await expect(page.locator(".response-card")).toHaveCount(8);
+  await page.getByRole("button", { name: "وش أرد؟ الرئيسية", exact: true }).click();
+  await page.getByRole("button", { name: "أبي أعتذر", exact: true }).click();
+  await page.getByLabel("عن وش تبي تعتذر؟", { exact: true }).selectOption("apology-reason:cancel");
+  await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
+  await expect(page.locator(".response-text").first()).toContainText("ألغيت الموعد");
+});
+
+test("profile and opted-in ratings survive reload without storing searches", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "ملفي في الكلام", exact: true }).click();
+  await page.getByLabel("النبرة المفضلة", { exact: true }).selectOption("all");
+  await page.getByLabel("الطول المفضل", { exact: true }).selectOption("short");
+  await page.getByLabel("حفظ تقييماتي في هذا المتصفح", { exact: true }).check();
+  await page.getByRole("button", { name: "حفظ تفضيلاتي", exact: true }).click();
+  await page.getByRole("button", { name: "وش أرد؟ الرئيسية", exact: true }).click();
+  await page.getByRole("button", { name: "كيف أفتح سالفة؟", exact: true }).click();
+  await page.getByRole("button", { name: "سؤال عن كتاب", exact: true }).click();
+  await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
+  const first = page.locator(".response-card").first();
+  await first.getByRole("button", { name: "مو أسلوبي", exact: true }).click();
+  await expect(first.getByRole("button", { name: "مو أسلوبي", exact: true })).toHaveAttribute("aria-pressed", "true");
+  await page.reload();
+  expect(await page.evaluate(() => JSON.parse(localStorage.getItem("wesh-ard:v2:feedback") ?? "{}").ratings)).toBeTruthy();
+  await page.getByLabel("موقف أو كلمة من الرسالة", { exact: true }).fill("نص بحث خاص لا يحفظ");
+  expect(await page.evaluate(() => Object.values(localStorage).join(" "))).not.toContain("نص بحث خاص لا يحفظ");
+  await page.getByRole("button", { name: "ملفي في الكلام", exact: true }).click();
+  await expect(page.getByLabel("الطول المفضل", { exact: true })).toHaveValue("short");
+  await page.getByLabel("حفظ تقييماتي في هذا المتصفح", { exact: true }).uncheck();
+  await page.getByRole("button", { name: "حفظ تفضيلاتي", exact: true }).click();
+  expect(await page.evaluate(() => localStorage.getItem("wesh-ard:v2:feedback"))).toBeNull();
+});

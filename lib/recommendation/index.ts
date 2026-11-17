@@ -6,6 +6,7 @@ export interface RecommendationInput {
   situationId: string; relationshipStage: StageId; preferredTone: ToneId | "all";
   intensity: Intensity; length: MessageLength | "all"; optionalContext?: string;
   feedback?: Record<string, "liked" | "disliked">;
+  reduceExaggeration?: boolean;
 }
 const neighbors: Record<ToneId, ToneId[]> = {
   casual: ["mature", "clear"], romantic: ["tender", "deep"], tender: ["romantic", "supportive"],
@@ -26,13 +27,19 @@ export function availableTones(situationId: string, stage: StageId): ToneId[] {
 }
 export function recommend(input: RecommendationInput) {
   const selectedSituation = CONTENT_BY_ID.get(input.situationId) ?? null;
-  const candidates = eligibleResponses(input.situationId, input.relationshipStage)
-    .filter(r => r.intensity <= input.intensity);
+  const validContexts = selectedSituation?.contextQuestions?.flatMap(q => q.choices.map(c => `${q.id}:${c.value}`)) ?? [];
+  const context = input.optionalContext && validContexts.includes(input.optionalContext) ? input.optionalContext : null;
+  const maxIntensity = input.reduceExaggeration ? Math.min(input.intensity, 2) : input.intensity;
+  const stageCandidates = eligibleResponses(input.situationId, input.relationshipStage)
+    .filter(r => r.intensity <= maxIntensity)
+    .filter(r => !context || !r.tags.some(t => t.startsWith("context:")) || r.tags.includes(`context:${context}`));
+  const targeted = context ? stageCandidates.filter(r => r.tags.includes(`context:${context}`)) : [];
+  const candidates = targeted.length ? targeted : stageCandidates;
   const matchTone = (r: ResponseContent, tones: ToneId[] | "all") => tones === "all" || r.tones.some(t => tones.includes(t));
   let tone: ToneId[] | "all" = input.preferredTone === "all" ? "all" : [input.preferredTone];
   let length = input.length;
   let suggestions = candidates.filter(r => matchTone(r, tone) && (length === "all" || r.length === length));
-  let fallbackReason: string | undefined;
+  let fallbackReason: string | undefined = context && !targeted.length ? "لا تتوفر عبارة مخصصة لهذا التفصيل ضمن حدود المرحلة والجرأة؛ عرضنا عبارات عامة مناسبة للموقف." : undefined;
   if (!suggestions.length && length !== "all") {
     length = "all";
     suggestions = candidates.filter(r => matchTone(r, tone));
@@ -56,10 +63,11 @@ export function recommend(input: RecommendationInput) {
   // Three explicit ratings are required before feedback changes future ordering.
   const feedback = Object.keys(input.feedback ?? {}).length >= 3 ? input.feedback : undefined;
   const score = (r: ResponseContent) => feedback?.[r.id] === "liked" ? 2 : feedback?.[r.id] === "disliked" ? -2 : 0;
-  suggestions.sort((a, b) => score(b) - score(a) || b.intensity - a.intensity);
+  const contextScore = (r: ResponseContent) => context && r.tags.includes(`context:${context}`) ? 1 : 0;
+  suggestions.sort((a, b) => contextScore(b) - contextScore(a) || score(b) - score(a) || b.intensity - a.intensity);
   return {
     selectedSituation, suggestions,
-    appliedFilters: { stage: input.relationshipStage, tones: tone, length, maxIntensity: input.intensity },
+    appliedFilters: { stage: input.relationshipStage, tones: tone, length, maxIntensity, context },
     advice: selectedSituation?.advice ?? "", avoid: selectedSituation?.avoid ?? [],
     fallbackReason: suggestions.length ? fallbackReason : "لا توجد عبارة مناسبة لهذه الاختيارات. جرّب نبرة أخرى؛ لن نتجاوز حدود المرحلة أو الجرأة."
   };
