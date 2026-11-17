@@ -11,9 +11,9 @@ describe("Editorial coverage and source integrity", () => {
   const report = validateEditorial(baseline.records, CONTENT, EDITORIAL_REVIEWS);
   expect(report.errors).toEqual([]);
   expect(report.total).toBe(2602);
-  expect(report.complete).toBe(false);
+  expect(report.complete).toBe(report.pending.length === 0);
   expect(report.pending.length + report.reviewed).toBe(report.total);
-  expect(report.pending).toContain("reply-011:r001");
+  for (const id of report.pending) expect(REVIEWS_BY_ID.has(id)).toBe(false);
  });
  it("detects missing fields, obsolete analysis binding and unlogged edits", () => {
   const reviews = structuredClone(EDITORIAL_REVIEWS);
@@ -33,7 +33,9 @@ describe("Editorial coverage and source integrity", () => {
   expect(edited.text).toBe("إذا وقتك مو مناسب، نقدر نتكلم بعدين.");
   expect(edited.analysis?.interpretationLimits).toContain("مشغولة فعلًا");
   expect(REVIEWS_BY_ID.get(edited.id)?.reason).toBeTruthy();
-  expect(RESPONSES_BY_ID.get("reply-011:r001")!.analysis).toBeUndefined();
+  for (const response of RESPONSES_BY_ID.values()) {
+   if (!REVIEWS_BY_ID.has(response.id)) expect(response.analysis).toBeUndefined();
+  }
  });
 });
 describe("Saved personal text survives editorial changes", () => {

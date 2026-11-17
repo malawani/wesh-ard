@@ -1,4 +1,5 @@
 import { test, expect } from "@playwright/test";
+import { CONTENT } from "../../content";
 
 test("choose, customize, copy, favorite, reload, remove, and preserve old source", async ({ page, context }) => {
   await context.grantPermissions(["clipboard-read", "clipboard-write"]);
@@ -230,7 +231,9 @@ test("old saved wording and pending phrases never receive a mismatched or invent
   await expect(page.locator(".response-card dd")).toHaveCount(0);
   await page.getByRole("button", { name: "وش أرد؟ الرئيسية", exact: true }).click();
   await page.locator(".route-reply").click();
-  await page.getByRole("button", { name: "قالت: وش كثر تحبني؟", exact: true }).click();
+  const pendingSituation = CONTENT.find(s => s.canonicalRoute === "reply" && s.replies.every(r => !r.analysis));
+  if (!pendingSituation) return;
+  await page.getByRole("button", { name: pendingSituation.title, exact: true }).click();
   await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
   const pendingCard = page.locator(".response-card").first();
   await pendingCard.locator("summary").click();

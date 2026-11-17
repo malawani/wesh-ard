@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-17T13:32:11.463Z",
+  "generatedAt": "2026-11-17T14:19:09.698Z",
   "total": 2602,
-  "reviewed": 197,
-  "kept": 191,
-  "edited": 6,
-  "reclassified": 6,
-  "explained": 197,
+  "reviewed": 378,
+  "kept": 367,
+  "edited": 11,
+  "reclassified": 19,
+  "explained": 378,
   "complete": false,
   "reviewedIds": [
     "miss:soft:0",
@@ -204,9 +204,7 @@
     "sorry:context:delay",
     "sorry:context:hurt",
     "sorry:context:misunderstanding",
-    "sorry:context:cancel"
-  ],
-  "pendingIds": [
+    "sorry:context:cancel",
     "misunderstand:soft:0",
     "misunderstand:soft:1",
     "misunderstand:sweet:0",
@@ -387,7 +385,9 @@
     "reply-022:r005",
     "reply-022:r006",
     "reply-022:r007",
-    "reply-022:r008",
+    "reply-022:r008"
+  ],
+  "pendingIds": [
     "reply-023:r001",
     "reply-023:r002",
     "reply-023:r003",
@@ -2614,17 +2614,17 @@
     "quick-015:r008"
   ],
   "nextBatch": [
-    "misunderstand:soft:0",
-    "misunderstand:soft:1",
-    "misunderstand:sweet:0",
-    "misunderstand:sweet:1",
-    "misunderstand:direct:0",
-    "misunderstand:direct:1",
-    "misunderstand:v2:1",
-    "misunderstand:v2:2",
-    "misunderstand:v2:accountability",
-    "space:soft:0",
-    "space:soft:1",
-    "space:sweet:0"
+    "reply-023:r001",
+    "reply-023:r002",
+    "reply-023:r003",
+    "reply-023:r004",
+    "reply-023:r005",
+    "reply-023:r006",
+    "reply-023:r007",
+    "reply-023:r008",
+    "reply-024:r001",
+    "reply-024:r002",
+    "reply-024:r003",
+    "reply-024:r004"
   ]
 }
