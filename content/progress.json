@@ -2,28 +2,29 @@
   "version": 2,
   "targetSituations": 320,
   "targetResponses": 2560,
-  "completedSituations": 197,
-  "completedResponses": 1616,
-  "uniqueTexts": 1616,
+  "completedSituations": 212,
+  "completedResponses": 1736,
+  "uniqueTexts": 1736,
   "completedRoutes": [
     "reply",
     "send",
     "guide",
     "open",
-    "continue"
+    "continue",
+    "flirt"
   ],
   "nextBatch": [
-    "flirt-011",
-    "flirt-012",
-    "flirt-013",
-    "flirt-014",
-    "flirt-015",
-    "flirt-016",
-    "flirt-017",
-    "flirt-018",
-    "flirt-019",
-    "flirt-020"
+    "confession-001",
+    "confession-002",
+    "confession-003",
+    "confession-004",
+    "confession-005",
+    "confession-006",
+    "confession-007",
+    "confession-008",
+    "confession-009",
+    "confession-010"
   ],
-  "generatedAt": "2026-11-17T04:45:02.028Z",
+  "generatedAt": "2026-11-17T04:47:34.225Z",
   "releaseComplete": false
 }
