@@ -1,48 +1,37 @@
 # Content validation
 
-Generated: 2026-11-16T14:18:45.245Z
+Generated: 2026-11-17T05:10:31.138Z
 
 Mode: release
-Valid: false
-V2 complete: false
-Situations: 50/320
-Responses: 436/2560
-Unique normalized texts: 436
+Valid: true
+V2 complete: true
+Situations: 320/320
+Responses: 2600/2560
+Unique normalized texts: 2600
+Total preserved records: 2602
+Retained-only legacy records: 2
 
 ## Errors
 
-Release requires 320 situations; actual 50
-Release requires >=2560 responses; actual 436
-Incomplete route reply
-Incomplete route send
-Incomplete route guide
-Incomplete route open
-Incomplete route continue
-Incomplete route flirt
-Incomplete route confession
-Incomplete route reconcile
-Incomplete route care
-Incomplete route occasions
-Incomplete route meeting
-Incomplete route quick
+None
 
 ## Warnings
 
-1 similar pairs require editorial review; similarity is not a semantic proof.
+None
 
 ## Tone counts (multi-label)
 
-- casual: 114
-- romantic: 25
-- tender: 65
-- confident: 20
-- bold_respectful: 3
-- deep: 16
-- poetic: 10
-- playful: 25
-- mature: 84
-- supportive: 50
-- clear: 166
-- subtle: 9
+- casual: 1004
+- romantic: 95
+- tender: 134
+- confident: 63
+- bold_respectful: 17
+- deep: 65
+- poetic: 44
+- playful: 102
+- mature: 858
+- supportive: 350
+- clear: 720
+- subtle: 28
 
 See JSON for all similarity candidates.

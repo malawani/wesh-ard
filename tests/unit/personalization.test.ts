@@ -45,3 +45,16 @@ describe("Situation-specific context", () => {
   expect(recommend({ ...base, situationId: "sorry", optionalContext: "invented-context" }).appliedFilters.context).toBeNull();
  });
 });
+
+describe("Editorial preservation", () => {
+ it("keeps old text available for favorites but excludes conditional apologies from recommendations", async () => {
+  const { CONTENT_BY_ID } = await import("../../content");
+  const { parseFavorites } = await import("../../lib/storage/favorites-v2");
+  for (const [situationId,id] of [["upset","upset:direct:0"],["misunderstand","misunderstand:direct:1"]]) {
+    const retained = CONTENT_BY_ID.get(situationId)!.replies.find(r => r.id === id)!;
+    expect(retained.tags).toContain("legacy-retained-only");
+    expect(parseFavorites(JSON.stringify([{ id, text: retained.text }]))[0].text).toBe(retained.text);
+    expect(recommend({ situationId, relationshipStage: "love", preferredTone: "all", intensity: 3, length: "all" }).suggestions.some(r => r.id === id)).toBe(false);
+  }
+ });
+});

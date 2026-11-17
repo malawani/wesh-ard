@@ -1,13 +1,15 @@
 # Content validation
 
-Generated: 2026-11-17T04:47:34.225Z
+Generated: 2026-11-17T05:10:29.289Z
 
 Mode: incremental
 Valid: true
-V2 complete: false
-Situations: 212/320
-Responses: 1736/2560
-Unique normalized texts: 1736
+V2 complete: true
+Situations: 320/320
+Responses: 2600/2560
+Unique normalized texts: 2600
+Total preserved records: 2602
+Retained-only legacy records: 2
 
 ## Errors
 
@@ -15,21 +17,21 @@ None
 
 ## Warnings
 
-1 similar pairs require editorial review; similarity is not a semantic proof.
+None
 
 ## Tone counts (multi-label)
 
-- casual: 648
-- romantic: 77
-- tender: 117
-- confident: 56
+- casual: 1004
+- romantic: 95
+- tender: 134
+- confident: 63
 - bold_respectful: 17
-- deep: 58
-- poetic: 43
-- playful: 94
-- mature: 349
-- supportive: 171
-- clear: 384
-- subtle: 13
+- deep: 65
+- poetic: 44
+- playful: 102
+- mature: 858
+- supportive: 350
+- clear: 720
+- subtle: 28
 
 See JSON for all similarity candidates.

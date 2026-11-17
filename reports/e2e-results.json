@@ -180,12 +180,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1829,
+                  "duration": 1871,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T04:43:32.204Z",
+                  "startTime": "2026-11-17T05:07:08.126Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -200,15 +200,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1726,
+                  "duration": 1912,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T04:43:49.224Z",
+                  "startTime": "2026-11-17T05:07:24.663Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -237,12 +237,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 647,
+                  "duration": 653,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T04:43:35.729Z",
+                  "startTime": "2026-11-17T05:07:11.719Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -257,15 +257,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 614,
+                  "duration": 700,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T04:43:51.661Z",
+                  "startTime": "2026-11-17T05:07:27.439Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -294,12 +294,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 735,
+                  "duration": 657,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T04:43:36.391Z",
+                  "startTime": "2026-11-17T05:07:12.386Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -314,15 +314,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 660,
+                  "duration": 648,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T04:43:52.287Z",
+                  "startTime": "2026-11-17T05:07:28.151Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -351,12 +351,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 967,
+                  "duration": 961,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T04:43:37.146Z",
+                  "startTime": "2026-11-17T05:07:13.055Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -371,15 +371,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1224,
+                  "duration": 1335,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T04:43:52.976Z",
+                  "startTime": "2026-11-17T05:07:28.840Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -408,12 +408,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1344,
+                  "duration": 1324,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T04:43:38.127Z",
+                  "startTime": "2026-11-17T05:07:14.037Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -428,15 +428,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1299,
+                  "duration": 1349,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T04:43:54.220Z",
+                  "startTime": "2026-11-17T05:07:30.201Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -451,7 +451,7 @@
         },
         {
           "title": "new opening route and situation-specific apology work",
-          "ok": false,
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -464,53 +464,18 @@
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
-                  "status": "failed",
-                  "duration": 5914,
-                  "error": {
-                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.response-text').first()\nExpected substring: \u001b[32m\"أ\u001b[7mلغيت الموعد\u001b[27m\"\u001b[39m\nReceived string:    \u001b[31m\"أ\u001b[7mعتذر عن اللي بدر مني.\u001b[27m\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('.response-text').first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.response-text').first()\u001b[22m\n\u001b[2m    14 × locator resolved to <p class=\"response-text\">أعتذر عن اللي بدر مني.</p>\u001b[22m\n\u001b[2m       - unexpected value \"أعتذر عن اللي بدر مني.\"\u001b[22m\n",
-                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.response-text').first()\nExpected substring: \u001b[32m\"أ\u001b[7mلغيت الموعد\u001b[27m\"\u001b[39m\nReceived string:    \u001b[31m\"أ\u001b[7mعتذر عن اللي بدر مني.\u001b[27m\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('.response-text').first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.response-text').first()\u001b[22m\n\u001b[2m    14 × locator resolved to <p class=\"response-text\">أعتذر عن اللي بدر مني.</p>\u001b[22m\n\u001b[2m       - unexpected value \"أعتذر عن اللي بدر مني.\"\u001b[22m\n\n    at /workspace/work/wesh-ard/tests/e2e/journey.spec.ts:135:56",
-                    "location": {
-                      "file": "/workspace/work/wesh-ard/tests/e2e/journey.spec.ts",
-                      "column": 56,
-                      "line": 135
-                    },
-                    "snippet": " \u001b[90m 133 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByLabel(\u001b[32m\"عن وش تبي تعتذر؟\"\u001b[39m\u001b[33m,\u001b[39m { exact\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m.\u001b[39mselectOption(\u001b[32m\"apology-reason:cancel\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 134 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m\"button\"\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m\"عرض العبارات\"\u001b[39m\u001b[33m,\u001b[39m exact\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 135 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\".response-text\"\u001b[39m)\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoContainText(\u001b[32m\"ألغيت الموعد\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 136 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 137 |\u001b[39m\n \u001b[90m 138 |\u001b[39m test(\u001b[32m\"profile and opted-in ratings survive reload without storing searches\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "/workspace/work/wesh-ard/tests/e2e/journey.spec.ts",
-                        "column": 56,
-                        "line": 135
-                      },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.response-text').first()\nExpected substring: \u001b[32m\"أ\u001b[7mلغيت الموعد\u001b[27m\"\u001b[39m\nReceived string:    \u001b[31m\"أ\u001b[7mعتذر عن اللي بدر مني.\u001b[27m\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('.response-text').first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.response-text').first()\u001b[22m\n\u001b[2m    14 × locator resolved to <p class=\"response-text\">أعتذر عن اللي بدر مني.</p>\u001b[22m\n\u001b[2m       - unexpected value \"أعتذر عن اللي بدر مني.\"\u001b[22m\n\n\n  133 |   await page.getByLabel(\"عن وش تبي تعتذر؟\", { exact: true }).selectOption(\"apology-reason:cancel\");\n  134 |   await page.getByRole(\"button\", { name: \"عرض العبارات\", exact: true }).click();\n> 135 |   await expect(page.locator(\".response-text\").first()).toContainText(\"ألغيت الموعد\");\n      |                                                        ^\n  136 | });\n  137 |\n  138 | test(\"profile and opted-in ratings survive reload without storing searches\", async ({ page }) => {\n    at /workspace/work/wesh-ard/tests/e2e/journey.spec.ts:135:56"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 856,
+                  "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T04:43:39.488Z",
+                  "startTime": "2026-11-17T05:07:15.373Z",
                   "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "error-context",
-                      "contentType": "text/markdown",
-                      "path": "/workspace/work/wesh-ard/test-results/journey-new-opening-route--d12ff-ation-specific-apology-work-desktop/error-context.md"
-                    },
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "/workspace/work/wesh-ard/test-results/journey-new-opening-route--d12ff-ation-specific-apology-work-desktop/trace.zip"
-                    }
-                  ],
-                  "errorLocation": {
-                    "file": "/workspace/work/wesh-ard/tests/e2e/journey.spec.ts",
-                    "column": 56,
-                    "line": 135
-                  }
+                  "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             },
             {
               "timeout": 30000,
@@ -520,55 +485,20 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 1,
                   "parallelIndex": 0,
-                  "status": "failed",
-                  "duration": 6027,
-                  "error": {
-                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.response-text').first()\nExpected substring: \u001b[32m\"أ\u001b[7mلغيت الموعد\u001b[27m\"\u001b[39m\nReceived string:    \u001b[31m\"أ\u001b[7mعتذر عن اللي بدر مني.\u001b[27m\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('.response-text').first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.response-text').first()\u001b[22m\n\u001b[2m    14 × locator resolved to <p class=\"response-text\">أعتذر عن اللي بدر مني.</p>\u001b[22m\n\u001b[2m       - unexpected value \"أعتذر عن اللي بدر مني.\"\u001b[22m\n",
-                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.response-text').first()\nExpected substring: \u001b[32m\"أ\u001b[7mلغيت الموعد\u001b[27m\"\u001b[39m\nReceived string:    \u001b[31m\"أ\u001b[7mعتذر عن اللي بدر مني.\u001b[27m\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('.response-text').first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.response-text').first()\u001b[22m\n\u001b[2m    14 × locator resolved to <p class=\"response-text\">أعتذر عن اللي بدر مني.</p>\u001b[22m\n\u001b[2m       - unexpected value \"أعتذر عن اللي بدر مني.\"\u001b[22m\n\n    at /workspace/work/wesh-ard/tests/e2e/journey.spec.ts:135:56",
-                    "location": {
-                      "file": "/workspace/work/wesh-ard/tests/e2e/journey.spec.ts",
-                      "column": 56,
-                      "line": 135
-                    },
-                    "snippet": " \u001b[90m 133 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByLabel(\u001b[32m\"عن وش تبي تعتذر؟\"\u001b[39m\u001b[33m,\u001b[39m { exact\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m.\u001b[39mselectOption(\u001b[32m\"apology-reason:cancel\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 134 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m\"button\"\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m\"عرض العبارات\"\u001b[39m\u001b[33m,\u001b[39m exact\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 135 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\".response-text\"\u001b[39m)\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoContainText(\u001b[32m\"ألغيت الموعد\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 136 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 137 |\u001b[39m\n \u001b[90m 138 |\u001b[39m test(\u001b[32m\"profile and opted-in ratings survive reload without storing searches\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "/workspace/work/wesh-ard/tests/e2e/journey.spec.ts",
-                        "column": 56,
-                        "line": 135
-                      },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.response-text').first()\nExpected substring: \u001b[32m\"أ\u001b[7mلغيت الموعد\u001b[27m\"\u001b[39m\nReceived string:    \u001b[31m\"أ\u001b[7mعتذر عن اللي بدر مني.\u001b[27m\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('.response-text').first() with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.response-text').first()\u001b[22m\n\u001b[2m    14 × locator resolved to <p class=\"response-text\">أعتذر عن اللي بدر مني.</p>\u001b[22m\n\u001b[2m       - unexpected value \"أعتذر عن اللي بدر مني.\"\u001b[22m\n\n\n  133 |   await page.getByLabel(\"عن وش تبي تعتذر؟\", { exact: true }).selectOption(\"apology-reason:cancel\");\n  134 |   await page.getByRole(\"button\", { name: \"عرض العبارات\", exact: true }).click();\n> 135 |   await expect(page.locator(\".response-text\").first()).toContainText(\"ألغيت الموعد\");\n      |                                                        ^\n  136 | });\n  137 |\n  138 | test(\"profile and opted-in ratings survive reload without storing searches\", async ({ page }) => {\n    at /workspace/work/wesh-ard/tests/e2e/journey.spec.ts:135:56"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 918,
+                  "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T04:43:55.535Z",
+                  "startTime": "2026-11-17T05:07:31.563Z",
                   "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "error-context",
-                      "contentType": "text/markdown",
-                      "path": "/workspace/work/wesh-ard/test-results/journey-new-opening-route--d12ff-ation-specific-apology-work-mobile/error-context.md"
-                    },
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "/workspace/work/wesh-ard/test-results/journey-new-opening-route--d12ff-ation-specific-apology-work-mobile/trace.zip"
-                    }
-                  ],
-                  "errorLocation": {
-                    "file": "/workspace/work/wesh-ard/tests/e2e/journey.spec.ts",
-                    "column": 56,
-                    "line": 135
-                  }
+                  "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
           "id": "bf222bad70f76648f722-0799498c4f5cbfbec97a",
@@ -589,15 +519,15 @@
               "projectName": "desktop",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1777,
+                  "duration": 1343,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T04:43:46.135Z",
+                  "startTime": "2026-11-17T05:07:16.241Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -612,15 +542,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1473,
+                  "duration": 1263,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T04:44:02.412Z",
+                  "startTime": "2026-11-17T05:07:32.508Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -632,17 +562,131 @@
           "file": "journey.spec.ts",
           "line": 138,
           "column": 1
+        },
+        {
+          "title": "all twelve paths expose their complete situations and usable results",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5813,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T05:07:17.597Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6043,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T05:07:33.784Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bf222bad70f76648f722-3ca69880bf9f74ef1460",
+          "file": "journey.spec.ts",
+          "line": 163,
+          "column": 1
+        },
+        {
+          "title": "about, privacy and missing pages return the intended content",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 650,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T05:07:23.427Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 666,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T05:07:39.836Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bf222bad70f76648f722-b5679d215df7d801bd43",
+          "file": "journey.spec.ts",
+          "line": 183,
+          "column": 1
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-17T04:43:29.269Z",
-    "duration": 35386.75,
-    "expected": 12,
+    "startTime": "2026-11-17T05:07:03.139Z",
+    "duration": 37470.698000000004,
+    "expected": 18,
     "skipped": 0,
-    "unexpected": 2,
+    "unexpected": 0,
     "flaky": 0
   }
 }

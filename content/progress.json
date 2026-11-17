@@ -2,29 +2,24 @@
   "version": 2,
   "targetSituations": 320,
   "targetResponses": 2560,
-  "completedSituations": 212,
-  "completedResponses": 1736,
-  "uniqueTexts": 1736,
+  "completedSituations": 320,
+  "completedResponses": 2600,
+  "uniqueTexts": 2600,
   "completedRoutes": [
     "reply",
     "send",
     "guide",
     "open",
     "continue",
-    "flirt"
+    "flirt",
+    "confession",
+    "reconcile",
+    "care",
+    "occasions",
+    "meeting",
+    "quick"
   ],
-  "nextBatch": [
-    "confession-001",
-    "confession-002",
-    "confession-003",
-    "confession-004",
-    "confession-005",
-    "confession-006",
-    "confession-007",
-    "confession-008",
-    "confession-009",
-    "confession-010"
-  ],
-  "generatedAt": "2026-11-17T04:47:34.225Z",
-  "releaseComplete": false
+  "nextBatch": [],
+  "generatedAt": "2026-11-17T05:10:29.289Z",
+  "releaseComplete": true
 }

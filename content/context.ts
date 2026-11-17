@@ -29,3 +29,11 @@ export function withContext(situation: SituationContent): SituationContent {
   return { ...r, tags: [...r.tags, ...groups] };
  }) };
 }
+const RETAINED_ONLY = new Set(["upset:direct:0", "misunderstand:direct:1"]);
+export function withLegacyReview(situation: SituationContent): SituationContent {
+ const replacement = situation.id === "upset" ? "أنا مسؤول عن أسلوبي اللي ضايقك، وأعتذر عنه وبسمع أثره عليك بدون تبرير."
+   : situation.id === "misunderstand" ? "أعتذر عن صياغتي اللي سببت اللبس، وبوضح المقصود بعد ما أسمع كيف وصل لك الكلام." : null;
+ const replies = situation.replies.map(r => RETAINED_ONLY.has(r.id) ? { ...r, tags: [...r.tags, "legacy-retained-only"] } : r);
+ if (replacement) replies.push({ id: `${situation.id}:v2:accountability`, text: replacement, tones: ["mature", "clear"], allowedStages: ALL_STAGES, intensity: 1, length: messageLength(replacement), dialect: "sa", tags: ["v2", "editorial-replacement"] });
+ return { ...situation, replies };
+}

@@ -159,3 +159,35 @@ test("profile and opted-in ratings survive reload without storing searches", asy
   await page.getByRole("button", { name: "حفظ تفضيلاتي", exact: true }).click();
   expect(await page.evaluate(() => localStorage.getItem("wesh-ard:v2:feedback"))).toBeNull();
 });
+
+test("all twelve paths expose their complete situations and usable results", async ({ page }) => {
+  const { CONTENT } = await import("../../content");
+  const { ROUTES } = await import("../../content/schemas");
+  for (const [route, label] of Object.entries(ROUTES)) {
+    await page.goto("/");
+    if (["reply", "send", "guide"].includes(route)) await page.locator(`.route-${route}`).click();
+    else await page.getByRole("button", { name: label, exact: true }).click();
+    const situations = CONTENT.filter(s => s.canonicalRoute === route);
+    await expect(page.locator(".situation-card")).toHaveCount(situations.length);
+    const first = situations[0];
+    await page.getByRole("button", { name: first.title, exact: true }).click();
+    const stage = first.replies.find(r => !r.tags.includes("legacy-retained-only"))!.allowedStages[0];
+    await page.getByLabel("مرحلة العلاقة", { exact: true }).selectOption(stage);
+    await page.getByText("كل النبرات المناسبة", { exact: true }).click();
+    await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
+    expect(await page.locator(".response-card").count()).toBeGreaterThan(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+  }
+});
+
+test("about, privacy and missing pages return the intended content", async ({ page }) => {
+  await page.goto("/about/");
+  await expect(page.getByRole("heading", { name: "عن «وش أرد؟»", exact: true })).toBeVisible();
+  await page.getByRole("link", { name: "الخصوصية", exact: true }).click();
+  await expect(page.getByRole("heading", { name: "سياسة الخصوصية", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "تفضيلات الأسلوب والتقييمات", exact: true })).toBeVisible();
+  await page.getByRole("link", { name: "العودة للرئيسية", exact: true }).click();
+  await expect(page.getByRole("heading", { name: /لكل موقف/ })).toBeVisible();
+  await page.goto("/404.html");
+  await expect(page.getByRole("heading")).toBeVisible();
+});

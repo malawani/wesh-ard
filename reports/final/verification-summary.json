@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-11-17T05:11:48.855Z",
+  "version": "2.0.0",
+  "content": {
+    "valid": true,
+    "situations": 320,
+    "responses": 2600,
+    "responseRecords": 2602,
+    "retainedOnlyCount": 2,
+    "routes": {
+      "reply": 55,
+      "send": 42,
+      "guide": 40,
+      "open": 25,
+      "continue": 25,
+      "flirt": 25,
+      "confession": 20,
+      "reconcile": 22,
+      "care": 20,
+      "occasions": 16,
+      "meeting": 15,
+      "quick": 15
+    }
+  },
+  "unitTestsPassed": 58,
+  "e2e": {
+    "startTime": "2026-11-17T05:07:03.139Z",
+    "duration": 37470.698000000004,
+    "expected": 18,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "publicDeploymentPerformed": false,
+  "stagingOnTargetHostPerformed": false
+}

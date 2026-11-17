@@ -17,7 +17,7 @@ const neighbors: Record<ToneId, ToneId[]> = {
 export function eligibleResponses(situationId: string, stage: StageId): ResponseContent[] {
   const situation = CONTENT_BY_ID.get(situationId);
   if (!situation) return [];
-  return situation.replies.filter(r => r.allowedStages.includes(stage) &&
+  return situation.replies.filter(r => !r.tags.includes("legacy-retained-only") && r.allowedStages.includes(stage) &&
     (situation.sensitivity === "normal" || r.tones.some(t => SENSITIVE_TONES.includes(t))));
 }
 export function availableTones(situationId: string, stage: StageId): ToneId[] {

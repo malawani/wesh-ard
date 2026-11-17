@@ -1,4 +1,17 @@
-import { withContext } from "./context";
+import { withContext, withLegacyReview } from "./context";
+import { QUICK_BATCH_2 } from "./routes/quick-011-015";
+import { QUICK_BATCH_1 } from "./routes/quick-001-010";
+import { MEETING_BATCH_2 } from "./routes/meeting-011-015";
+import { MEETING_BATCH_1 } from "./routes/meeting-001-010";
+import { OCCASIONS_BATCH_2 } from "./routes/occasions-011-016";
+import { OCCASIONS_BATCH_1 } from "./routes/occasions-001-010";
+import { CARE_BATCH_2 } from "./routes/care-011-020";
+import { CARE_BATCH_1 } from "./routes/care-001-010";
+import { RECONCILE_BATCH_3 } from "./routes/reconcile-021-022";
+import { RECONCILE_BATCH_2 } from "./routes/reconcile-011-020";
+import { RECONCILE_BATCH_1 } from "./routes/reconcile-001-010";
+import { CONFESSION_BATCH_2 } from "./routes/confession-011-020";
+import { CONFESSION_BATCH_1 } from "./routes/confession-001-010";
 import { FLIRT_BATCH_3 } from "./routes/flirt-021-025";
 import { FLIRT_BATCH_2 } from "./routes/flirt-011-020";
 import { FLIRT_BATCH_1 } from "./routes/flirt-001-010";
@@ -15,6 +28,7 @@ import { SEND_BATCH_4 } from "./routes/send-041-042";
 import { SEND_BATCH_3 } from "./routes/send-031-040";
 import { SEND_BATCH_2 } from "./routes/send-021-030";
 import { SEND_BATCH_1 } from "./routes/send-011-020";
+import { LEGACY_ACTIONS } from "./legacy/actions-v2";
 import { CATALOG } from "./legacy/catalog-v1";
 import { getSuggestions } from "./legacy/engine-v1";
 import { ADDITIONS } from "./legacy/additions";
@@ -73,10 +87,10 @@ const LEGACY_CONTENT: SituationContent[] = CATALOG.map(old => {
     id: old.id, canonicalRoute: old.route, title: old.title,
     description: old.tip, intent: old.route === "reply" ? "الرد على رسالة واردة" : old.route === "send" ? "إنشاء رسالة مبادرة" : "اختيار تصرف وجملة مناسبة",
     trigger: old.title, keywords: old.keywords, advice: old.tip, avoid: [old.avoid],
-    actions: old.route === "guide" ? [old.tip, "اختر عبارة تعبّر عن موقفك الحقيقي، أو اكتفِ بالتصرف دون إرسال رسالة."] : [],
+    actions: LEGACY_ACTIONS[old.id] ?? [],
     sensitivity: BOUNDARIES.has(old.id) ? "boundary_sensitive" : old.sensitive ? "careful" : "normal",
     replies: [...all.values(), ...additions]
   };
 });
-export const CONTENT: SituationContent[] = [...LEGACY_CONTENT, ...REPLY_BATCH_1, ...REPLY_BATCH_2, ...REPLY_BATCH_3, ...REPLY_BATCH_4, ...REPLY_BATCH_5, ...SEND_BATCH_1, ...SEND_BATCH_2, ...SEND_BATCH_3, ...SEND_BATCH_4, ...GUIDE_BATCH_1, ...GUIDE_BATCH_2, ...GUIDE_BATCH_3, ...OPEN_BATCH_1, ...OPEN_BATCH_2, ...OPEN_BATCH_3, ...CONTINUE_BATCH_1, ...CONTINUE_BATCH_2, ...CONTINUE_BATCH_3, ...FLIRT_BATCH_1, ...FLIRT_BATCH_2, ...FLIRT_BATCH_3].map(withContext);
+export const CONTENT: SituationContent[] = [...LEGACY_CONTENT, ...REPLY_BATCH_1, ...REPLY_BATCH_2, ...REPLY_BATCH_3, ...REPLY_BATCH_4, ...REPLY_BATCH_5, ...SEND_BATCH_1, ...SEND_BATCH_2, ...SEND_BATCH_3, ...SEND_BATCH_4, ...GUIDE_BATCH_1, ...GUIDE_BATCH_2, ...GUIDE_BATCH_3, ...OPEN_BATCH_1, ...OPEN_BATCH_2, ...OPEN_BATCH_3, ...CONTINUE_BATCH_1, ...CONTINUE_BATCH_2, ...CONTINUE_BATCH_3, ...FLIRT_BATCH_1, ...FLIRT_BATCH_2, ...FLIRT_BATCH_3, ...CONFESSION_BATCH_1, ...CONFESSION_BATCH_2, ...RECONCILE_BATCH_1, ...RECONCILE_BATCH_2, ...RECONCILE_BATCH_3, ...CARE_BATCH_1, ...CARE_BATCH_2, ...OCCASIONS_BATCH_1, ...OCCASIONS_BATCH_2, ...MEETING_BATCH_1, ...MEETING_BATCH_2, ...QUICK_BATCH_1, ...QUICK_BATCH_2].map(withContext).map(withLegacyReview);
 export const CONTENT_BY_ID = new Map(CONTENT.map(s => [s.id, s]));

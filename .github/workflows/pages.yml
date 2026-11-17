@@ -10,7 +10,28 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  quality:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run validate:release
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+        env:
+          CI: true
   build:
+    needs: quality
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -34,12 +55,6 @@ jobs:
           else
             npm install
           fi
-      - name: Check types
-        run: npm run typecheck
-      - name: Run tests
-        run: npm test
-      - name: Validate incremental content
-        run: npm run validate:content
       - name: Build the static site
         env:
           PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}

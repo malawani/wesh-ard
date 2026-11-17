@@ -1,0 +1,83 @@
+
+> wesh-ard@2.0.0 validate:release
+> tsx scripts/validate-content.ts --release
+
+{
+  "mode": "release",
+  "valid": true,
+  "releaseComplete": true,
+  "situations": 320,
+  "responses": 2600,
+  "responseRecords": 2602,
+  "retainedOnlyCount": 2,
+  "uniqueTexts": 2600,
+  "legacyBaseResponses": 180,
+  "legacyRuntimeIds": 216,
+  "routes": {
+    "reply": 55,
+    "send": 42,
+    "guide": 40,
+    "open": 25,
+    "continue": 25,
+    "flirt": 25,
+    "confession": 20,
+    "reconcile": 22,
+    "care": 20,
+    "occasions": 16,
+    "meeting": 15,
+    "quick": 15
+  },
+  "tones": {
+    "casual": 1004,
+    "romantic": 95,
+    "tender": 134,
+    "confident": 63,
+    "bold_respectful": 17,
+    "deep": 65,
+    "poetic": 44,
+    "playful": 102,
+    "mature": 858,
+    "supportive": 350,
+    "clear": 720,
+    "subtle": 28
+  },
+  "stages": {
+    "first_contact": 2110,
+    "getting_to_know": 2137,
+    "friendship_possible": 2138,
+    "one_sided": 2138,
+    "mutual_crush": 2459,
+    "serious_dating": 2455,
+    "love": 2530,
+    "engaged": 2546,
+    "married": 2546
+  },
+  "lengths": {
+    "short": 2558,
+    "medium": 41,
+    "long": 1
+  },
+  "errors": [],
+  "warnings": [],
+  "similarPairs": [
+    {
+      "a": "miss:direct:0",
+      "b": "missing:direct:0",
+      "similarity": 0.83
+    }
+  ],
+  "reviewedSimilarPairs": [
+    {
+      "a": "miss:direct:0",
+      "b": "missing:direct:0",
+      "similarity": 0.83
+    }
+  ],
+  "remainingSituations": [],
+  "nextBatch": []
+}
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice

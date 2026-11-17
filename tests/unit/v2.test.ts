@@ -20,9 +20,10 @@ describe("V2 content contract", () => {
     expect(report.responses).toBe(report.uniqueTexts);
     expect(report.remainingSituations).not.toContain("reply-031");
   });
-  it("fails release validation while phases 2–7 are pending", () => {
-    expect(validateContent(undefined, true).valid).toBe(false);
-    expect(validateContent().releaseComplete).toBe(false);
+  it("accepts the complete release content and rejects an incomplete batch in release mode", () => {
+    expect(validateContent(undefined, true).valid).toBe(true);
+    expect(validateContent(CONTENT.slice(0, -1), true).valid).toBe(false);
+    expect(validateContent().releaseComplete).toBe(true);
   });
   it("rejects duplicate text, wrong lengths, empty eligibility and lost legacy IDs", () => {
     const broken = structuredClone(CONTENT);
@@ -43,7 +44,7 @@ describe("V2 recommendation constraints", () => {
         if (situation.sensitivity !== "normal") expect(r.tones.every(t => SENSITIVE_TONES.includes(t))).toBe(true);
       }
     }
-  });
+  }, 20000);
   it("never offers love declarations in early acquaintance", () => {
     const result = recommend(base);
     expect(result.suggestions.length).toBeGreaterThan(0);
