@@ -1,0 +1,42 @@
+{
+  "url": "https://malawani.github.io/wesh-ard/",
+  "deployedCommit": "f5c583ca58e04f37b817dfacc3f2a6e34156eaa3",
+  "actionsRun": 44094012847,
+  "deploymentId": 7854818329,
+  "deploymentState": "success",
+  "liveBrowserTests": {
+    "startTime": "2026-11-17T13:36:51.014Z",
+    "duration": 45305.327,
+    "expected": 22,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "httpPages": [
+    {
+      "url": "https://malawani.github.io/wesh-ard/",
+      "status": 200,
+      "bytes": 15486
+    },
+    {
+      "url": "https://malawani.github.io/wesh-ard/about/",
+      "status": 200,
+      "bytes": 7848
+    },
+    {
+      "url": "https://malawani.github.io/wesh-ard/privacy/",
+      "status": 200,
+      "bytes": 12925
+    },
+    {
+      "url": "https://malawani.github.io/wesh-ard/404.html",
+      "status": 200,
+      "bytes": 6667
+    }
+  ],
+  "previousRelease": "https://github.com/malawani/wesh-ard/releases/tag/v2-pages-published",
+  "backupBranch": "backup/before-meaning-impact-2026-11-17",
+  "reviewed": 197,
+  "pending": 2405,
+  "browserNote": "Temporary live-test configuration reuses the previously documented environment certificate workaround; production and tracked browser security settings were not changed. System HTTPS verification passed independently."
+}
