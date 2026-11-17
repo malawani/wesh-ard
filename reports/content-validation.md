@@ -1,13 +1,13 @@
 # Content validation
 
-Generated: 2026-11-17T04:29:07.931Z
+Generated: 2026-11-17T04:32:08.292Z
 
 Mode: incremental
 Valid: true
 V2 complete: false
-Situations: 137/320
-Responses: 1132/2560
-Unique normalized texts: 1132
+Situations: 157/320
+Responses: 1292/2560
+Unique normalized texts: 1292
 
 ## Errors
 
@@ -19,7 +19,7 @@ None
 
 ## Tone counts (multi-label)
 
-- casual: 223
+- casual: 383
 - romantic: 52
 - tender: 92
 - confident: 32

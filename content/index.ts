@@ -1,3 +1,5 @@
+import { OPEN_BATCH_2 } from "./routes/open-011-020";
+import { OPEN_BATCH_1 } from "./routes/open-001-010";
 import { GUIDE_BATCH_3 } from "./routes/guide-031-040";
 import { GUIDE_BATCH_2 } from "./routes/guide-021-030";
 import { GUIDE_BATCH_1 } from "./routes/guide-011-020";
@@ -68,5 +70,5 @@ const LEGACY_CONTENT: SituationContent[] = CATALOG.map(old => {
     replies: [...all.values(), ...additions]
   };
 });
-export const CONTENT: SituationContent[] = [...LEGACY_CONTENT, ...REPLY_BATCH_1, ...REPLY_BATCH_2, ...REPLY_BATCH_3, ...REPLY_BATCH_4, ...REPLY_BATCH_5, ...SEND_BATCH_1, ...SEND_BATCH_2, ...SEND_BATCH_3, ...SEND_BATCH_4, ...GUIDE_BATCH_1, ...GUIDE_BATCH_2, ...GUIDE_BATCH_3];
+export const CONTENT: SituationContent[] = [...LEGACY_CONTENT, ...REPLY_BATCH_1, ...REPLY_BATCH_2, ...REPLY_BATCH_3, ...REPLY_BATCH_4, ...REPLY_BATCH_5, ...SEND_BATCH_1, ...SEND_BATCH_2, ...SEND_BATCH_3, ...SEND_BATCH_4, ...GUIDE_BATCH_1, ...GUIDE_BATCH_2, ...GUIDE_BATCH_3, ...OPEN_BATCH_1, ...OPEN_BATCH_2];
 export const CONTENT_BY_ID = new Map(CONTENT.map(s => [s.id, s]));

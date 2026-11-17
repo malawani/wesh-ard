@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-11-17T04:29:07.931Z",
+  "generatedAt": "2026-11-17T04:32:08.292Z",
   "mode": "incremental",
   "valid": true,
   "releaseComplete": false,
-  "situations": 137,
-  "responses": 1132,
-  "uniqueTexts": 1132,
+  "situations": 157,
+  "responses": 1292,
+  "uniqueTexts": 1292,
   "legacyBaseResponses": 180,
   "legacyRuntimeIds": 216,
   "routes": {
     "reply": 55,
     "send": 42,
     "guide": 40,
-    "open": 0,
+    "open": 20,
     "continue": 0,
     "flirt": 0,
     "confession": 0,
@@ -23,7 +23,7 @@
     "quick": 0
   },
   "tones": {
-    "casual": 223,
+    "casual": 383,
     "romantic": 52,
     "tender": 92,
     "confident": 32,
@@ -37,19 +37,19 @@
     "subtle": 13
   },
   "stages": {
-    "first_contact": 893,
-    "getting_to_know": 920,
-    "friendship_possible": 921,
-    "one_sided": 921,
-    "mutual_crush": 1050,
-    "serious_dating": 1046,
-    "love": 1078,
-    "engaged": 1086,
-    "married": 1086
+    "first_contact": 1053,
+    "getting_to_know": 1080,
+    "friendship_possible": 1081,
+    "one_sided": 1081,
+    "mutual_crush": 1210,
+    "serious_dating": 1206,
+    "love": 1238,
+    "engaged": 1246,
+    "married": 1246
   },
   "lengths": {
-    "short": 1103,
-    "medium": 28,
+    "short": 1262,
+    "medium": 29,
     "long": 1
   },
   "errors": [],
@@ -64,26 +64,6 @@
     }
   ],
   "remainingSituations": [
-    "open-001",
-    "open-002",
-    "open-003",
-    "open-004",
-    "open-005",
-    "open-006",
-    "open-007",
-    "open-008",
-    "open-009",
-    "open-010",
-    "open-011",
-    "open-012",
-    "open-013",
-    "open-014",
-    "open-015",
-    "open-016",
-    "open-017",
-    "open-018",
-    "open-019",
-    "open-020",
     "open-021",
     "open-022",
     "open-023",
@@ -249,15 +229,15 @@
     "quick-015"
   ],
   "nextBatch": [
-    "open-001",
-    "open-002",
-    "open-003",
-    "open-004",
-    "open-005",
-    "open-006",
-    "open-007",
-    "open-008",
-    "open-009",
-    "open-010"
+    "open-021",
+    "open-022",
+    "open-023",
+    "open-024",
+    "open-025",
+    "continue-001",
+    "continue-002",
+    "continue-003",
+    "continue-004",
+    "continue-005"
   ]
 }
