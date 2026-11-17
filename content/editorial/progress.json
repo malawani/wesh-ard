@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-17T14:19:09.698Z",
+  "generatedAt": "2026-11-17T16:35:22.529Z",
   "total": 2602,
-  "reviewed": 378,
-  "kept": 367,
-  "edited": 11,
-  "reclassified": 19,
-  "explained": 378,
+  "reviewed": 658,
+  "kept": 641,
+  "edited": 17,
+  "reclassified": 20,
+  "explained": 658,
   "complete": false,
   "reviewedIds": [
     "miss:soft:0",
@@ -385,9 +385,7 @@
     "reply-022:r005",
     "reply-022:r006",
     "reply-022:r007",
-    "reply-022:r008"
-  ],
-  "pendingIds": [
+    "reply-022:r008",
     "reply-023:r001",
     "reply-023:r002",
     "reply-023:r003",
@@ -667,7 +665,9 @@
     "send-012:r005",
     "send-012:r006",
     "send-012:r007",
-    "send-012:r008",
+    "send-012:r008"
+  ],
+  "pendingIds": [
     "send-013:r001",
     "send-013:r002",
     "send-013:r003",
@@ -2614,17 +2614,17 @@
     "quick-015:r008"
   ],
   "nextBatch": [
-    "reply-023:r001",
-    "reply-023:r002",
-    "reply-023:r003",
-    "reply-023:r004",
-    "reply-023:r005",
-    "reply-023:r006",
-    "reply-023:r007",
-    "reply-023:r008",
-    "reply-024:r001",
-    "reply-024:r002",
-    "reply-024:r003",
-    "reply-024:r004"
+    "send-013:r001",
+    "send-013:r002",
+    "send-013:r003",
+    "send-013:r004",
+    "send-013:r005",
+    "send-013:r006",
+    "send-013:r007",
+    "send-013:r008",
+    "send-014:r001",
+    "send-014:r002",
+    "send-014:r003",
+    "send-014:r004"
   ]
 }

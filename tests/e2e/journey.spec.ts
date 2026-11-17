@@ -230,9 +230,9 @@ test("old saved wording and pending phrases never receive a mismatched or invent
   await expect(page.getByText("لا يتوفر شرح لهذه النسخة المحفوظة من العبارة. احتفظنا بنصها كما حفظته.", { exact: true })).toBeVisible();
   await expect(page.locator(".response-card dd")).toHaveCount(0);
   await page.getByRole("button", { name: "وش أرد؟ الرئيسية", exact: true }).click();
-  await page.locator(".route-reply").click();
-  const pendingSituation = CONTENT.find(s => s.canonicalRoute === "reply" && s.replies.every(r => !r.analysis));
+  const pendingSituation = CONTENT.find(s => s.replies.every(r => !r.analysis));
   if (!pendingSituation) return;
+  await page.locator(`.route-${pendingSituation.canonicalRoute}`).click();
   await page.getByRole("button", { name: pendingSituation.title, exact: true }).click();
   await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
   const pendingCard = page.locator(".response-card").first();
