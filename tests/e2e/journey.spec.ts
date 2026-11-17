@@ -8,7 +8,7 @@ test("choose, customize, copy, favorite, reload, remove, and preserve old source
       localStorage.setItem("fixture-seeded", "true");
     }
   });
-  await page.goto("/");
+  await page.goto("./");
   await page.getByRole("button", { name: "وش أرد؟ وصلتك رسالة وتبي رد يناسبها." }).click();
   await page.getByRole("button", { name: "قالت: اشتقت لك", exact: true }).click();
   await page.getByLabel("مرحلة العلاقة", { exact: true }).selectOption("mutual_crush");
@@ -37,7 +37,7 @@ test("choose, customize, copy, favorite, reload, remove, and preserve old source
 });
 
 test("Arabic search, refusal guidance, RTL, no horizontal scroll and keyboard focus", async ({ page }) => {
-  await page.goto("/");
+  await page.goto("./");
   await expect(page.locator("html")).toHaveAttribute("dir", "rtl");
   await page.keyboard.press("Tab");
   await expect(page.getByRole("button", { name: "وش أرد؟ الرئيسية", exact: true })).toBeFocused();
@@ -57,7 +57,7 @@ test("blocked storage shows warning and keeps favorites usable for this session"
   await page.addInitScript(() => {
     Storage.prototype.setItem = () => { throw new DOMException("blocked", "QuotaExceededError"); };
   });
-  await page.goto("/");
+  await page.goto("./");
   await expect(page.getByText(/تعذّر تأكيد حفظ المفضلة/)).toBeVisible();
   await page.getByRole("button", { name: "قالت: اشتقت لك", exact: true }).click();
   await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
@@ -68,7 +68,7 @@ test("blocked storage shows warning and keeps favorites usable for this session"
 });
 
 test("new situation applies distinct married and first-contact replies", async ({ page }, testInfo) => {
-  await page.goto("/");
+  await page.goto("./");
   await page.getByRole("button", { name: "وش أرد؟ وصلتك رسالة وتبي رد يناسبها." }).click();
   await page.getByRole("button", { name: "قالت: وش أنا بالنسبة لك؟", exact: true }).click();
   await page.getByLabel("مرحلة العلاقة", { exact: true }).selectOption("married");
@@ -86,7 +86,7 @@ test("new situation applies distinct married and first-contact replies", async (
 });
 
 test("flirting refusal remains distinct from invitation and can be saved", async ({ page }) => {
-  await page.goto("/");
+  await page.goto("./");
   await page.getByRole("button", { name: "وش أرد؟ وصلتك رسالة وتبي رد يناسبها." }).click();
   const search = page.getByLabel("ابحث عن موقف أو اكتب الرسالة", { exact: true });
   await search.fill("قالت لا تغازلني");
@@ -118,7 +118,7 @@ test("flirting refusal remains distinct from invitation and can be saved", async
 });
 
 test("new opening route and situation-specific apology work", async ({ page }) => {
-  await page.goto("/");
+  await page.goto("./");
   await page.getByRole("button", { name: "كيف أفتح سالفة؟", exact: true }).click();
   await page.getByRole("button", { name: "سؤال عن كتاب", exact: true }).click();
   await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
@@ -136,7 +136,7 @@ test("new opening route and situation-specific apology work", async ({ page }) =
 });
 
 test("profile and opted-in ratings survive reload without storing searches", async ({ page }) => {
-  await page.goto("/");
+  await page.goto("./");
   await page.getByRole("button", { name: "ملفي في الكلام", exact: true }).click();
   await page.getByLabel("النبرة المفضلة", { exact: true }).selectOption("all");
   await page.getByLabel("الطول المفضل", { exact: true }).selectOption("short");
@@ -164,7 +164,7 @@ test("all twelve paths expose their complete situations and usable results", asy
   const { CONTENT } = await import("../../content");
   const { ROUTES } = await import("../../content/schemas");
   for (const [route, label] of Object.entries(ROUTES)) {
-    await page.goto("/");
+    await page.goto("./");
     if (["reply", "send", "guide"].includes(route)) await page.locator(`.route-${route}`).click();
     else await page.getByRole("button", { name: label, exact: true }).click();
     const situations = CONTENT.filter(s => s.canonicalRoute === route);
@@ -181,13 +181,13 @@ test("all twelve paths expose their complete situations and usable results", asy
 });
 
 test("about, privacy and missing pages return the intended content", async ({ page }) => {
-  await page.goto("/about/");
+  await page.goto("./about/");
   await expect(page.getByRole("heading", { name: "عن «وش أرد؟»", exact: true })).toBeVisible();
   await page.getByRole("link", { name: "الخصوصية", exact: true }).click();
   await expect(page.getByRole("heading", { name: "سياسة الخصوصية", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "تفضيلات الأسلوب والتقييمات", exact: true })).toBeVisible();
   await page.getByRole("link", { name: "العودة للرئيسية", exact: true }).click();
   await expect(page.getByRole("heading", { name: /لكل موقف/ })).toBeVisible();
-  await page.goto("/404.html");
+  await page.goto("./404.html");
   await expect(page.getByRole("heading")).toBeVisible();
 });

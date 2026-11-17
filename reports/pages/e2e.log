@@ -1,0 +1,36 @@
+
+> wesh-ard@2.0.0 test:e2e
+> playwright test
+
+
+Running 18 tests using 1 worker
+
+(node:14625) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › tests/e2e/journey.spec.ts:3:1 › choose, customize, copy, favorite, reload, remove, and preserve old source (2.0s)
+  ✓   2 [desktop] › tests/e2e/journey.spec.ts:39:1 › Arabic search, refusal guidance, RTL, no horizontal scroll and keyboard focus (662ms)
+  ✓   3 [desktop] › tests/e2e/journey.spec.ts:56:1 › blocked storage shows warning and keeps favorites usable for this session (673ms)
+  ✓   4 [desktop] › tests/e2e/journey.spec.ts:70:1 › new situation applies distinct married and first-contact replies (998ms)
+  ✓   5 [desktop] › tests/e2e/journey.spec.ts:88:1 › flirting refusal remains distinct from invitation and can be saved (1.4s)
+  ✓   6 [desktop] › tests/e2e/journey.spec.ts:120:1 › new opening route and situation-specific apology work (989ms)
+  ✓   7 [desktop] › tests/e2e/journey.spec.ts:138:1 › profile and opted-in ratings survive reload without storing searches (1.2s)
+  ✓   8 [desktop] › tests/e2e/journey.spec.ts:163:1 › all twelve paths expose their complete situations and usable results (6.2s)
+  ✓   9 [desktop] › tests/e2e/journey.spec.ts:183:1 › about, privacy and missing pages return the intended content (702ms)
+(node:14805) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  10 [mobile] › tests/e2e/journey.spec.ts:3:1 › choose, customize, copy, favorite, reload, remove, and preserve old source (1.8s)
+  ✓  11 [mobile] › tests/e2e/journey.spec.ts:39:1 › Arabic search, refusal guidance, RTL, no horizontal scroll and keyboard focus (731ms)
+  ✓  12 [mobile] › tests/e2e/journey.spec.ts:56:1 › blocked storage shows warning and keeps favorites usable for this session (705ms)
+  ✓  13 [mobile] › tests/e2e/journey.spec.ts:70:1 › new situation applies distinct married and first-contact replies (1.4s)
+  ✓  14 [mobile] › tests/e2e/journey.spec.ts:88:1 › flirting refusal remains distinct from invitation and can be saved (1.4s)
+  ✓  15 [mobile] › tests/e2e/journey.spec.ts:120:1 › new opening route and situation-specific apology work (904ms)
+  ✓  16 [mobile] › tests/e2e/journey.spec.ts:138:1 › profile and opted-in ratings survive reload without storing searches (1.4s)
+  ✓  17 [mobile] › tests/e2e/journey.spec.ts:163:1 › all twelve paths expose their complete situations and usable results (6.3s)
+  ✓  18 [mobile] › tests/e2e/journey.spec.ts:183:1 › about, privacy and missing pages return the intended content (670ms)
+
+  18 passed (34.1s)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
