@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-17T04:23:49.910Z",
+  "generatedAt": "2026-11-17T04:25:57.924Z",
   "mode": "incremental",
   "valid": true,
   "releaseComplete": false,
-  "situations": 105,
-  "responses": 876,
-  "uniqueTexts": 876,
+  "situations": 117,
+  "responses": 972,
+  "uniqueTexts": 972,
   "legacyBaseResponses": 180,
   "legacyRuntimeIds": 216,
   "routes": {
     "reply": 55,
-    "send": 40,
-    "guide": 10,
+    "send": 42,
+    "guide": 20,
     "open": 0,
     "continue": 0,
     "flirt": 0,
@@ -23,7 +23,7 @@
     "quick": 0
   },
   "tones": {
-    "casual": 198,
+    "casual": 209,
     "romantic": 52,
     "tender": 92,
     "confident": 32,
@@ -31,25 +31,25 @@
     "deep": 39,
     "poetic": 18,
     "playful": 69,
-    "mature": 218,
-    "supportive": 130,
-    "clear": 278,
+    "mature": 258,
+    "supportive": 146,
+    "clear": 316,
     "subtle": 13
   },
   "stages": {
-    "first_contact": 637,
-    "getting_to_know": 664,
-    "friendship_possible": 665,
-    "one_sided": 665,
-    "mutual_crush": 794,
-    "serious_dating": 790,
-    "love": 822,
-    "engaged": 830,
-    "married": 830
+    "first_contact": 733,
+    "getting_to_know": 760,
+    "friendship_possible": 761,
+    "one_sided": 761,
+    "mutual_crush": 890,
+    "serious_dating": 886,
+    "love": 918,
+    "engaged": 926,
+    "married": 926
   },
   "lengths": {
-    "short": 851,
-    "medium": 24,
+    "short": 946,
+    "medium": 25,
     "long": 1
   },
   "errors": [],
@@ -64,18 +64,6 @@
     }
   ],
   "remainingSituations": [
-    "send-041",
-    "send-042",
-    "guide-011",
-    "guide-012",
-    "guide-013",
-    "guide-014",
-    "guide-015",
-    "guide-016",
-    "guide-017",
-    "guide-018",
-    "guide-019",
-    "guide-020",
     "guide-021",
     "guide-022",
     "guide-023",
@@ -281,15 +269,15 @@
     "quick-015"
   ],
   "nextBatch": [
-    "send-041",
-    "send-042",
-    "guide-011",
-    "guide-012",
-    "guide-013",
-    "guide-014",
-    "guide-015",
-    "guide-016",
-    "guide-017",
-    "guide-018"
+    "guide-021",
+    "guide-022",
+    "guide-023",
+    "guide-024",
+    "guide-025",
+    "guide-026",
+    "guide-027",
+    "guide-028",
+    "guide-029",
+    "guide-030"
   ]
 }

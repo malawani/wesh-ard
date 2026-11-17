@@ -2,24 +2,25 @@
   "version": 2,
   "targetSituations": 320,
   "targetResponses": 2560,
-  "completedSituations": 105,
-  "completedResponses": 876,
-  "uniqueTexts": 876,
+  "completedSituations": 117,
+  "completedResponses": 972,
+  "uniqueTexts": 972,
   "completedRoutes": [
-    "reply"
+    "reply",
+    "send"
   ],
   "nextBatch": [
-    "send-041",
-    "send-042",
-    "guide-011",
-    "guide-012",
-    "guide-013",
-    "guide-014",
-    "guide-015",
-    "guide-016",
-    "guide-017",
-    "guide-018"
+    "guide-021",
+    "guide-022",
+    "guide-023",
+    "guide-024",
+    "guide-025",
+    "guide-026",
+    "guide-027",
+    "guide-028",
+    "guide-029",
+    "guide-030"
   ],
-  "generatedAt": "2026-11-17T04:23:49.910Z",
+  "generatedAt": "2026-11-17T04:25:57.924Z",
   "releaseComplete": false
 }
