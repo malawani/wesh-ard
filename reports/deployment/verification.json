@@ -1,0 +1,22 @@
+{
+  "verifiedAt": "2026-11-17T12:06:05.349018+00:00",
+  "url": "https://malawani.github.io/wesh-ard/",
+  "repository": "https://github.com/malawani/wesh-ard",
+  "visibility": "public",
+  "deployedCommit": "866b6733d982da03bd7f8aa4aea7bb0f48f63555",
+  "actionsRun": 44065712634,
+  "deploymentId": 7852625082,
+  "deploymentState": "success",
+  "liveBrowserTests": {
+    "startTime": "2026-11-17T12:04:13.791Z",
+    "duration": 39095.549,
+    "expected": 18,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "httpAssetsVerified": 41,
+  "fontAssetsVerified": 32,
+  "systemHttpsVerification": "passed",
+  "browserEnvironmentCertificateWorkaround": "A temporary test-only config ignored HTTPS certificate errors because Chromium in this environment did not trust the network certificate. System-trusted HTTPS verified independently. No production or tracked browser security settings were weakened."
+}

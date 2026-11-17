@@ -1,0 +1,12 @@
+{
+  "url": "https://malawani.github.io/wesh-ard/",
+  "status": 200,
+  "assets": 41,
+  "fonts": 32,
+  "additionalPages": [
+    "about/",
+    "privacy/",
+    "404.html"
+  ],
+  "result": "passed"
+}
