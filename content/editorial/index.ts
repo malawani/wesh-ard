@@ -1,3 +1,10 @@
+import { CONTINUE_EXPANSION_04 } from "./batches/continue-expansion-04";
+import { CONTINUE_EXPANSION_03 } from "./batches/continue-expansion-03";
+import { CONTINUE_EXPANSION_02 } from "./batches/continue-expansion-02";
+import { OPEN_EXPANSION_05 } from "./batches/open-expansion-05";
+import { CONTINUE_EXPANSION_01 } from "./batches/continue-expansion-01";
+import { OPEN_EXPANSION_04 } from "./batches/open-expansion-04";
+import { OPEN_EXPANSION_03 } from "./batches/open-expansion-03";
 import { OPEN_EXPANSION_02 } from "./batches/open-expansion-02";
 import { OPEN_EXPANSION_01 } from "./batches/open-expansion-01";
 import { GUIDE_EXPANSION_05 } from "./batches/guide-expansion-05";
@@ -29,7 +36,7 @@ import { SEND_LEGACY_A } from "./batches/send-legacy-a";
 import { REPLY_LEGACY_REST } from "./batches/reply-legacy-rest";
 import { REPLY_LEGACY_REVIEWS } from "./batches/reply-legacy";
 import type { EditorialReview } from "./types";
-export const EDITORIAL_REVIEWS: EditorialReview[] = [...REPLY_LEGACY_REVIEWS, ...REPLY_LEGACY_REST, ...SEND_LEGACY_A, ...SEND_LEGACY_B, ...SEND_LEGACY_C, ...GUIDE_LEGACY_A, ...GUIDE_LEGACY_B, ...REPLY_EXPANSION_01, ...REPLY_EXPANSION_02, ...REPLY_EXPANSION_03, ...REPLY_EXPANSION_04, ...REPLY_EXPANSION_05, ...REPLY_EXPANSION_06, ...REPLY_EXPANSION_07, ...REPLY_EXPANSION_08, ...REPLY_EXPANSION_09, ...SEND_EXPANSION_01, ...SEND_EXPANSION_02, ...SEND_EXPANSION_03, ...SEND_EXPANSION_04, ...SEND_EXPANSION_05, ...SEND_EXPANSION_06, ...GUIDE_EXPANSION_01, ...GUIDE_EXPANSION_02, ...GUIDE_EXPANSION_03, ...GUIDE_EXPANSION_04, ...GUIDE_EXPANSION_05, ...OPEN_EXPANSION_01, ...OPEN_EXPANSION_02];
+export const EDITORIAL_REVIEWS: EditorialReview[] = [...REPLY_LEGACY_REVIEWS, ...REPLY_LEGACY_REST, ...SEND_LEGACY_A, ...SEND_LEGACY_B, ...SEND_LEGACY_C, ...GUIDE_LEGACY_A, ...GUIDE_LEGACY_B, ...REPLY_EXPANSION_01, ...REPLY_EXPANSION_02, ...REPLY_EXPANSION_03, ...REPLY_EXPANSION_04, ...REPLY_EXPANSION_05, ...REPLY_EXPANSION_06, ...REPLY_EXPANSION_07, ...REPLY_EXPANSION_08, ...REPLY_EXPANSION_09, ...SEND_EXPANSION_01, ...SEND_EXPANSION_02, ...SEND_EXPANSION_03, ...SEND_EXPANSION_04, ...SEND_EXPANSION_05, ...SEND_EXPANSION_06, ...GUIDE_EXPANSION_01, ...GUIDE_EXPANSION_02, ...GUIDE_EXPANSION_03, ...GUIDE_EXPANSION_04, ...GUIDE_EXPANSION_05, ...OPEN_EXPANSION_01, ...OPEN_EXPANSION_02, ...OPEN_EXPANSION_03, ...OPEN_EXPANSION_04, ...OPEN_EXPANSION_05, ...CONTINUE_EXPANSION_01, ...CONTINUE_EXPANSION_02, ...CONTINUE_EXPANSION_03, ...CONTINUE_EXPANSION_04];
 export const REVIEWS_BY_ID = new Map(EDITORIAL_REVIEWS.map(r => [r.id,r]));
 if (REVIEWS_BY_ID.size !== EDITORIAL_REVIEWS.length) throw new Error("Duplicate editorial review IDs");
 export function isKnownEarlierText(id: string, text: string): boolean {

@@ -1,0 +1,19 @@
+{
+  "reviewed": 1538,
+  "pending": 1064,
+  "complete": false,
+  "build": "passed",
+  "typecheck": "passed",
+  "unitTests": 64,
+  "browserTests": {
+    "startTime": "2026-11-18T14:02:40.268Z",
+    "duration": 41565.518,
+    "expected": 22,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "editorialValidation": "valid, incomplete",
+  "strictCompletionExitCode": 1,
+  "remoteChanges": false
+}

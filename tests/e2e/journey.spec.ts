@@ -239,6 +239,9 @@ test("old saved wording and pending phrases never receive a mismatched or invent
     await page.getByRole("button", { name: ROUTE_LABELS[pendingSituation.canonicalRoute], exact: true }).click();
   }
   await page.getByRole("button", { name: pendingSituation.title, exact: true }).click();
+  const pendingResponse = pendingSituation.replies.find(r => !r.tags.includes("legacy-retained-only"))!;
+  await page.getByLabel("مرحلة العلاقة", { exact: true }).selectOption(pendingResponse.allowedStages[0]);
+  await page.getByText("كل النبرات المناسبة", { exact: true }).click();
   await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
   const pendingCard = page.locator(".response-card").first();
   await pendingCard.locator("summary").click();

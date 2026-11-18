@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-18T13:29:41.175Z",
+  "generatedAt": "2026-11-18T14:01:15.648Z",
   "total": 2602,
-  "reviewed": 1234,
-  "kept": 1204,
-  "edited": 30,
-  "reclassified": 51,
-  "explained": 1234,
+  "reviewed": 1538,
+  "kept": 1497,
+  "edited": 41,
+  "reclassified": 52,
+  "explained": 1538,
   "complete": false,
   "reviewedIds": [
     "miss:soft:0",
@@ -1241,9 +1241,7 @@
     "open-012:r005",
     "open-012:r006",
     "open-012:r007",
-    "open-012:r008"
-  ],
-  "pendingIds": [
+    "open-012:r008",
     "open-013:r001",
     "open-013:r002",
     "open-013:r003",
@@ -1547,7 +1545,9 @@
     "continue-025:r005",
     "continue-025:r006",
     "continue-025:r007",
-    "continue-025:r008",
+    "continue-025:r008"
+  ],
+  "pendingIds": [
     "flirt-001:r001",
     "flirt-001:r002",
     "flirt-001:r003",
@@ -2614,17 +2614,17 @@
     "quick-015:r008"
   ],
   "nextBatch": [
-    "open-013:r001",
-    "open-013:r002",
-    "open-013:r003",
-    "open-013:r004",
-    "open-013:r005",
-    "open-013:r006",
-    "open-013:r007",
-    "open-013:r008",
-    "open-014:r001",
-    "open-014:r002",
-    "open-014:r003",
-    "open-014:r004"
+    "flirt-001:r001",
+    "flirt-001:r002",
+    "flirt-001:r003",
+    "flirt-001:r004",
+    "flirt-001:r005",
+    "flirt-001:r006",
+    "flirt-001:r007",
+    "flirt-001:r008",
+    "flirt-002:r001",
+    "flirt-002:r002",
+    "flirt-002:r003",
+    "flirt-002:r004"
   ]
 }
