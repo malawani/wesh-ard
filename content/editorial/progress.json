@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-18T12:59:37.223Z",
+  "generatedAt": "2026-11-18T13:29:41.175Z",
   "total": 2602,
-  "reviewed": 946,
-  "kept": 924,
-  "edited": 22,
-  "reclassified": 31,
-  "explained": 946,
+  "reviewed": 1234,
+  "kept": 1204,
+  "edited": 30,
+  "reclassified": 51,
+  "explained": 1234,
   "complete": false,
   "reviewedIds": [
     "miss:soft:0",
@@ -953,9 +953,7 @@
     "guide-016:r005",
     "guide-016:r006",
     "guide-016:r007",
-    "guide-016:r008"
-  ],
-  "pendingIds": [
+    "guide-016:r008",
     "guide-017:r001",
     "guide-017:r002",
     "guide-017:r003",
@@ -1243,7 +1241,9 @@
     "open-012:r005",
     "open-012:r006",
     "open-012:r007",
-    "open-012:r008",
+    "open-012:r008"
+  ],
+  "pendingIds": [
     "open-013:r001",
     "open-013:r002",
     "open-013:r003",
@@ -2614,17 +2614,17 @@
     "quick-015:r008"
   ],
   "nextBatch": [
-    "guide-017:r001",
-    "guide-017:r002",
-    "guide-017:r003",
-    "guide-017:r004",
-    "guide-017:r005",
-    "guide-017:r006",
-    "guide-017:r007",
-    "guide-017:r008",
-    "guide-018:r001",
-    "guide-018:r002",
-    "guide-018:r003",
-    "guide-018:r004"
+    "open-013:r001",
+    "open-013:r002",
+    "open-013:r003",
+    "open-013:r004",
+    "open-013:r005",
+    "open-013:r006",
+    "open-013:r007",
+    "open-013:r008",
+    "open-014:r001",
+    "open-014:r002",
+    "open-014:r003",
+    "open-014:r004"
   ]
 }

@@ -1,5 +1,6 @@
 import { test, expect } from "@playwright/test";
 import { CONTENT } from "../../content";
+import { ROUTES as ROUTE_LABELS } from "../../content/schemas";
 
 test("choose, customize, copy, favorite, reload, remove, and preserve old source", async ({ page, context }) => {
   await context.grantPermissions(["clipboard-read", "clipboard-write"]);
@@ -232,7 +233,11 @@ test("old saved wording and pending phrases never receive a mismatched or invent
   await page.getByRole("button", { name: "وش أرد؟ الرئيسية", exact: true }).click();
   const pendingSituation = CONTENT.find(s => s.replies.every(r => !r.analysis));
   if (!pendingSituation) return;
-  await page.locator(`.route-${pendingSituation.canonicalRoute}`).click();
+  if (["reply", "send", "guide"].includes(pendingSituation.canonicalRoute)) {
+    await page.locator(`.route-${pendingSituation.canonicalRoute}`).click();
+  } else {
+    await page.getByRole("button", { name: ROUTE_LABELS[pendingSituation.canonicalRoute], exact: true }).click();
+  }
   await page.getByRole("button", { name: pendingSituation.title, exact: true }).click();
   await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
   const pendingCard = page.locator(".response-card").first();
