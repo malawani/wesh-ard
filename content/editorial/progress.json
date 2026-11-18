@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-17T16:35:22.529Z",
+  "generatedAt": "2026-11-18T12:59:37.223Z",
   "total": 2602,
-  "reviewed": 658,
-  "kept": 641,
-  "edited": 17,
-  "reclassified": 20,
-  "explained": 658,
+  "reviewed": 946,
+  "kept": 924,
+  "edited": 22,
+  "reclassified": 31,
+  "explained": 946,
   "complete": false,
   "reviewedIds": [
     "miss:soft:0",
@@ -665,9 +665,7 @@
     "send-012:r005",
     "send-012:r006",
     "send-012:r007",
-    "send-012:r008"
-  ],
-  "pendingIds": [
+    "send-012:r008",
     "send-013:r001",
     "send-013:r002",
     "send-013:r003",
@@ -955,7 +953,9 @@
     "guide-016:r005",
     "guide-016:r006",
     "guide-016:r007",
-    "guide-016:r008",
+    "guide-016:r008"
+  ],
+  "pendingIds": [
     "guide-017:r001",
     "guide-017:r002",
     "guide-017:r003",
@@ -2614,17 +2614,17 @@
     "quick-015:r008"
   ],
   "nextBatch": [
-    "send-013:r001",
-    "send-013:r002",
-    "send-013:r003",
-    "send-013:r004",
-    "send-013:r005",
-    "send-013:r006",
-    "send-013:r007",
-    "send-013:r008",
-    "send-014:r001",
-    "send-014:r002",
-    "send-014:r003",
-    "send-014:r004"
+    "guide-017:r001",
+    "guide-017:r002",
+    "guide-017:r003",
+    "guide-017:r004",
+    "guide-017:r005",
+    "guide-017:r006",
+    "guide-017:r007",
+    "guide-017:r008",
+    "guide-018:r001",
+    "guide-018:r002",
+    "guide-018:r003",
+    "guide-018:r004"
   ]
 }
