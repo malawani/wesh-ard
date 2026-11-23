@@ -1,0 +1,62 @@
+[
+  {
+    "route": "care",
+    "total": 160,
+    "reviewed": 0
+  },
+  {
+    "route": "confession",
+    "total": 160,
+    "reviewed": 160
+  },
+  {
+    "route": "continue",
+    "total": 200,
+    "reviewed": 200
+  },
+  {
+    "route": "flirt",
+    "total": 200,
+    "reviewed": 200
+  },
+  {
+    "route": "guide",
+    "total": 325,
+    "reviewed": 325
+  },
+  {
+    "route": "meeting",
+    "total": 120,
+    "reviewed": 0
+  },
+  {
+    "route": "occasions",
+    "total": 128,
+    "reviewed": 0
+  },
+  {
+    "route": "open",
+    "total": 200,
+    "reviewed": 200
+  },
+  {
+    "route": "quick",
+    "total": 120,
+    "reviewed": 0
+  },
+  {
+    "route": "reconcile",
+    "total": 176,
+    "reviewed": 0
+  },
+  {
+    "route": "reply",
+    "total": 453,
+    "reviewed": 453
+  },
+  {
+    "route": "send",
+    "total": 360,
+    "reviewed": 360
+  }
+]

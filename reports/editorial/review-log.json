@@ -78411,5 +78411,7256 @@
       "dialect": "sa"
     },
     "classificationReason": null
+  },
+  {
+    "id": "confession-001:r001",
+    "situationId": "confession-001",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "سوالفك من الأشياء اللي أستانس لها في اليوم.",
+    "finalText": "سوالفك من الأشياء اللي أستانس لها في اليوم.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-001:r002",
+    "situationId": "confession-001",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "ألاحظ إني أتحمس لما يجي موضوع نكمله سوا.",
+    "finalText": "ألاحظ إني أتحمس لما يجي موضوع نكمله سوا.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "subtle"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "subtle"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-001:r003",
+    "situationId": "confession-001",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "معرفتك تستحق عندي وقتًا أكثر من سالفة عابرة.",
+    "finalText": "معرفتك تستحق عندي وقتًا أكثر من سالفة عابرة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-001:r004",
+    "situationId": "confession-001",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "فيه فضول عندي أعرفك خارج الموضوع اللي جمعنا.",
+    "finalText": "فيه فضول عندي أعرفك خارج الموضوع اللي جمعنا.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-001:r005",
+    "situationId": "confession-001",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "يمكن سؤالي عن أخبارك مو مجاملة بس.",
+    "finalText": "يمكن سؤالي عن أخبارك مو مجاملة بس.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "subtle"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "subtle"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-001:r006",
+    "situationId": "confession-001",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "يا زين الوقت اللي يمر خفيفًا مع سوالفك.",
+    "finalText": "يا زين الوقت اللي يمر خفيفًا مع سوالفك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-001:r007",
+    "situationId": "confession-001",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا يناسبك، ودّي نعطي تعارفنا مساحة أكثر.",
+    "finalText": "إذا يناسبك، ودّي نعطي تعارفنا مساحة أكثر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-001:r008",
+    "situationId": "confession-001",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أحب كيف قربنا يتجدد حتى بعد وضوح مشاعرنا.",
+    "finalText": "أحب كيف قربنا يتجدد حتى بعد وضوح مشاعرنا.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-002:r001",
+    "situationId": "confession-002",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أنتِ مميزة عندي، وحبيت يكون هالشي واضحًا شوي.",
+    "finalText": "أنتِ مميزة عندي، وحبيت يكون هالشي واضحًا شوي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-002:r002",
+    "situationId": "confession-002",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "اهتمامي فيك يتجاوز مجرد موضوع نتناقش فيه.",
+    "finalText": "اهتمامي فيك يتجاوز مجرد موضوع نتناقش فيه.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-002:r003",
+    "situationId": "confession-002",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "تجذبني شخصيتك، وأبي أعرف إذا يريحك نتعرف أكثر.",
+    "finalText": "تجذبني شخصيتك، وأبي أعرف إذا يريحك نتعرف أكثر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-002:r004",
+    "situationId": "confession-002",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أتذكر تفاصيل كلامك لأني فعلًا مهتم بمعرفتك.",
+    "finalText": "أتذكر تفاصيل كلامك لأني فعلًا مهتم بمعرفتك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "deep"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "deep"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-002:r005",
+    "situationId": "confession-002",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "فيه إعجاب من جهتي، وما أفترض نفس الشعور عندك.",
+    "finalText": "فيه إعجاب من جهتي، وما أفترض نفس الشعور عندك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-002:r006",
+    "situationId": "confession-002",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "كل مرة نتكلم أحس إن عندي سببًا جديدًا أعرفك أكثر.",
+    "finalText": "كل مرة نتكلم أحس إن عندي سببًا جديدًا أعرفك أكثر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "subtle"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "subtle"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-002:r007",
+    "situationId": "confession-002",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "يا حلو حضورك اللي صار له مكان في يومي.",
+    "finalText": "يا حلو حضورك اللي صار له مكان في يومي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-002:r008",
+    "situationId": "confession-002",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "ما أبي أخليك تفهمين من سكوتي إني مو مهتم.",
+    "finalText": "ما أبي أخليك تفهمين من سكوتي إني مو مهتم.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-003:r001",
+    "situationId": "confession-003",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أستانس بمعرفتك، ونقدر نترك الأمور تاخذ وقتها.",
+    "finalText": "أستانس بمعرفتك، ونقدر نترك الأمور تاخذ وقتها.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-003:r002",
+    "situationId": "confession-003",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "عندي اهتمام، بس ما أبي نستعجل تسمية اللي بيننا.",
+    "finalText": "عندي اهتمام، بس ما أبي نستعجل تسمية اللي بيننا.",
+    "reason": null,
+    "classificationChanged": [
+      "allowedStages"
+    ],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": "الامتناع عن تسمية العلاقة يخص تعارفًا غير محسوم، ولا يصف حبًا أو خطوبة أو زواجًا قائمًا ومعلومًا."
+  },
+  {
+    "id": "confession-003:r003",
+    "situationId": "confession-003",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "خلّينا نعرف بعض بمواقف أكثر قبل أي خطوة.",
+    "finalText": "خلّينا نعرف بعض بمواقف أكثر قبل أي خطوة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-003:r004",
+    "situationId": "confession-003",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "مو مطلوب منك تحددين شعورك عشان قلت لك شعوري.",
+    "finalText": "مو مطلوب منك تحددين شعورك عشان قلت لك شعوري.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-003:r005",
+    "situationId": "confession-003",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أفضّل قربًا واضحًا وهاديًا على حماس يحملنا أكثر من طاقتنا.",
+    "finalText": "أفضّل قربًا واضحًا وهاديًا على حماس يحملنا أكثر من طاقتنا.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "deep"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "deep"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-003:r006",
+    "situationId": "confession-003",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا خطوتنا مناسبة للاثنين نكمل، وإذا لا نقدر نوقف باحترام.",
+    "finalText": "إذا خطوتنا مناسبة للاثنين نكمل، وإذا لا نقدر نوقف باحترام.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-003:r007",
+    "situationId": "confession-003",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "تلفتني فيك أشياء حلوة، وأبي أكتشفها على مهل.",
+    "finalText": "تلفتني فيك أشياء حلوة، وأبي أكتشفها على مهل.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "subtle"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "subtle"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-003:r008",
+    "situationId": "confession-003",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "نخلي حريتنا نقول نعم أو لا موجودة في كل مرحلة.",
+    "finalText": "نخلي حريتنا نقول نعم أو لا موجودة في كل مرحلة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-004:r001",
+    "situationId": "confession-004",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أبي أقولها لأول مرة: أنا معجب فيك.",
+    "finalText": "أبي أقولها لأول مرة: أنا معجب فيك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-004:r002",
+    "situationId": "confession-004",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "حاولت أفهم شعوري قبل أتكلم، واللي أعرفه إني مهتم فيك.",
+    "finalText": "حاولت أفهم شعوري قبل أتكلم، واللي أعرفه إني مهتم فيك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-004:r003",
+    "situationId": "confession-004",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "معرفتك صارت تهمني، وودي أعرف إذا يناسبك نقرب أكثر.",
+    "finalText": "معرفتك صارت تهمني، وودي أعرف إذا يناسبك نقرب أكثر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-004:r004",
+    "situationId": "confession-004",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "ما يحتاج تجاوبين الآن، أنا بس أبي أوضح اللي أحس فيه.",
+    "finalText": "ما يحتاج تجاوبين الآن، أنا بس أبي أوضح اللي أحس فيه.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-004:r005",
+    "situationId": "confession-004",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أنا أحبك، وودي تسمعينها مني بصدق مو بتلميح.",
+    "finalText": "أنا أحبك، وودي تسمعينها مني بصدق مو بتلميح.",
+    "reason": null,
+    "classificationChanged": [
+      "allowedStages"
+    ],
+    "classificationBefore": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": "في موقف أول اعتراف، قد ينتقل الإعجاب المتبادل أو التعارف الجاد إلى تصريح بالحب؛ وُسعت المراحل دون إدخاله في أول تواصل أو تعارف أحادي غير متبادل."
+  },
+  {
+    "id": "confession-004:r006",
+    "situationId": "confession-004",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "حسيت إن كتمان إعجابي صار يعطيك صورة ناقصة عن نيتي.",
+    "finalText": "حسيت إن كتمان إعجابي صار يعطيك صورة ناقصة عن نيتي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-004:r007",
+    "situationId": "confession-004",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا شعورك مختلف، أحترمه وما راح أجادلك فيه.",
+    "finalText": "إذا شعورك مختلف، أحترمه وما راح أجادلك فيه.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-004:r008",
+    "situationId": "confession-004",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أنتِ لك أثر في يومي، وأبي أكون واضحًا بدل أسئلة ملتوية.",
+    "finalText": "أنتِ لك أثر في يومي، وأبي أكون واضحًا بدل أسئلة ملتوية.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "deep"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "deep"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-005:r001",
+    "situationId": "confession-005",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "بعد ما تكلمنا عن إعجابنا، ودي نعرف وش الخطوة اللي تناسبنا.",
+    "finalText": "بعد ما تكلمنا عن إعجابنا، ودي نعرف وش الخطوة اللي تناسبنا.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-005:r002",
+    "situationId": "confession-005",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "يسعدني وضوحنا، ونقدر نمشي بخطوات بسيطة.",
+    "finalText": "يسعدني وضوحنا، ونقدر نمشي بخطوات بسيطة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-005:r003",
+    "situationId": "confession-005",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أنا مبسوط إننا قلنا اللي نحس فيه بدون ضغط.",
+    "finalText": "أنا مبسوط إننا قلنا اللي نحس فيه بدون ضغط.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-005:r004",
+    "situationId": "confession-005",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "يا حلو بداية نقدر نكون فيها صادقين ومرتاحين.",
+    "finalText": "يا حلو بداية نقدر نكون فيها صادقين ومرتاحين.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-005:r005",
+    "situationId": "confession-005",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "وش توقعاتك من تعارفنا بعد هالمصارحة؟",
+    "finalText": "وش توقعاتك من تعارفنا بعد هالمصارحة؟",
+    "reason": null,
+    "classificationChanged": [
+      "allowedStages"
+    ],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": "السؤال عن مسار تعارف بعد أول مصارحة يناسب الإعجاب المتبادل والتعارف الجاد قبل تعريف علاقة حب أو خطوبة أو زواج قائمة."
+  },
+  {
+    "id": "confession-005:r006",
+    "situationId": "confession-005",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إعجابي فيك له مساحة يكبر فيها بدون استعجال.",
+    "finalText": "إعجابي فيك له مساحة يكبر فيها بدون استعجال.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "subtle"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "subtle"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-005:r007",
+    "situationId": "confession-005",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أحبك، وأقدّر إننا نبني قربنا بالكلام الواضح والفعل.",
+    "finalText": "أحبك، وأقدّر إننا نبني قربنا بالكلام الواضح والفعل.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-005:r008",
+    "situationId": "confession-005",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "المهم عندي يبقى لكل واحد حقه يراجع شعوره بصدق.",
+    "finalText": "المهم عندي يبقى لكل واحد حقه يراجع شعوره بصدق.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-006:r001",
+    "situationId": "confession-006",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أرتاح وأنا أتكلم معك، وما أحس إني لازم أختار صورة مثالية.",
+    "finalText": "أرتاح وأنا أتكلم معك، وما أحس إني لازم أختار صورة مثالية.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-006:r002",
+    "situationId": "confession-006",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "يسهل علي أقول ما أعرف قدامك.",
+    "finalText": "يسهل علي أقول ما أعرف قدامك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-006:r003",
+    "situationId": "confession-006",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "في كلامنا مساحة للاختلاف، وهذا يريحني.",
+    "finalText": "في كلامنا مساحة للاختلاف، وهذا يريحني.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-006:r004",
+    "situationId": "confession-006",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أستانس إن سوالفنا ما تحتاج خبرًا كبيرًا كل مرة.",
+    "finalText": "أستانس إن سوالفنا ما تحتاج خبرًا كبيرًا كل مرة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-006:r005",
+    "situationId": "confession-006",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "وجودك قريب من هدوء أعرفه وأقدّره.",
+    "finalText": "وجودك قريب من هدوء أعرفه وأقدّره.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "poetic"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "poetic"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-006:r006",
+    "situationId": "confession-006",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "يا زينك، معك للكلام نفس أوسع.",
+    "finalText": "يا زينك، معك للكلام نفس أوسع.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-006:r007",
+    "situationId": "confession-006",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أحب الراحة اللي نبنيها لما نحترم حدود بعض.",
+    "finalText": "أحب الراحة اللي نبنيها لما نحترم حدود بعض.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-006:r008",
+    "situationId": "confession-006",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أقدّر إن راحتي معك ما تمنعني أكون مسؤولًا عن نفسي.",
+    "finalText": "أقدّر إن راحتي معك ما تمنعني أكون مسؤولًا عن نفسي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "deep",
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "deep",
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-007:r001",
+    "situationId": "confession-007",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "انجذبت لطريقتك وأنتِ تسمعين للرأي المختلف.",
+    "finalText": "انجذبت لطريقتك وأنتِ تسمعين للرأي المختلف.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-007:r002",
+    "situationId": "confession-007",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "عفويتك ومعها وضوحك شداني أعرفك أكثر.",
+    "finalText": "عفويتك ومعها وضوحك شداني أعرفك أكثر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-007:r003",
+    "situationId": "confession-007",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "فيك جمع بين الجدية وخفة الروح يعجبني.",
+    "finalText": "فيك جمع بين الجدية وخفة الروح يعجبني.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-007:r004",
+    "situationId": "confession-007",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أقدّر إنك تعتنين بالناس بدون ما تنسين حدودك.",
+    "finalText": "أقدّر إنك تعتنين بالناس بدون ما تنسين حدودك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-007:r005",
+    "situationId": "confession-007",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أحب شجاعتك لما تعترفين بشي ما تعرفينه.",
+    "finalText": "أحب شجاعتك لما تعترفين بشي ما تعرفينه.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-007:r006",
+    "situationId": "confession-007",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "تفكيرك هو اللي يرجعني لنقاشاتنا بعد ما تنتهي.",
+    "finalText": "تفكيرك هو اللي يرجعني لنقاشاتنا بعد ما تنتهي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "deep"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "deep"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-007:r007",
+    "situationId": "confession-007",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "يا حلو شخصيتك يوم تتكلمين عن شي تؤمنين فيه.",
+    "finalText": "يا حلو شخصيتك يوم تتكلمين عن شي تؤمنين فيه.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-007:r008",
+    "situationId": "confession-007",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "اللي عرفته منك للحين خلاني مهتمًا، والباقي نعرفه مع الوقت.",
+    "finalText": "اللي عرفته منك للحين خلاني مهتمًا، والباقي نعرفه مع الوقت.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-008:r001",
+    "situationId": "confession-008",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "ودي أعرف اهتماماتك وطريقتك في رؤية الأشياء أكثر.",
+    "finalText": "ودي أعرف اهتماماتك وطريقتك في رؤية الأشياء أكثر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-008:r002",
+    "situationId": "confession-008",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "يناسبك نخصص وقتًا نسولف فيه بدل اللقاءات العابرة؟",
+    "finalText": "يناسبك نخصص وقتًا نسولف فيه بدل اللقاءات العابرة؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-008:r003",
+    "situationId": "confession-008",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أنا مهتم بمعرفتك، وإذا ما يناسبك أحترم هالشي.",
+    "finalText": "أنا مهتم بمعرفتك، وإذا ما يناسبك أحترم هالشي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-008:r004",
+    "situationId": "confession-008",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "نبدأ بسوالف خفيفة ونشوف إذا الارتياح موجود عندنا الاثنين.",
+    "finalText": "نبدأ بسوالف خفيفة ونشوف إذا الارتياح موجود عندنا الاثنين.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-008:r005",
+    "situationId": "confession-008",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "مو محتاجين نحكي كل تفاصيلنا من أول يوم.",
+    "finalText": "مو محتاجين نحكي كل تفاصيلنا من أول يوم.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-008:r006",
+    "situationId": "confession-008",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أبي أفهم اللي يهمك، مو أجمع معلومات عنك.",
+    "finalText": "أبي أفهم اللي يهمك، مو أجمع معلومات عنك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "deep"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "deep"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-008:r007",
+    "situationId": "confession-008",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا تحبين تبادرين بموضوع، يسعدني أسمعه.",
+    "finalText": "إذا تحبين تبادرين بموضوع، يسعدني أسمعه.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-008:r008",
+    "situationId": "confession-008",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "نقدر نوضح حدود التواصل من البداية عشان يكون أريح.",
+    "finalText": "نقدر نوضح حدود التواصل من البداية عشان يكون أريح.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-009:r001",
+    "situationId": "confession-009",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "كيف تشوفين اهتمامي فيك؟ أبي أعرف إذا يريحك.",
+    "finalText": "كيف تشوفين اهتمامي فيك؟ أبي أعرف إذا يريحك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-009:r002",
+    "situationId": "confession-009",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أنا وضحت شعوري، وإذا ودك تقولين شعورك أنا أسمع.",
+    "finalText": "أنا وضحت شعوري، وإذا ودك تقولين شعورك أنا أسمع.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-009:r003",
+    "situationId": "confession-009",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "ما أبي أفترض إن إعجابي متبادل، وش اللي تحسينه أنتِ؟",
+    "finalText": "ما أبي أفترض إن إعجابي متبادل، وش اللي تحسينه أنتِ؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-009:r004",
+    "situationId": "confession-009",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا ما تبين تجاوبين الآن، مو لازم.",
+    "finalText": "إذا ما تبين تجاوبين الآن، مو لازم.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-009:r005",
+    "situationId": "confession-009",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "جوابك اللي يعبّر عنك أهم من جواب يفرحني.",
+    "finalText": "جوابك اللي يعبّر عنك أهم من جواب يفرحني.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-009:r006",
+    "situationId": "confession-009",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "هل تشوفين مجالًا لتعارف أكثر، أو تفضلين نوقف عند هالحد؟",
+    "finalText": "هل تشوفين مجالًا لتعارف أكثر، أو تفضلين نوقف عند هالحد؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-009:r007",
+    "situationId": "confession-009",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "مو محتاجة تعطيني أسبابًا إذا شعورك مختلف.",
+    "finalText": "مو محتاجة تعطيني أسبابًا إذا شعورك مختلف.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-009:r008",
+    "situationId": "confession-009",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا لسه مو متأكدة قوليها، ونقرر كيف نتعامل مع هالوضوح.",
+    "finalText": "إذا لسه مو متأكدة قوليها، ونقرر كيف نتعامل مع هالوضوح.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-010:r001",
+    "situationId": "confession-010",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "كلامك لطيف، وأبي أتأكد إني ما فهمته أبعد من قصدك.",
+    "finalText": "كلامك لطيف، وأبي أتأكد إني ما فهمته أبعد من قصدك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-010:r002",
+    "situationId": "confession-010",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "تقصدين إعجابًا، ولا أنا بالغت بتفسير السالفة؟",
+    "finalText": "تقصدين إعجابًا، ولا أنا بالغت بتفسير السالفة؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-010:r003",
+    "situationId": "confession-010",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا ودك توضحين اللي تقصدينه، أسمعك بدون استعجال.",
+    "finalText": "إذا ودك توضحين اللي تقصدينه، أسمعك بدون استعجال.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-010:r004",
+    "situationId": "confession-010",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أنا مهتم فيك، بس ما أبي أتكلم نيابة عن شعورك.",
+    "finalText": "أنا مهتم فيك، بس ما أبي أتكلم نيابة عن شعورك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-010:r005",
+    "situationId": "confession-010",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "خلّينا نعطي المعنى كلامًا واضحًا بدل التخمين.",
+    "finalText": "خلّينا نعطي المعنى كلامًا واضحًا بدل التخمين.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-010:r006",
+    "situationId": "confession-010",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "يا حلو كلامك، ونفهمه على مهل بدل ما نستبق الخطوة.",
+    "finalText": "يا حلو كلامك، ونفهمه على مهل بدل ما نستبق الخطوة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-010:r007",
+    "situationId": "confession-010",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا قصدك مجاملة، يسعدني وأحترم حدودها.",
+    "finalText": "إذا قصدك مجاملة، يسعدني وأحترم حدودها.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-010:r008",
+    "situationId": "confession-010",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أحب صراحتك حتى لما يكون المعنى غير اللي تمنيت.",
+    "finalText": "أحب صراحتك حتى لما يكون المعنى غير اللي تمنيت.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-011:r001",
+    "situationId": "confession-011",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "خذي وقتك، مو لازم ترتبين شعورك كله الآن.",
+    "finalText": "خذي وقتك، مو لازم ترتبين شعورك كله الآن.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-011:r002",
+    "situationId": "confession-011",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "اللي ودك تقولينه يكفي، والباقي ما يحتاج ضغط.",
+    "finalText": "اللي ودك تقولينه يكفي، والباقي ما يحتاج ضغط.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-011:r003",
+    "situationId": "confession-011",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أسمعك بدون ما أحول كل كلمة لوعد.",
+    "finalText": "أسمعك بدون ما أحول كل كلمة لوعد.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-011:r004",
+    "situationId": "confession-011",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا تبين نتمهل، نقدر نتفق على هالشي.",
+    "finalText": "إذا تبين نتمهل، نقدر نتفق على هالشي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-011:r005",
+    "situationId": "confession-011",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أقدّر شجاعتك في كلام مو سهل عليك.",
+    "finalText": "أقدّر شجاعتك في كلام مو سهل عليك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-011:r006",
+    "situationId": "confession-011",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "ممكن أقول لك شعوري بعد ما تخلصين، إذا ودك.",
+    "finalText": "ممكن أقول لك شعوري بعد ما تخلصين، إذا ودك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-011:r007",
+    "situationId": "confession-011",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "مو لازم تكون إجابتك مثل إجابتي حتى نحترم بعض.",
+    "finalText": "مو لازم تكون إجابتك مثل إجابتي حتى نحترم بعض.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-011:r008",
+    "situationId": "confession-011",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أقدّر صدقك حتى لما يكون شعورك غير محسوم.",
+    "finalText": "أقدّر صدقك حتى لما يكون شعورك غير محسوم.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive",
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive",
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-012:r001",
+    "situationId": "confession-012",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "نيتي تعارف يقود لارتباط إذا وجدنا توافقًا.",
+    "finalText": "نيتي تعارف يقود لارتباط إذا وجدنا توافقًا.",
+    "reason": null,
+    "classificationChanged": [
+      "allowedStages"
+    ],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": "المقصد تعارف يسبق ارتباطًا رسميًا، فلا يوصف به ارتباط خطوبة أو زواج قائم بالفعل."
+  },
+  {
+    "id": "confession-012:r002",
+    "situationId": "confession-012",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أبي نناقش استعدادنا قبل نحدد أي خطوة رسمية.",
+    "finalText": "أبي نناقش استعدادنا قبل نحدد أي خطوة رسمية.",
+    "reason": null,
+    "classificationChanged": [
+      "allowedStages"
+    ],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": "الموقف يتناول خطوة ارتباط رسمية مقبلة؛ استُبعد الزواج القائم دون منع مناقشة الزواج أثناء الخطوبة."
+  },
+  {
+    "id": "confession-012:r003",
+    "situationId": "confession-012",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "وش التوقعات اللي لازم نفهمها قبل ما نكمل؟",
+    "finalText": "وش التوقعات اللي لازم نفهمها قبل ما نكمل؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-012:r004",
+    "situationId": "confession-012",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "ما أقدر أعد بنتيجة قبل ما نعرف ظروفنا وتوافقنا.",
+    "finalText": "ما أقدر أعد بنتيجة قبل ما نعرف ظروفنا وتوافقنا.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-012:r005",
+    "situationId": "confession-012",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "الجدية عندي وضوح واحترام للوقت، مو استعجال قرار.",
+    "finalText": "الجدية عندي وضوح واحترام للوقت، مو استعجال قرار.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-012:r006",
+    "situationId": "confession-012",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا نيتك مختلفة، الأفضل تقولين بدون حرج.",
+    "finalText": "إذا نيتك مختلفة، الأفضل تقولين بدون حرج.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-012:r007",
+    "situationId": "confession-012",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "نختار خطوة صغيرة نقدر نتحمل مسؤوليتها الاثنين.",
+    "finalText": "نختار خطوة صغيرة نقدر نتحمل مسؤوليتها الاثنين.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-012:r008",
+    "situationId": "confession-012",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أحبك، وودي قراراتنا تكون بعين مفتوحة على واقعنا.",
+    "finalText": "أحبك، وودي قراراتنا تكون بعين مفتوحة على واقعنا.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-013:r001",
+    "situationId": "confession-013",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أول مرة أنتبه إني فقدت سوالفك بهالشكل.",
+    "finalText": "أول مرة أنتبه إني فقدت سوالفك بهالشكل.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-013:r002",
+    "situationId": "confession-013",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "اشتقت لطريقتك تسألين عن التفاصيل الصغيرة.",
+    "finalText": "اشتقت لطريقتك تسألين عن التفاصيل الصغيرة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "subtle"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "subtle"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-013:r003",
+    "situationId": "confession-013",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "طريتي اليوم وحسيت ودي أسمع أخبارك.",
+    "finalText": "طريتي اليوم وحسيت ودي أسمع أخبارك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-013:r004",
+    "situationId": "confession-013",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "مو عتاب على الغياب، بس مشاركة لشعور عندي.",
+    "finalText": "مو عتاب على الغياب، بس مشاركة لشعور عندي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-013:r005",
+    "situationId": "confession-013",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "يا زين السالفة اللي ما تحلى إلا بمشاركتك.",
+    "finalText": "يا زين السالفة اللي ما تحلى إلا بمشاركتك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-013:r006",
+    "situationId": "confession-013",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أحبك، وأكتشف معنى الشوق حتى في غياب قصير.",
+    "finalText": "أحبك، وأكتشف معنى الشوق حتى في غياب قصير.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-013:r007",
+    "situationId": "confession-013",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا عندك وقت نسولف يسعدني، وإذا لا خذي راحتك.",
+    "finalText": "إذا عندك وقت نسولف يسعدني، وإذا لا خذي راحتك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-013:r008",
+    "situationId": "confession-013",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "في يومي تفصيل تمنيت أحكيه لك أول ما صار.",
+    "finalText": "في يومي تفصيل تمنيت أحكيه لك أول ما صار.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "deep"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "deep"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-014:r001",
+    "situationId": "confession-014",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أبي أوضح عبارتي السابقة عشان ما أتركها ملتبسة.",
+    "finalText": "أبي أوضح عبارتي السابقة عشان ما أتركها ملتبسة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-014:r002",
+    "situationId": "confession-014",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "قصدي كان مجاملة، مو وعدًا بعلاقة.",
+    "finalText": "قصدي كان مجاملة، مو وعدًا بعلاقة.",
+    "reason": null,
+    "classificationChanged": [
+      "allowedStages"
+    ],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": "نفي الوعد ببدء علاقة يخص ما قبل العلاقة القائمة؛ استبعدت الحب المستقر والخطوبة والزواج."
+  },
+  {
+    "id": "confession-014:r003",
+    "situationId": "confession-014",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "كنت ألمح لإعجاب فعلًا، وأعتذر إني ما وضحته.",
+    "finalText": "كنت ألمح لإعجاب فعلًا، وأعتذر إني ما وضحته.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-014:r004",
+    "situationId": "confession-014",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أفهم كيف فهمتِ الكلام، وأنا مسؤول عن طريقتي.",
+    "finalText": "أفهم كيف فهمتِ الكلام، وأنا مسؤول عن طريقتي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-014:r005",
+    "situationId": "confession-014",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا توضيحي غيّر توقعك، من حقك تاخذين وقتك.",
+    "finalText": "إذا توضيحي غيّر توقعك، من حقك تاخذين وقتك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-014:r006",
+    "situationId": "confession-014",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "ما أبي أستخدم الغموض عشان أتهرب من السؤال.",
+    "finalText": "ما أبي أستخدم الغموض عشان أتهرب من السؤال.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-014:r007",
+    "situationId": "confession-014",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "نقدر نتكلم بكلمات أبسط بدل التلميحات من هنا.",
+    "finalText": "نقدر نتكلم بكلمات أبسط بدل التلميحات من هنا.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-014:r008",
+    "situationId": "confession-014",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "اللي أقدر أقوله الآن هو شعوري الحالي، مو ضمان للمستقبل.",
+    "finalText": "اللي أقدر أقوله الآن هو شعوري الحالي، مو ضمان للمستقبل.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-015:r001",
+    "situationId": "confession-015",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أقدّر صداقتنا، ومؤخرًا حسيت بإعجاب وودي أكون واضحًا.",
+    "finalText": "أقدّر صداقتنا، ومؤخرًا حسيت بإعجاب وودي أكون واضحًا.",
+    "reason": null,
+    "classificationChanged": [
+      "allowedStages"
+    ],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": "العبارة تصف انتقال صداقة قائمة إلى إعجاب جديد، فحصرت مراحلها في الصداقة المحتملة والإعجاب الأحادي أو المتبادل."
+  },
+  {
+    "id": "confession-015:r002",
+    "situationId": "confession-015",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "مو لأننا أصدقاء يعني إنك ملزمة تبادليني هالشعور.",
+    "finalText": "مو لأننا أصدقاء يعني إنك ملزمة تبادليني هالشعور.",
+    "reason": null,
+    "classificationChanged": [
+      "allowedStages"
+    ],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": "الإقرار بصداقة دون التزام عاطفي يسبق العلاقة المحددة، ولا يطابق أول تواصل أو زواجًا قائمًا."
+  },
+  {
+    "id": "confession-015:r003",
+    "situationId": "confession-015",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا ما تشوفين العلاقة بنفس الطريقة، أحترم جوابك.",
+    "finalText": "إذا ما تشوفين العلاقة بنفس الطريقة، أحترم جوابك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-015:r004",
+    "situationId": "confession-015",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أحتاج أعرف إذا الحديث عن تقارب أكثر يريحك أصلًا.",
+    "finalText": "أحتاج أعرف إذا الحديث عن تقارب أكثر يريحك أصلًا.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-015:r005",
+    "situationId": "confession-015",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "ما أبي أحوّل مواقف صداقتنا القديمة لأدلة على مشاعر ما قلتيها.",
+    "finalText": "ما أبي أحوّل مواقف صداقتنا القديمة لأدلة على مشاعر ما قلتيها.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-015:r006",
+    "situationId": "confession-015",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "لو احتجنا مسافة بعد الكلام، نتفاهم عليها بدون لوم.",
+    "finalText": "لو احتجنا مسافة بعد الكلام، نتفاهم عليها بدون لوم.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-015:r007",
+    "situationId": "confession-015",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إعجابي جديد في فهمي لنفسي، مو خطة مخفية طول صداقتنا.",
+    "finalText": "إعجابي جديد في فهمي لنفسي، مو خطة مخفية طول صداقتنا.",
+    "reason": null,
+    "classificationChanged": [
+      "allowedStages"
+    ],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": "إعجاب جديد بعد صداقة لا يناسب أول تواصل أو مرحلة علاقة عاطفية محددة سلفًا."
+  },
+  {
+    "id": "confession-015:r008",
+    "situationId": "confession-015",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "قيمة معرفتك عندي ما تعتمد على موافقتك.",
+    "finalText": "قيمة معرفتك عندي ما تعتمد على موافقتك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-016:r001",
+    "situationId": "confession-016",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أحتاج وقتًا أفهم شعوري قبل أعطيه اسمًا.",
+    "finalText": "أحتاج وقتًا أفهم شعوري قبل أعطيه اسمًا.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-016:r002",
+    "situationId": "confession-016",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "ما أبي أجامل باعتراف مو متأكد منه.",
+    "finalText": "ما أبي أجامل باعتراف مو متأكد منه.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-016:r003",
+    "situationId": "confession-016",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أقدّر كلامك، لكن جوابي الحين لسه مو محسوم.",
+    "finalText": "أقدّر كلامك، لكن جوابي الحين لسه مو محسوم.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-016:r004",
+    "situationId": "confession-016",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا تفضلين ما تنتظرين، أحترم هالاختيار.",
+    "finalText": "إذا تفضلين ما تنتظرين، أحترم هالاختيار.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-016:r005",
+    "situationId": "confession-016",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "نوضح حدود الكلام بيننا وأنا أفكر؟",
+    "finalText": "نوضح حدود الكلام بيننا وأنا أفكر؟",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual",
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-016:r006",
+    "situationId": "confession-016",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أقدر أرجع للنقاش يوم الجمعة، بدون ما أعد بنتيجة محددة.",
+    "finalText": "أقدر أرجع للنقاش يوم الجمعة، بدون ما أعد بنتيجة محددة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-016:r007",
+    "situationId": "confession-016",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا عرفت إني ما أقدر أكمل، بقول بدل ما أطيل التردد.",
+    "finalText": "إذا عرفت إني ما أقدر أكمل، بقول بدل ما أطيل التردد.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-016:r008",
+    "situationId": "confession-016",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "تأخيري بالقرار مو طلب منك تثبتين اهتمامك أكثر.",
+    "finalText": "تأخيري بالقرار مو طلب منك تثبتين اهتمامك أكثر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-017:r001",
+    "situationId": "confession-017",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أنا معجب فيك، وبنفس الوقت أفضل نتواصل في أوقات مناسبة للاثنين.",
+    "finalText": "أنا معجب فيك، وبنفس الوقت أفضل نتواصل في أوقات مناسبة للاثنين.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-017:r002",
+    "situationId": "confession-017",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أشاركك شعوري، مو طلبًا لتفاصيل خاصة عنك.",
+    "finalText": "أشاركك شعوري، مو طلبًا لتفاصيل خاصة عنك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-017:r003",
+    "situationId": "confession-017",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "حتى مع الإعجاب، الصور عندي تحتاج موافقة واضحة.",
+    "finalText": "حتى مع الإعجاب، الصور عندي تحتاج موافقة واضحة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-017:r004",
+    "situationId": "confession-017",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "ما أبي اعترافي يخليك تحسين إن الرد واجب.",
+    "finalText": "ما أبي اعترافي يخليك تحسين إن الرد واجب.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-017:r005",
+    "situationId": "confession-017",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أحتاج يبقى الكلام بيننا دون مشاركة للآخرين.",
+    "finalText": "أحتاج يبقى الكلام بيننا دون مشاركة للآخرين.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-017:r006",
+    "situationId": "confession-017",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا قلتي إن الغزل مو مناسب، بيتوقف حتى لو عندي مشاعر.",
+    "finalText": "إذا قلتي إن الغزل مو مناسب، بيتوقف حتى لو عندي مشاعر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-017:r007",
+    "situationId": "confession-017",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "نقدر نقرب ونتفق على حدودنا في نفس الوقت.",
+    "finalText": "نقدر نقرب ونتفق على حدودنا في نفس الوقت.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-017:r008",
+    "situationId": "confession-017",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "الوضوح في احتياجي للمساحة ما يناقض تقديري لك.",
+    "finalText": "الوضوح في احتياجي للمساحة ما يناقض تقديري لك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-018:r001",
+    "situationId": "confession-018",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "لقاؤنا خلاني مهتمًا أعرفك أكثر، إذا يناسبك.",
+    "finalText": "لقاؤنا خلاني مهتمًا أعرفك أكثر، إذا يناسبك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-018:r002",
+    "situationId": "confession-018",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "طلعت وأنا مرتاح لطريقة حوارنا.",
+    "finalText": "طلعت وأنا مرتاح لطريقة حوارنا.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-018:r003",
+    "situationId": "confession-018",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أقدّر إننا قدرنا نختلف في اللقاء بدون حرج.",
+    "finalText": "أقدّر إننا قدرنا نختلف في اللقاء بدون حرج.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-018:r004",
+    "situationId": "confession-018",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "اللي حسيت فيه إعجاب، وحبيت أوضحه بدل ما أخمّن رأيك.",
+    "finalText": "اللي حسيت فيه إعجاب، وحبيت أوضحه بدل ما أخمّن رأيك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "confident"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-018:r005",
+    "situationId": "confession-018",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "مو لازم يكون انطباعك نفس انطباعي، ويسعدني أسمعه بصدق.",
+    "finalText": "مو لازم يكون انطباعك نفس انطباعي، ويسعدني أسمعه بصدق.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-018:r006",
+    "situationId": "confession-018",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "يا حلو تفاصيل اللقاء اللي بقيت تذكرني بكلامك.",
+    "finalText": "يا حلو تفاصيل اللقاء اللي بقيت تذكرني بكلامك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-018:r007",
+    "situationId": "confession-018",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أحبك، ولقاؤنا رجّع لي فرحة وقتنا بعيدًا عن الزحمة.",
+    "finalText": "أحبك، ولقاؤنا رجّع لي فرحة وقتنا بعيدًا عن الزحمة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-018:r008",
+    "situationId": "confession-018",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "نأخذ وقتًا نفكر باللقاء قبل ما نرتب الخطوة اللي بعدها.",
+    "finalText": "نأخذ وقتًا نفكر باللقاء قبل ما نرتب الخطوة اللي بعدها.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-019:r001",
+    "situationId": "confession-019",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أنا مهتم بمعرفتك أكثر.",
+    "finalText": "أنا مهتم بمعرفتك أكثر.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-019:r002",
+    "situationId": "confession-019",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أنتِ تعجبيني، وحبيت أوضح.",
+    "finalText": "أنتِ تعجبيني، وحبيت أوضح.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-019:r003",
+    "situationId": "confession-019",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "قربك صار يهمني.",
+    "finalText": "قربك صار يهمني.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "subtle"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "subtle"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-019:r004",
+    "situationId": "confession-019",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أنا أحبك بصدق.",
+    "finalText": "أنا أحبك بصدق.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "romantic"
+      ],
+      "allowedStages": [
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-019:r005",
+    "situationId": "confession-019",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "رأيك يهمني، وخذي وقتك.",
+    "finalText": "رأيك يهمني، وخذي وقتك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-019:r006",
+    "situationId": "confession-019",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "سوالفك لها مكان عندي.",
+    "finalText": "سوالفك لها مكان عندي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "tender"
+      ],
+      "allowedStages": [
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 2,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-019:r007",
+    "situationId": "confession-019",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "شعوري لي، وجوابك لك.",
+    "finalText": "شعوري لي، وجوابك لك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-019:r008",
+    "situationId": "confession-019",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "ودي نتعرف أكثر، إذا ارتحتي.",
+    "finalText": "ودي نتعرف أكثر، إذا ارتحتي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-020:r001",
+    "situationId": "confession-020",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "ودي أتكلم عن شعوري تجاه تعارفنا، متى يناسبك؟",
+    "finalText": "ودي أتكلم عن شعوري تجاه تعارفنا، متى يناسبك؟",
+    "reason": null,
+    "classificationChanged": [
+      "allowedStages"
+    ],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": "الحديث عن تعارف جارٍ يمهد للاعتراف قبل العلاقة المحددة؛ استبعدت الحب والخطوبة والزواج لتوافق السياق."
+  },
+  {
+    "id": "confession-020:r002",
+    "situationId": "confession-020",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "مو موضوع طارئ، بس أفضل أقوله بوقت نركز فيه.",
+    "finalText": "مو موضوع طارئ، بس أفضل أقوله بوقت نركز فيه.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-020:r003",
+    "situationId": "confession-020",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا ما تفضلين المكالمة، أقدر أوضح كتابة.",
+    "finalText": "إذا ما تفضلين المكالمة، أقدر أوضح كتابة.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-020:r004",
+    "situationId": "confession-020",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "عندي إعجاب وودي أحكيه بوضوح، بدون مفاجأة تقلقك.",
+    "finalText": "عندي إعجاب وودي أحكيه بوضوح، بدون مفاجأة تقلقك.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "casual"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-020:r005",
+    "situationId": "confession-020",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "نحدد وقتًا قصيرًا للكلام، وبعدها خذي راحتك بالرد.",
+    "finalText": "نحدد وقتًا قصيرًا للكلام، وبعدها خذي راحتك بالرد.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-020:r006",
+    "situationId": "confession-020",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "ما راح أتصل قبل نتفق إن الوقت مناسب.",
+    "finalText": "ما راح أتصل قبل نتفق إن الوقت مناسب.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "mature"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-020:r007",
+    "situationId": "confession-020",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "أبي أسمعك مثل ما أقول اللي عندي.",
+    "finalText": "أبي أسمعك مثل ما أقول اللي عندي.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "supportive"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
+  },
+  {
+    "id": "confession-020:r008",
+    "situationId": "confession-020",
+    "route": "confession",
+    "decision": "keep",
+    "sourceText": "إذا هالموضوع ما يريحك، تقدرين ترفضين فتحه.",
+    "finalText": "إذا هالموضوع ما يريحك، تقدرين ترفضين فتحه.",
+    "reason": null,
+    "classificationChanged": [],
+    "classificationBefore": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationAfter": {
+      "tones": [
+        "clear"
+      ],
+      "allowedStages": [
+        "first_contact",
+        "getting_to_know",
+        "friendship_possible",
+        "one_sided",
+        "mutual_crush",
+        "serious_dating",
+        "love",
+        "engaged",
+        "married"
+      ],
+      "intensity": 1,
+      "dialect": "sa"
+    },
+    "classificationReason": null
   }
 ]
