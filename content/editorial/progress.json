@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-18T14:01:15.648Z",
+  "generatedAt": "2026-11-23T13:30:44.156Z",
   "total": 2602,
-  "reviewed": 1538,
-  "kept": 1497,
-  "edited": 41,
-  "reclassified": 52,
-  "explained": 1538,
+  "reviewed": 1738,
+  "kept": 1691,
+  "edited": 47,
+  "reclassified": 54,
+  "explained": 1738,
   "complete": false,
   "reviewedIds": [
     "miss:soft:0",
@@ -1545,9 +1545,7 @@
     "continue-025:r005",
     "continue-025:r006",
     "continue-025:r007",
-    "continue-025:r008"
-  ],
-  "pendingIds": [
+    "continue-025:r008",
     "flirt-001:r001",
     "flirt-001:r002",
     "flirt-001:r003",
@@ -1747,7 +1745,9 @@
     "flirt-025:r005",
     "flirt-025:r006",
     "flirt-025:r007",
-    "flirt-025:r008",
+    "flirt-025:r008"
+  ],
+  "pendingIds": [
     "confession-001:r001",
     "confession-001:r002",
     "confession-001:r003",
@@ -2614,17 +2614,17 @@
     "quick-015:r008"
   ],
   "nextBatch": [
-    "flirt-001:r001",
-    "flirt-001:r002",
-    "flirt-001:r003",
-    "flirt-001:r004",
-    "flirt-001:r005",
-    "flirt-001:r006",
-    "flirt-001:r007",
-    "flirt-001:r008",
-    "flirt-002:r001",
-    "flirt-002:r002",
-    "flirt-002:r003",
-    "flirt-002:r004"
+    "confession-001:r001",
+    "confession-001:r002",
+    "confession-001:r003",
+    "confession-001:r004",
+    "confession-001:r005",
+    "confession-001:r006",
+    "confession-001:r007",
+    "confession-001:r008",
+    "confession-002:r001",
+    "confession-002:r002",
+    "confession-002:r003",
+    "confession-002:r004"
   ]
 }
