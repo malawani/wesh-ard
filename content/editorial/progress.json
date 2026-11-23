@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-23T13:43:41.655Z",
+  "generatedAt": "2026-11-23T14:04:22.963Z",
   "total": 2602,
-  "reviewed": 1898,
-  "kept": 1851,
-  "edited": 47,
+  "reviewed": 2074,
+  "kept": 2022,
+  "edited": 52,
   "reclassified": 64,
-  "explained": 1898,
+  "explained": 2074,
   "complete": false,
   "reviewedIds": [
     "miss:soft:0",
@@ -1905,9 +1905,7 @@
     "confession-020:r005",
     "confession-020:r006",
     "confession-020:r007",
-    "confession-020:r008"
-  ],
-  "pendingIds": [
+    "confession-020:r008",
     "reconcile-001:r001",
     "reconcile-001:r002",
     "reconcile-001:r003",
@@ -2083,7 +2081,9 @@
     "reconcile-022:r005",
     "reconcile-022:r006",
     "reconcile-022:r007",
-    "reconcile-022:r008",
+    "reconcile-022:r008"
+  ],
+  "pendingIds": [
     "care-001:r001",
     "care-001:r002",
     "care-001:r003",
@@ -2614,17 +2614,17 @@
     "quick-015:r008"
   ],
   "nextBatch": [
-    "reconcile-001:r001",
-    "reconcile-001:r002",
-    "reconcile-001:r003",
-    "reconcile-001:r004",
-    "reconcile-001:r005",
-    "reconcile-001:r006",
-    "reconcile-001:r007",
-    "reconcile-001:r008",
-    "reconcile-002:r001",
-    "reconcile-002:r002",
-    "reconcile-002:r003",
-    "reconcile-002:r004"
+    "care-001:r001",
+    "care-001:r002",
+    "care-001:r003",
+    "care-001:r004",
+    "care-001:r005",
+    "care-001:r006",
+    "care-001:r007",
+    "care-001:r008",
+    "care-002:r001",
+    "care-002:r002",
+    "care-002:r003",
+    "care-002:r004"
   ]
 }
