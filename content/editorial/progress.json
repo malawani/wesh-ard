@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-23T14:04:22.963Z",
+  "generatedAt": "2026-11-24T14:07:55.716Z",
   "total": 2602,
-  "reviewed": 2074,
-  "kept": 2022,
-  "edited": 52,
+  "reviewed": 2234,
+  "kept": 2176,
+  "edited": 58,
   "reclassified": 64,
-  "explained": 2074,
+  "explained": 2234,
   "complete": false,
   "reviewedIds": [
     "miss:soft:0",
@@ -2081,9 +2081,7 @@
     "reconcile-022:r005",
     "reconcile-022:r006",
     "reconcile-022:r007",
-    "reconcile-022:r008"
-  ],
-  "pendingIds": [
+    "reconcile-022:r008",
     "care-001:r001",
     "care-001:r002",
     "care-001:r003",
@@ -2243,7 +2241,9 @@
     "care-020:r005",
     "care-020:r006",
     "care-020:r007",
-    "care-020:r008",
+    "care-020:r008"
+  ],
+  "pendingIds": [
     "occasions-001:r001",
     "occasions-001:r002",
     "occasions-001:r003",
@@ -2614,17 +2614,17 @@
     "quick-015:r008"
   ],
   "nextBatch": [
-    "care-001:r001",
-    "care-001:r002",
-    "care-001:r003",
-    "care-001:r004",
-    "care-001:r005",
-    "care-001:r006",
-    "care-001:r007",
-    "care-001:r008",
-    "care-002:r001",
-    "care-002:r002",
-    "care-002:r003",
-    "care-002:r004"
+    "occasions-001:r001",
+    "occasions-001:r002",
+    "occasions-001:r003",
+    "occasions-001:r004",
+    "occasions-001:r005",
+    "occasions-001:r006",
+    "occasions-001:r007",
+    "occasions-001:r008",
+    "occasions-002:r001",
+    "occasions-002:r002",
+    "occasions-002:r003",
+    "occasions-002:r004"
   ]
 }
