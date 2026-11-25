@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-24T14:07:55.716Z",
+  "generatedAt": "2026-11-25T12:13:45.128Z",
   "total": 2602,
-  "reviewed": 2234,
-  "kept": 2176,
-  "edited": 58,
-  "reclassified": 64,
-  "explained": 2234,
+  "reviewed": 2362,
+  "kept": 2301,
+  "edited": 61,
+  "reclassified": 81,
+  "explained": 2362,
   "complete": false,
   "reviewedIds": [
     "miss:soft:0",
@@ -2241,9 +2241,7 @@
     "care-020:r005",
     "care-020:r006",
     "care-020:r007",
-    "care-020:r008"
-  ],
-  "pendingIds": [
+    "care-020:r008",
     "occasions-001:r001",
     "occasions-001:r002",
     "occasions-001:r003",
@@ -2371,7 +2369,9 @@
     "occasions-016:r005",
     "occasions-016:r006",
     "occasions-016:r007",
-    "occasions-016:r008",
+    "occasions-016:r008"
+  ],
+  "pendingIds": [
     "meeting-001:r001",
     "meeting-001:r002",
     "meeting-001:r003",
@@ -2614,17 +2614,17 @@
     "quick-015:r008"
   ],
   "nextBatch": [
-    "occasions-001:r001",
-    "occasions-001:r002",
-    "occasions-001:r003",
-    "occasions-001:r004",
-    "occasions-001:r005",
-    "occasions-001:r006",
-    "occasions-001:r007",
-    "occasions-001:r008",
-    "occasions-002:r001",
-    "occasions-002:r002",
-    "occasions-002:r003",
-    "occasions-002:r004"
+    "meeting-001:r001",
+    "meeting-001:r002",
+    "meeting-001:r003",
+    "meeting-001:r004",
+    "meeting-001:r005",
+    "meeting-001:r006",
+    "meeting-001:r007",
+    "meeting-001:r008",
+    "meeting-002:r001",
+    "meeting-002:r002",
+    "meeting-002:r003",
+    "meeting-002:r004"
   ]
 }
