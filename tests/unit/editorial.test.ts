@@ -7,11 +7,12 @@ import { validateEditorial, type InventoryRecord } from "../../scripts/validate-
 const baseline = JSON.parse(readFileSync("content/editorial/baseline.json","utf8")) as { records: InventoryRecord[] };
 
 describe("Editorial coverage and source integrity", () => {
- it("reports actual coverage without counting pending records as reviewed", () => {
+ it("requires complete editorial coverage for every library record", () => {
   const report = validateEditorial(baseline.records, CONTENT, EDITORIAL_REVIEWS);
   expect(report.errors).toEqual([]);
   expect(report.total).toBe(2602);
-  expect(report.complete).toBe(report.pending.length === 0);
+  expect(report.complete).toBe(true);
+  expect(report.pending).toEqual([]);
   expect(report.pending.length + report.reviewed).toBe(report.total);
   for (const id of report.pending) expect(REVIEWS_BY_ID.has(id)).toBe(false);
  });

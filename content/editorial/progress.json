@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-25T12:13:45.128Z",
+  "generatedAt": "2026-11-25T12:30:05.507Z",
   "total": 2602,
-  "reviewed": 2362,
-  "kept": 2301,
-  "edited": 61,
+  "reviewed": 2602,
+  "kept": 2529,
+  "edited": 73,
   "reclassified": 81,
-  "explained": 2362,
-  "complete": false,
+  "explained": 2602,
+  "complete": true,
   "reviewedIds": [
     "miss:soft:0",
     "miss:soft:1",
@@ -2369,9 +2369,7 @@
     "occasions-016:r005",
     "occasions-016:r006",
     "occasions-016:r007",
-    "occasions-016:r008"
-  ],
-  "pendingIds": [
+    "occasions-016:r008",
     "meeting-001:r001",
     "meeting-001:r002",
     "meeting-001:r003",
@@ -2613,18 +2611,6 @@
     "quick-015:r007",
     "quick-015:r008"
   ],
-  "nextBatch": [
-    "meeting-001:r001",
-    "meeting-001:r002",
-    "meeting-001:r003",
-    "meeting-001:r004",
-    "meeting-001:r005",
-    "meeting-001:r006",
-    "meeting-001:r007",
-    "meeting-001:r008",
-    "meeting-002:r001",
-    "meeting-002:r002",
-    "meeting-002:r003",
-    "meeting-002:r004"
-  ]
+  "pendingIds": [],
+  "nextBatch": []
 }

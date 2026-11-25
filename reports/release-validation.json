@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T13:32:13.745Z",
+  "generatedAt": "2026-11-25T12:30:08.476Z",
   "mode": "release",
   "valid": true,
   "releaseComplete": true,
@@ -39,19 +39,19 @@
     "subtle": 28
   },
   "stages": {
-    "first_contact": 2106,
-    "getting_to_know": 2138,
-    "friendship_possible": 2139,
-    "one_sided": 2139,
-    "mutual_crush": 2459,
-    "serious_dating": 2455,
-    "love": 2530,
-    "engaged": 2546,
-    "married": 2546
+    "first_contact": 2061,
+    "getting_to_know": 2136,
+    "friendship_possible": 2140,
+    "one_sided": 2140,
+    "mutual_crush": 2460,
+    "serious_dating": 2452,
+    "love": 2499,
+    "engaged": 2514,
+    "married": 2515
   },
   "lengths": {
-    "short": 2558,
-    "medium": 41,
+    "short": 2556,
+    "medium": 43,
     "long": 1
   },
   "errors": [],

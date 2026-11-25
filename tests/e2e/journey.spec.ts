@@ -1,6 +1,4 @@
 import { test, expect } from "@playwright/test";
-import { CONTENT } from "../../content";
-import { ROUTES as ROUTE_LABELS } from "../../content/schemas";
 
 test("choose, customize, copy, favorite, reload, remove, and preserve old source", async ({ page, context }) => {
   await context.grantPermissions(["clipboard-read", "clipboard-write"]);
@@ -219,7 +217,7 @@ test("phrase explanation opens with keyboard and copy includes only the phrase",
   await expect(saved.locator("details")).not.toHaveAttribute("open", "");
 });
 
-test("old saved wording and pending phrases never receive a mismatched or invented explanation", async ({ page }) => {
+test("old saved wording never receives the edited phrase explanation", async ({ page }) => {
   const previous = "وأنا اشتقت لك وودي أشوفك قريب.";
   await page.addInitScript(text => {
     localStorage.setItem("wesh-ard:v2:favorites", JSON.stringify({ schemaVersion: 2, migratedLegacy: true, items: [{ id: "miss:direct:0", text }] }));
@@ -230,20 +228,4 @@ test("old saved wording and pending phrases never receive a mismatched or invent
   await page.locator(".response-card summary").click();
   await expect(page.getByText("لا يتوفر شرح لهذه النسخة المحفوظة من العبارة. احتفظنا بنصها كما حفظته.", { exact: true })).toBeVisible();
   await expect(page.locator(".response-card dd")).toHaveCount(0);
-  await page.getByRole("button", { name: "وش أرد؟ الرئيسية", exact: true }).click();
-  const pendingSituation = CONTENT.find(s => s.replies.every(r => !r.analysis));
-  if (!pendingSituation) return;
-  if (["reply", "send", "guide"].includes(pendingSituation.canonicalRoute)) {
-    await page.locator(`.route-${pendingSituation.canonicalRoute}`).click();
-  } else {
-    await page.getByRole("button", { name: ROUTE_LABELS[pendingSituation.canonicalRoute], exact: true }).click();
-  }
-  await page.getByRole("button", { name: pendingSituation.title, exact: true }).click();
-  const pendingResponse = pendingSituation.replies.find(r => !r.tags.includes("legacy-retained-only"))!;
-  await page.getByLabel("مرحلة العلاقة", { exact: true }).selectOption(pendingResponse.allowedStages[0]);
-  await page.getByText("كل النبرات المناسبة", { exact: true }).click();
-  await page.getByRole("button", { name: "عرض العبارات", exact: true }).click();
-  const pendingCard = page.locator(".response-card").first();
-  await pendingCard.locator("summary").click();
-  await expect(pendingCard.getByText("لم يُضف شرح لهذه العبارة بعد.", { exact: true })).toBeVisible();
 });
